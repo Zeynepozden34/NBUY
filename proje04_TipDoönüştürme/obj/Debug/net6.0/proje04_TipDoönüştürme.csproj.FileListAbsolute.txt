@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\bin\Debug\net6.0\proje04_TipDoönüştürme.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\bin\Debug\net6.0\proje04_TipDoönüştürme.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\bin\Debug\net6.0\proje04_TipDoönüştürme.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\bin\Debug\net6.0\proje04_TipDoönüştürme.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\bin\Debug\net6.0\proje04_TipDoönüştürme.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\obj\Debug\net6.0\proje04_TipDoönüştürme.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\obj\Debug\net6.0\proje04_TipDoönüştürme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\obj\Debug\net6.0\proje04_TipDoönüştürme.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\obj\Debug\net6.0\proje04_TipDoönüştürme.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\obj\Debug\net6.0\proje04_TipDoönüştürme.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\obj\Debug\net6.0\proje04_TipDoönüştürme.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\obj\Debug\net6.0\refint\proje04_TipDoönüştürme.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\obj\Debug\net6.0\proje04_TipDoönüştürme.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\obj\Debug\net6.0\proje04_TipDoönüştürme.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\proje04_TipDoönüştürme\obj\Debug\net6.0\ref\proje04_TipDoönüştürme.dll
