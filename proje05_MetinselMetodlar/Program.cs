@@ -75,11 +75,27 @@ class Program
         //Console.WriteLine(sonuc2);
 
         // adres satırındaki c harfi kaçıncı sıradadır
-        string aranacakifade = "c";
-        
-        int siraNo = adres.ToLower().IndexOf(aranacakifade.ToLower()); // adresi küçü harflere çevirip öyle aradılar.
-        Console.WriteLine($"c harfi {adres}içinde, {siraNo}.sıradadır.");
-    
+        // string aranacakifade = "c";
+
+        //int siraNo = adres.ToLower().IndexOf(aranacakifade.ToLower()); // adresi küçü harflere çevirip öyle aradılar.
+        //Console.WriteLine($"c harfi {adres}içinde, {siraNo}.sıradadır.");
+
+
+
+        //string metin = "Wissen Akademie";
+        //Console.WriteLine($"metnin ilk hali: {metin}");
+        //Console.WriteLine($"Akademie ifadesi silindikten sonraki hali: {metin.Remove(7)}");
+        //Console.WriteLine($"Aka ifadesisilindikten sonraki hali: {metin.Remove(7,3)}");
+
+        string urunAd = "Iphone 13 Pro";
+        //iphone-13-pro haline getirelim. replace komutuyla yapılır.
+        //string sonuc = (urunAd.Replace( " ","-")).ToLower(); //i harfi küçük oldu
+        string sonuc = urunAd.ToLower().Replace(" ", "-"); 
+        Console.WriteLine(sonuc);
+        string sonuc2 = urunAd.Replace("Iphone", "Samsung");
+        Console.WriteLine(sonuc2);
+
+
 
     }
 }
