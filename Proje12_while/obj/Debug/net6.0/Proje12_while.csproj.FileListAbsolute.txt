@@ -1,0 +1,5 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje12_while\obj\Debug\net6.0\Proje12_while.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje12_while\obj\Debug\net6.0\Proje12_while.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje12_while\obj\Debug\net6.0\Proje12_while.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje12_while\obj\Debug\net6.0\Proje12_while.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje12_while\obj\Debug\net6.0\Proje12_while.csproj.CoreCompileInputs.cache
