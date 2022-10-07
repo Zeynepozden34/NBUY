@@ -1,5 +1,15 @@
-C:\Users\SABAH\Documents\GitHub\NBUY\Proje12_while\obj\Debug\net6.0\Proje12_while.csproj.AssemblyReference.cache
-C:\Users\SABAH\Documents\GitHub\NBUY\Proje12_while\obj\Debug\net6.0\Proje12_while.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\SABAH\Documents\GitHub\NBUY\Proje12_while\obj\Debug\net6.0\Proje12_while.AssemblyInfoInputs.cache
-C:\Users\SABAH\Documents\GitHub\NBUY\Proje12_while\obj\Debug\net6.0\Proje12_while.AssemblyInfo.cs
-C:\Users\SABAH\Documents\GitHub\NBUY\Proje12_while\obj\Debug\net6.0\Proje12_while.csproj.CoreCompileInputs.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\bin\Debug\net6.0\Proje12_While.exe
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\bin\Debug\net6.0\Proje12_While.deps.json
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\bin\Debug\net6.0\Proje12_While.runtimeconfig.json
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\bin\Debug\net6.0\Proje12_While.dll
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\bin\Debug\net6.0\Proje12_While.pdb
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.csproj.AssemblyReference.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.AssemblyInfoInputs.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.AssemblyInfo.cs
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.csproj.CoreCompileInputs.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.dll
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\obj\Debug\net6.0\refint\Proje12_While.dll
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.pdb
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.genruntimeconfig.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_01\Proje12_While\obj\Debug\net6.0\ref\Proje12_While.dll

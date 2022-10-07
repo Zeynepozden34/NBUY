@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Proje12_while.csproj",
+                "${workspaceFolder}/Proje12_While.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Proje12_while.csproj",
+                "${workspaceFolder}/Proje12_While.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Proje12_while.csproj"
+                "${workspaceFolder}/Proje12_While.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
