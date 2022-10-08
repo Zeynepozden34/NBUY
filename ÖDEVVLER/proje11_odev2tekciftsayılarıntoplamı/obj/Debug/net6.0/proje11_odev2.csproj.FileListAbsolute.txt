@@ -1,0 +1,15 @@
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\bin\Debug\net6.0\proje11_odev2.exe
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\bin\Debug\net6.0\proje11_odev2.deps.json
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\bin\Debug\net6.0\proje11_odev2.runtimeconfig.json
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\bin\Debug\net6.0\proje11_odev2.dll
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\bin\Debug\net6.0\proje11_odev2.pdb
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\obj\Debug\net6.0\proje11_odev2.csproj.AssemblyReference.cache
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\obj\Debug\net6.0\proje11_odev2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\obj\Debug\net6.0\proje11_odev2.AssemblyInfoInputs.cache
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\obj\Debug\net6.0\proje11_odev2.AssemblyInfo.cs
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\obj\Debug\net6.0\proje11_odev2.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\obj\Debug\net6.0\proje11_odev2.dll
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\obj\Debug\net6.0\refint\proje11_odev2.dll
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\obj\Debug\net6.0\proje11_odev2.pdb
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\obj\Debug\net6.0\proje11_odev2.genruntimeconfig.cache
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\proje11_odev2\obj\Debug\net6.0\ref\proje11_odev2.dll

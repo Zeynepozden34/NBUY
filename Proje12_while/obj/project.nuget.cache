@@ -1,0 +1,14 @@
+{
+  "version": 2,
+<<<<<<< Updated upstream
+  "dgSpecHash": "ENaVl1QAtglxMihIJouj26q/pyjDj1RyIqiKRIBmAGFSV1Xzzo6Bq0VRqijIO5TlWf/FIJ8EUarfSH+q6XUpaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Engin Niyazi Ergül\\Documents\\GitHub\\DerslerNbuy\\Week_01\\Proje12_While\\Proje12_While.csproj",
+=======
+  "dgSpecHash": "rA0b8HOu3nIhpOMK+H/zpf+5RAwxYJOreEoteSgWjj8D9YBC2zQhPkTRf2pKPsYJeAUilWfeaLSCq7zx2zrRkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Proje12_while\\Proje12_while.csproj",
+>>>>>>> Stashed changes
+  "expectedPackageFiles": [],
+  "logs": []
+}
