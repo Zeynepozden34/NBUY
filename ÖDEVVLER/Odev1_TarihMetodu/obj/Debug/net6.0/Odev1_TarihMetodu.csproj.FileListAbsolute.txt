@@ -1,0 +1,15 @@
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\bin\Debug\net6.0\Odev1_TarihMetodu.exe
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\bin\Debug\net6.0\Odev1_TarihMetodu.deps.json
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\bin\Debug\net6.0\Odev1_TarihMetodu.runtimeconfig.json
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\bin\Debug\net6.0\Odev1_TarihMetodu.dll
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\bin\Debug\net6.0\Odev1_TarihMetodu.pdb
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\obj\Debug\net6.0\Odev1_TarihMetodu.csproj.AssemblyReference.cache
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\obj\Debug\net6.0\Odev1_TarihMetodu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\obj\Debug\net6.0\Odev1_TarihMetodu.AssemblyInfoInputs.cache
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\obj\Debug\net6.0\Odev1_TarihMetodu.AssemblyInfo.cs
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\obj\Debug\net6.0\Odev1_TarihMetodu.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\obj\Debug\net6.0\Odev1_TarihMetodu.dll
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\obj\Debug\net6.0\refint\Odev1_TarihMetodu.dll
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\obj\Debug\net6.0\Odev1_TarihMetodu.pdb
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\obj\Debug\net6.0\Odev1_TarihMetodu.genruntimeconfig.cache
+C:\Users\Casper\Documents\GitHub\NBUY\ÖDEVVLER\Odev1_TarihMetodu\obj\Debug\net6.0\ref\Odev1_TarihMetodu.dll
