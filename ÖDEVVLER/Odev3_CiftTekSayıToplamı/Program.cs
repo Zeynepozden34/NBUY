@@ -34,7 +34,7 @@
                
             }
             
-            Console.WriteLine($"Tek Sayıların Toplamı: {TekToplam}, Adedi: {TekSayıadet} Çift Sayıların Toplamı: {CiftToplam}, Adedi: {CiftSayıadet} Beşin katı Sayıların Toplamı: {BesinKatıToplam}, Adedi: {BesinKatıSayıadet}");
+            Console.WriteLine($"Tek Sayıların Toplamı: {TekToplam}, Adedi: {TekSayıadet}\nÇift Sayıların Toplamı: {CiftToplam}, Adedi: {CiftSayıadet}\nBeşin katı Sayıların Toplamı: {BesinKatıToplam}, Adedi: {BesinKatıSayıadet}");
         }
     }
 }
