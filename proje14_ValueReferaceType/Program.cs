@@ -33,7 +33,7 @@
         }
         class Kişi  //bir classın içinde bir nesne belirtirip özelliklerinden bahsedeceksek property deriz.
         {
-            public string? Ad { get; set; } // ad ın yeşil çizgisini siler. yeşil çizgi ad'ın boş olduğunu uyarıyor.
+            public string? Ad { get; set; } // ? ad ın yeşil çizgisini siler. yeşil çizgi ad'ın boş olduğunu uyarıyor.
             public int Yas { get; set; }
             public string Meslek { get; set; }
             //*********** yukarıdaki bilgiyi tutmaz. bu bir şablondur. yeni bir nesne oluşturmamıza yardımcı olur bunu new komutuyla yapar 
