@@ -49,10 +49,17 @@ class Program
         //     isim=Console.ReadLine();
         // } while (isim!="exit");
         // Console.WriteLine("Program sona erdi...");
+<<<<<<< Updated upstream
 
         //Klavyeden exit yazılana kadar sayı almaya devam eden ve bu sayıların toplamını exit yazılınca ekrana yazan prg.
         //Do-While ile
 
+=======
+
+        //Klavyeden exit yazılana kadar sayı almaya devam eden ve bu sayıların toplamını exit yazılınca ekrana yazan prg.
+        //Do-While ile
+
+>>>>>>> Stashed changes
         // string girilenDeger="0";
         // int sayac=1;
         // int toplam = 0;
@@ -114,6 +121,38 @@ class Program
         // } while (tahminEdilenSayi != uretilenSayi && hak <= hakSiniri);
 
         // doğru tahmin - 3.tahmin
+<<<<<<< Updated upstream
+=======
+
+        // do
+        // {
+        //     Console.Write($"{hak}.Tahmininizi giriniz(1-100): ");
+        //     tahminEdilenSayi = Convert.ToInt32(Console.ReadLine());
+        //     if (tahminEdilenSayi > uretilenSayi)
+        //     {
+        //         Console.WriteLine("Büyük girdin");
+        //     }
+        //     else if (tahminEdilenSayi < uretilenSayi)
+        //     {
+        //         Console.WriteLine("Küçük girdin");
+        //     }
+        //     if (tahminEdilenSayi != uretilenSayi)
+        //     {
+        //         hak++;
+        //         if (hak <= hakSiniri)
+        //         {
+        //             Console.WriteLine("Kaybettin!");
+        //         }
+        //     }
+        //     else
+        //     {
+        //         Console.WriteLine("Kazandın!");
+        //     }
+
+        // } while (tahminEdilenSayi != uretilenSayi && hak <= hakSiniri);
+        //Eğer program bu satıra gelmiş ise ya doğru tahminde bulunulmuştur ya da hak sona ermiştir.
+
+>>>>>>> Stashed changes
 
         do
         {
@@ -129,8 +168,13 @@ class Program
             }
             if (tahminEdilenSayi != uretilenSayi)
             {
+<<<<<<< Updated upstream
                 hak++;
                 if (hak <= hakSiniri)
+=======
+                
+                if (hak==hakSiniri)
+>>>>>>> Stashed changes
                 {
                     Console.WriteLine("Kaybettin!");
                 }
@@ -139,6 +183,37 @@ class Program
             {
                 Console.WriteLine("Kazandın!");
             }
+<<<<<<< Updated upstream
+=======
+            hak++;
+
+        } while (tahminEdilenSayi != uretilenSayi && hak <= hakSiniri);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
 
         } while (tahminEdilenSayi != uretilenSayi && hak <= hakSiniri);
         //Eğer program bu satıra gelmiş ise ya doğru tahminde bulunulmuştur ya da hak sona ermiştir.
