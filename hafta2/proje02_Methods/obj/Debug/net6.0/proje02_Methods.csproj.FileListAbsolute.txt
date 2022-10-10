@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\bin\Debug\net6.0\proje02_Methods.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\bin\Debug\net6.0\proje02_Methods.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\bin\Debug\net6.0\proje02_Methods.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\bin\Debug\net6.0\proje02_Methods.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\bin\Debug\net6.0\proje02_Methods.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\obj\Debug\net6.0\proje02_Methods.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\obj\Debug\net6.0\proje02_Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\obj\Debug\net6.0\proje02_Methods.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\obj\Debug\net6.0\proje02_Methods.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\obj\Debug\net6.0\proje02_Methods.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\obj\Debug\net6.0\proje02_Methods.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\obj\Debug\net6.0\refint\proje02_Methods.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\obj\Debug\net6.0\proje02_Methods.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\obj\Debug\net6.0\proje02_Methods.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje02_Methods\obj\Debug\net6.0\ref\proje02_Methods.dll

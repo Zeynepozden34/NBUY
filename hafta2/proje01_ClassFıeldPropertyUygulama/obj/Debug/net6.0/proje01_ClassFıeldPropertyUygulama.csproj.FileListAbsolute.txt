@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\bin\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\bin\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\bin\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\bin\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\bin\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\obj\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\obj\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\obj\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\obj\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\obj\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\obj\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\obj\Debug\net6.0\refint\proje01_ClassFıeldPropertyUygulama.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\obj\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\obj\Debug\net6.0\proje01_ClassFıeldPropertyUygulama.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\proje01_ClassFıeldPropertyUygulama\obj\Debug\net6.0\ref\proje01_ClassFıeldPropertyUygulama.dll
