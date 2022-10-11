@@ -19,7 +19,7 @@
                 {
                    
                     Console.WriteLine("Tekrar Oynamak İster misiniz? [E/H]");
-                    tercih = Console.ReadLine();
+                    tercih = Console.ReadLine().ToUpper();
 
                 } while (tercih != "H" && tercih != "E");
             }while (tercih != "H");
