@@ -9,12 +9,24 @@
             // puan sistemi olsun(1. tecihinde bildiyse 50, bilmedikçe 10'ar 10'ar düşsün.)
             //Oyun kaybettiğinde ya da kazandığında yeniden oynamak istiyor ise oynayabilsin.
 
-            
+
+            string tercih;
+            do
+            {
+                Console.Clear();
+                Oyun.Oyna();
+                do
+                {
+                   
+                    Console.WriteLine("Tekrar Oynamak İster misiniz? [E/H]");
+                    tercih = Console.ReadLine();
+
+                } while (tercih != "H" && tercih != "E");
+            }while (tercih != "H");
+            Console.ReadLine();  
 
 
-           
 
-            
 
 
 
