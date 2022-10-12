@@ -1,5 +1,11 @@
 ﻿namespace Proje09_Interface
 {
+    //Interface'ler için belirtilmediğinde default erişim belirleyici public'tir.
+    // Interface'ler protected, privated yada static olarak işaretlenemezler.
+    //Interdace'ler içinde çalışan kod olmaz.yani metotların sadece imzası olur.
+    // Bir interface bir yada daha fazla interfaceedn miras alabilir.,
+    //Bir interface bir classtan miras alamaz.
+    //Eğer bir class bir interfacden miras alıyorsa miras aldığı interface'daki tüm metetları implemente etmek zorundadır. (Implemente: miras alınan interface de imzası bulunan metotların içi dolu hallerini bize verir.)
     interface IPersonel
     {
         public string Departman { get; set; }
@@ -52,7 +58,7 @@
 
         
     }
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -65,10 +71,38 @@
 
 
             //IPersonel personel = new IPersonel(); //Hatalı Kullanım
-            Yönetici yönetici1 = new Yönetici();
-            Yönetici yönetici2 = new Yönetici("Alex de sozu","Rio de Jenerio", "500", "Fotbol");
-            Console.WriteLine($"{yönetici2}");
-            Console.ReadLine();
+            //Yönetici yönetici1 = new Yönetici();
+            //Yönetici yönetici2 = new Yönetici("Alex de Souza","Rio de Jenerio", "5000", "Fotbol");
+            //Console.WriteLine(yönetici2.Maas);
+            //Console.ReadLine();
+
+
+
+            Product product1 = new Product()
+            {
+                Id = 1,
+                Name = "IPhone 13",
+                Price = 5000,
+                Properties = "8 gb Ram",
+                Ratio = 0.5m,
+                CreatedDate = DateTime.Now,
+
+            };
+            Console.WriteLine($" Product Name: {product1.Name}(Büyük Harf: {product1.NameToUpper(product1.Name)}) )Properties: {product1.Properties}");
+
+            Category category1 = new Category()
+            {
+                Id = 1,
+                Name = "IPhone 13",
+                CreatedDate = DateTime.Now,
+                Description = "Bu kategori telefonşar içindir."
+            };
+            Console.WriteLine($" Product Name: {category1.Name}(Büyük Harf: {category1.NameToUpper(category1.Name)})Description: {category1.Description} Created: {category1.CreatedDate})");
         }
+       
+
+
+
+
     }
 }

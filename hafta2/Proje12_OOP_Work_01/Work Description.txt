@@ -1,0 +1,23 @@
+﻿
+
+
+
+1) Bir kaç bölümde okyan öğrencilerin bilgilerinin girilmesini ve bunların doğru interface/class/list içinde tutulmasını sağlayarak yazınız.
+2)Bölüm classı: Id, Ad, Açıklama
+3) Ogrenci classı: Id, OgrNo, Ad, Soyad, Yas
+4)  3 Adet bölüm bilgisi olsun 
+5) Her bölümün içinde 3'er adet öğrenci bilgsi olsun.
+6) bu bilgiler klavyeden girilsin.
+
+
+
+
+YOL HARİTASI: 
+1)İhtiyac duyulam ınterface hazırlanmalı, 
+2) Gerekli metot varsa onlar hazırlanmalı
+3) Program kodlanmalı
+
+
+
+
+

@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\bin\Debug\net6.0\Proje12_OOP_Work01_Tekrar.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\bin\Debug\net6.0\Proje12_OOP_Work01_Tekrar.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\bin\Debug\net6.0\Proje12_OOP_Work01_Tekrar.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\bin\Debug\net6.0\Proje12_OOP_Work01_Tekrar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\bin\Debug\net6.0\Proje12_OOP_Work01_Tekrar.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\obj\Debug\net6.0\Proje12_OOP_Work01_Tekrar.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\obj\Debug\net6.0\Proje12_OOP_Work01_Tekrar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\obj\Debug\net6.0\Proje12_OOP_Work01_Tekrar.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\obj\Debug\net6.0\Proje12_OOP_Work01_Tekrar.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\obj\Debug\net6.0\Proje12_OOP_Work01_Tekrar.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\obj\Debug\net6.0\Proje12_OOP_Work01_Tekrar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\obj\Debug\net6.0\refint\Proje12_OOP_Work01_Tekrar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\obj\Debug\net6.0\Proje12_OOP_Work01_Tekrar.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\obj\Debug\net6.0\Proje12_OOP_Work01_Tekrar.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\hafta2\Proje12_OOP_Work01_Tekrar\obj\Debug\net6.0\ref\Proje12_OOP_Work01_Tekrar.dll
