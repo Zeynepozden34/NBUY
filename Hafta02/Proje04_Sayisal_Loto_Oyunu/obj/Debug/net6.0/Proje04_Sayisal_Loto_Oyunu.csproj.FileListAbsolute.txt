@@ -1,0 +1,15 @@
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\bin\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.exe
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\bin\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.deps.json
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\bin\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.runtimeconfig.json
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\bin\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.dll
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\bin\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.pdb
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.csproj.AssemblyReference.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.AssemblyInfoInputs.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.AssemblyInfo.cs
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.csproj.CoreCompileInputs.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.dll
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\refint\Proje04_Sayisal_Loto_Oyunu.dll
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.pdb
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\Proje04_Sayisal_Loto_Oyunu.genruntimeconfig.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\ref\Proje04_Sayisal_Loto_Oyunu.dll

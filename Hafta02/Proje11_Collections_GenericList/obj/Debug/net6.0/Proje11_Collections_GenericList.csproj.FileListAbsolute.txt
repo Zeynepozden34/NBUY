@@ -1,0 +1,15 @@
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\bin\Debug\net6.0\Proje11_Collections_GenericList.exe
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\bin\Debug\net6.0\Proje11_Collections_GenericList.deps.json
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\bin\Debug\net6.0\Proje11_Collections_GenericList.runtimeconfig.json
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\bin\Debug\net6.0\Proje11_Collections_GenericList.dll
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\bin\Debug\net6.0\Proje11_Collections_GenericList.pdb
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\obj\Debug\net6.0\Proje11_Collections_GenericList.csproj.AssemblyReference.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\obj\Debug\net6.0\Proje11_Collections_GenericList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\obj\Debug\net6.0\Proje11_Collections_GenericList.AssemblyInfoInputs.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\obj\Debug\net6.0\Proje11_Collections_GenericList.AssemblyInfo.cs
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\obj\Debug\net6.0\Proje11_Collections_GenericList.csproj.CoreCompileInputs.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\obj\Debug\net6.0\Proje11_Collections_GenericList.dll
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\obj\Debug\net6.0\refint\Proje11_Collections_GenericList.dll
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\obj\Debug\net6.0\Proje11_Collections_GenericList.pdb
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\obj\Debug\net6.0\Proje11_Collections_GenericList.genruntimeconfig.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje11_Collections_GenericList\obj\Debug\net6.0\ref\Proje11_Collections_GenericList.dll

@@ -1,0 +1,15 @@
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\bin\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.exe
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\bin\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.deps.json
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\bin\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.runtimeconfig.json
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\bin\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.dll
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\bin\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.pdb
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\obj\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.csproj.AssemblyReference.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\obj\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\obj\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.AssemblyInfoInputs.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\obj\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.AssemblyInfo.cs
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\obj\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.csproj.CoreCompileInputs.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\obj\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.dll
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\obj\Debug\net6.0\refint\Proje06_Inheritance_Kalitim_Miras.dll
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\obj\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.pdb
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\obj\Debug\net6.0\Proje06_Inheritance_Kalitim_Miras.genruntimeconfig.cache
+C:\Users\Engin Niyazi Ergül\Documents\GitHub\DerslerNbuy\Week_02\Proje06_Inheritance_Kalitim_Miras\obj\Debug\net6.0\ref\Proje06_Inheritance_Kalitim_Miras.dll
