@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box; /* Bu özellik elemetin kapadığı alanı hesaplarken border genişliği dahil etmeye yarar.*/
+        }
+
+        .kutu{
+            display: inline-block;
+            background-color: aquamarine;
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            border: 1px solid red;
+            
+            /* display burada div'i farklı şekillerde gösterir mesela yan yana */
+        }
+
+    </style>
+
+
+</head>
+<!-- Div'ler blok element olduğu için web de alt alta yazıldı. -->
+<body>
+    <div class="kutu">
+        Kutu
+
+    </div>
+
+    <div class="kutu">
+        Kutu
+
+    </div>
+
+    <div class="kutu">
+        Kutu
+
+    </div>
+
+    <div class="kutu">
+        Kutu
+
+    </div>
+
+    <div class="kutu">
+        Kutu
+
+    </div>
+</body>
+</html>
