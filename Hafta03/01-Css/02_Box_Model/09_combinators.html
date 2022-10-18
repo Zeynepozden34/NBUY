@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <style>
+        /* Divin içindeki tüm p'leri seçer (Descendant selector) */
+        /* div p{
+            background-color: red;
+        } */
+        /* (Child Selector) Div'in child olan yani içindeki ilk seviyedeki p'leri seçer.*/
+        /* div > p{
+            background-color: red;
+        } */
+
+        /* (Adjacent Sibling Selector) Div'den sonra gelen ilk p'yi seçer.*/
+        /* div +p {
+            background-color: red;
+        } */
+
+        /* (General Sibling Selector) Div'den sonraki tüm p'leri seçer.*/
+        div ~ p{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>1.Pargraf</p>
+    <div>
+        <p>2.Paragraf</p>
+        <p>3.Paragraf</p>
+        <SEction>
+            <P>4.Paragraf</P>
+            
+        </SEction>
+        
+
+    </div>
+    <P>5.Paragraf</P>
+    <P>6.Paragraf</P>
+</body>
+</html>
