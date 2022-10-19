@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .flex-container{
+            background-color: navy;
+            display: flex;
+            height: 400px;
+          
+
+
+
+           
+        }
+        .flex-item{
+            background-color: red;
+            color: #dfdfdf;
+            padding: 5px;
+            margin: 5px;
+            font-size: 20px;
+            font-weight: bold;
+            height: 22px;
+
+        }
+
+
+
+         /* 
+        1- flex-direction:row aynı satıra yerleştir demektir. 
+        2- flex-direction:column ise alt altta yerleştir 
+        3- flex-direction:column-reverse,column ile aynı şekilde çalışır ama tek sıra ile yerleştirir.
+        4- flex-direction:row-reverse aynı satırda tersten yazar.   
+        5- flex-wrap:nowrap bir satıra sıpmayan flex itemlar olursa alt satıra geçmez. nowrap yerine wrap yazarsak alt satıra geçirir.
+        6- flex-wrap:wrap-reverse ise ters çevirir.     
+        7- flex-flow hem direction hemde wrap özelliği verir.  flex-flow: row wrap;
+        8-  justify-content: center ortaya hizalar
+        9- justify-content: end sağa  hizalar
+        10-justify-content: start sola  hizalar
+        11- justify-content: space-around aralıkları eşit dağıtacak şekilde  hizalar
+        12- justify-content: between-around sağ ve sol flex itemi yerleştirdikten sonra diğerleri arasında mesafeleri eşit dağıtacak şekilde  hizalar
+        13- align-items: center; dikeyde ortaya hizalar.
+        14- align-items: flex-end; dikeyde en sona hizalar.
+        15-align-items: flex-start; dikeyde en başa hizalar.
+        16- align-items:center; justify-content: center; şeklinde marjin padding vermeden tam ortalarız.
+           
+        */
+    </style>      
+</head>
+<body>
+        <div class="flex-container">
+     <div style="order:2;" class="flex-item">1</div>
+    <div style="order:3;" class="flex-item">2</div>
+    <div style="order:4;" class="flex-item">3</div>
+    <div style="order:5;" class="flex-item">4</div>
+    <div style="order:6;" class="flex-item">5</div>
+    <div style="order:1;" class="flex-item">6</div>
+    
+</div>
+    <!-- <div class="flex-container">
+        <div style="flex-shrink:2;" class="flex-item">1</div>
+        <div style="flex-shrink:3;" class="flex-item">2</div>
+        <div style="flex-shrink:4;" class="flex-item">3</div>
+        <div style="flex-shrink:5;" class="flex-item">4</div>
+        <div style="flex-shrink:6;" class="flex-item">5</div>
+        <div style="flex-shrink:1;" class="flex-item">6</div>
+</div> -->
+    <!-- <div class="flex-container">
+        <div style="flex-grow:2;" class="flex-item">1</div>
+        <div style="flex-grow:3;" class="flex-item">2</div>
+        <div style="flex-grow:4;" class="flex-item">3</div>
+        <div style="flex-grow:5;" class="flex-item">4</div>
+        <div style="flex-grow:6;" class="flex-item">5</div>
+        <div style="flex-grow:1;" class="flex-item">6</div>
+</div> -->
+
+    <!-- <divclass="flex-container">
+    <div style="order:2;" class="flex-item">1</div>
+    <div style="order:3;" class="flex-item">2</div>
+    <div style="order:4;" class="flex-item">3</div>
+    <div style="order:5;" class="flex-item">4</div>
+    <div style="order:6;" class="flex-item">5</div>
+    <div style="order:1;" class="flex-item">6</div>
+    
+</div> -->
+</body> 
+</html>  

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+Ölçü birimleri
+- px 
+- % (içinde bulunulan elementin boyutuna göre ölçü vermeyi sağlar.)
+- cm
+- mm
+- in (inç) ->> 2.54cm   ->> 96px
+- pt
+- pc (pika) -> 12pt
+- em (Ana ebeveyn etiketin font boyutuna göre ölçeklendirerek belirlenen boyuttur. Örneğin; bir etiketin ana ebeveyni body ise body'nin font büyüklüğü 16px ayarlanmışsa; 1em dediğimde 16px'e denk gelir. )
+- vh (viewport height) tarayıcı yüksekliği ile orantılı ölçü vermeyi sağlar.
+- vw(viewport width) tarayıcı genişliği ile orantılı ölçü vermeyi sağlar.
+- 
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px;
+        }
+
+        .container {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header, .footer{
+            background-color: #06283d;
+            padding-left: 20px;
+            display: flex;
+            align-items: center;
+            height: 120px;
+            padding: 20px;
+        }
+        .footer{
+            height: 60px;
+            color: #fff;
+            font-size: 1.5em;
+        }
+
+        .header h1 {
+            color: #fec260;
+            font-size: 6em;
+    
+        }
+
+        .contect {
+            display: flex;
+            margin-top: 10px;
+            height: calc(100vh - 290px);
+            flex-direction: row-reverse;
+        }
+        .contect-left{
+            width: 25%;
+            font-size: 2em;
+           
+
+        }
+        .contect-left ul{
+            list-style-type: none;
+            padding: 0;
+            margin-top: 12px;
+        }
+        .contect-left ul li{
+            padding: 10px 15px;
+            background-color: #256d85;
+            margin-bottom: 8px;
+            color: #fff;
+            
+
+
+
+        }
+        .contect-left ul li:hover{
+            
+            cursor: pointer;
+            background-color:brown;
+            
+        }
+        .contect-right{
+            
+            width: 75%;
+            padding-right: 15px;
+            font-size: 1.4em;
+
+        }
+        .contect-right h1{
+            color:sienna;
+            margin: 5px;
+            font-size: 2.3em;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Frontend Dersleri</h1>
+
+        </div>
+        <div class="contect">
+            <div class="contect-left">
+                <ul>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>JavaScript</li>
+                 </ul>
+            </div>
+            <div class="contect-right">
+             
+                <h1>Uygulama Geliştirici eğitimi</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil praesentium neque deleniti soluta quia vero, laboriosam quam itaque. Labore atque sequi nesciunt soluta nemo laudantium, maxime eius ex reiciendis dolorem?</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            bu sayfayı ben tasarladım.
+        </div>
+    </div>
+
+</body>
+
+</html>
