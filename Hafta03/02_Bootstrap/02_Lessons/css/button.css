@@ -1,0 +1,59 @@
+        /* Bu class tüm buttonlarımızın ortak özellikleri olacak */
+        .btn{
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            padding: 7px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 3px;
+            transition-duration:.5s;
+        }
+        /* primaryButton */
+        .btn-primary{
+            background-color: #DD5353;
+            color: #eddbc0;
+            border: 2px solid #DD5353;
+        }
+        .btn-primary:hover{
+            background-color: #eddbc0;
+            color: #DD5353;
+            
+        }
+         /* primary outline Button */
+         .btn-outline-primary{
+            background-color: #eddbc0;
+            color: #DD5353;
+            border: 2px solid #DD5353;
+        }
+        .btn-primary:hover{
+            background-color: #DD5353;
+            color: #eddbc0;
+            
+        }
+         /* Secondary Button */
+         .btn-secondary{
+            background-color: #dff6ff;
+            color: #256D85;
+            border: 2px solid #256D85;
+        }
+        .btn-secondary:hover{
+            background-color: #256D85;
+            color: #dff6ff;
+            
+        }
+           /* secondary outline Button */
+           .btn-outline-secondary{
+            background-color: #256D85;
+            color: #dff6ff;
+            border: 2px solid #256D85;
+        }
+        .btn-outline-secondary:hover{
+            background-color: #dff6ff;
+            color: #256D85;
+            
+        }
+        
+
+   

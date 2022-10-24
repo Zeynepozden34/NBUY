@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Proje11_For\\Proje11_For.csproj": {}
+    "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta01\\C#\\proje11_For\\Proje11_For.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Proje11_For\\Proje11_For.csproj": {
+    "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta01\\C#\\proje11_For\\Proje11_For.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Proje11_For\\Proje11_For.csproj",
+        "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta01\\C#\\proje11_For\\Proje11_For.csproj",
         "projectName": "Proje11_For",
-        "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Proje11_For\\Proje11_For.csproj",
+        "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta01\\C#\\proje11_For\\Proje11_For.csproj",
         "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Proje11_For\\obj\\",
+        "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta01\\C#\\proje11_For\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

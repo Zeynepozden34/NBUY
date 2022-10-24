@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <link rel="stylesheet" href="/02_Lessons/css/bootstrap.min.css">
     <title>Movie App</title>
 </head>
@@ -13,116 +20,140 @@
     <div class="container">
         <div class="row p-3">
             <div class="col-8 bg-primary p-3">
-                <div class=" display-6 text-light fw-bold m-4">Movie Application</div>
+                <div class=" display-6 text-light fw-bold">Movie Application</div>
             </div>
             <div class="col-4 bg-primary p-3">
-                <ul class="list-inline pt-4">
+                <ul class="list-inline text-center pt-2 text-white">
                     <li class="list-inline-item">Home</li>
                     <li class="list-inline-item">Movies</li>
                     <li class="list-inline-item">Contact</li>
-                    <li class="list-inline-item">Login</li>
+                    <li class="list-inline-item"><a class="stretched-link text-white"href="#"><i
+                        class="fa-solid fa-arrow-right-to-bracket"></i> Login</a></li>
                 </ul>
             </div>
         </div>
-        <img class="img-fluid w-100" src="/00_Images/features.jpeg" alt="">
+        <div class="card text-bg-dark">
+            <img src="/00_Images/features.jpeg" class="card-img" alt="">
+            <div class="card-img-overlay">
+              <h2 class="card-text fw-bold bg-secondary w-50 mx-auto my-auto text-center"><small>Welcome to Movie Application</small></h2>
+            </div>
+          </div>
+        
+        
     </div>
     <div class="container text-center">
-        <div class="row">
+        <div class="row p-2">
             <div class=" h2 text-primary p-3 mb-2 w-25 mx-auto">How it Works?</div>
             <div class="mb-2 w-100">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto amet ea in deleniti,
                 velit voluptate expedita inventore aliquid vitae consectetur, mollitia tenetur veritatis, repellat
                 soluta?</div>
         </div>
 
-        <div class="row justify-content-md-center">
-
-            <div class="col-4 p-3 mx-auto justify-content-md-center">
-                <h6 class="bg-primary p-3 rounded-5">Register</h6>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, rem?</p>
-                </div>
+        <div class="card-group p-3">
+            <div class="card">
+                <a href="#" class="fa-solid fa-arrow-right-to-bracket m-3 fs-5 fw-bold text-danger"></a>
+              <div class="card-body">
+                <h5 class="card-title">Register</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias deserunt doloremque voluptatibus qui labore esse, veniam consequatur hic.</p>
+              </div>
             </div>
-            <div class="col-4 p-3 mx-auto justify-content-md-center">
-                <h6 class="bg-primary p-3 rounded-5">Choose a Plan</h6>
-                <div class="ps-0">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quae.</p>
-                </div>
+            <div class="card">
+                <a href="#" class="fa-regular fa-circle-check m-3 fs-5 fw-bold text-danger"></a>
+              <div class="card-body">
+                <h5 class="card-title">Choose a Plan</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis non iusto labore dolorem explicabo! Id consequatur adipisci velit perspiciatis.</p>
+              </div>
             </div>
-            <div class="col-4 p-3 mx-auto justify-content-md-center">
-                <h6 class="bg-primary p-3 rounded-5">Enjoy</h6>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, excepturi!</p>
-                </div>
+            <div class="card">
+                <a href="#" class="fa-brands fa-github m-3 fs-5 fw-bold text-danger"></a>
+              <div class="card-body">
+                <h5 class="card-title">Enjoy Movies</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit earum nam cupiditate facere asperiores nobis inventore distinctio voluptatibus.</p>
+              </div>
             </div>
-
-
-        </div>
-
-
+          </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <img class="img-fluid w-100 rounded-5" src="/00_Images/dolunay.jpg" alt="">
-            </div>
-            <div class="col-6">
-                <div>
-                    <h4>Watch all Movies and TV Shows once they get released!</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sunt nobis eius quia ipsum, veritatis, fuga sed eos repellendus voluptatum itaque voluptate quidem. Nam perferendis eos eaque quis, incidunt fugit!</p>
+    <div class="card m-5">
+        <div class="row g-0">
+          <div class="col-md-4 mx-auto">
+            <img src="/00_Images/features.jpeg" class="img-fluid rounded-start" alt="">
+          </div>
 
-                    <button class="btn btn-primary">Features</button>
-                </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title text-primary m-2 p-3">Watch all Movies and TV Shows once they get released!</h3>
+              <p class="card-text p-2 m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sunt nobis eius quia ipsum,
+                veritatis, fuga sed eos repellendus voluptatum itaque voluptate quidem. Nam perferendis eos
+                eaque quis, incidunt fugit!</p>
             </div>
+            <button class="btn btn-primary p-2 mb-4 m-4">Features</button>
+          </div>
         </div>
-    </div>
-    <div class="container text-center">
-        <div class="row">
-            <div class="bg-light h4 text-primary p-3 mb-2 w-100 mx-auto">Become a Premium Member</div>
-        </div>
-        <div class="row justify-content-md-center">
+      </div>
 
-            <div class="col-4 p-3 mx-auto justify-content-md-center">
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-5 p-2">
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body text-center">
                 <h6 class="text-black fw-bold rounded-5 fs-5">Free</h6>
                 <h6 class="text-black fw-bold rounded-5 fs-5">0/Month</h6>
-                <div>
-                    <p>Lorem ipsum dolor.</p>
-                    <p>Lorem, ipsum dolor.</p>
-                    <p>Lorem ipsum.</p>
-                    <p>Lorem ipsum dolor sit</p>
-                    <p>Lorem ipsum.</p>
-                </div>
+                <p class="card-text">Lorem ipsum dolor.</p>
+                <p class="card-text">Lorem, ipsum dolor.</p>
+                <p class="card-text">Lorem ipsum.</p>
+                <p class="card-text">Lorem ipsum dolor sit</p>
+                <p class="card-text">Lorem ipsum.</p>
                 <button class="btn btn-secondary">Choose a Plan</button>
             </div>
-            <div class="col-4 p-3 mx-auto justify-content-md-center bg-secondary rounded-5">
+          </div>        
+        </div>
+   
+        <div class="col">
+            <div class="card h-100">
+              <div class="card-body bg-secondary rounded-5 text-center">
                 <h6 class=" text-black fw-bold fs-5 bg-primary p-3 rounded-5">Recommended</h6>
                 <h6 class="text-black fw-bold rounded-5 fs-5">$9.99/Month</h6>
-                <div>
-                    <p>Lorem ipsum dolor.</p>
-                    <p>Lorem, ipsum dolor.</p>
-                    <p>Lorem ipsum.</p>
-                    <p>Lorem ipsum dolor sit</p>
-                    <p>Lorem ipsum.</p>
-                </div>
-                <button class="btn btn-success">Choose a Plan</button>
+                  <p class="card-text">Lorem ipsum dolor.</p>
+                  <p class="card-text">Lorem, ipsum dolor.</p>
+                  <p class="card-text">Lorem ipsum.</p>
+                  <p class="card-text">Lorem ipsum dolor sit</p>
+                  <p class="card-text">Lorem ipsum.</p>
+                  <button class="btn btn-success">Choose a Plan</button>
+              </div>
             </div>
-            <div class="col-4 p-3 mx-auto justify-content-md-center">
-                <h6 class="text-black fw-bold rounded-5 fs-5rounded-5">Premium</h6>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <h6 class="text-black fw-bold rounded-5 fs-5rounded-5 ">Premium</h6>
                 <h6 class="text-black fw-bold rounded-5 fs-5">$19.9/Month</h6>
-                <div>
-                    <p>Lorem ipsum dolor.</p>
-                    <p>Lorem, ipsum dolor.</p>
-                    <p>Lorem ipsum.</p>
-                    <p>Lorem ipsum dolor sit</p>
-                    <p>Lorem ipsum.</p>
-                </div>
-                <button class="btn btn-secondary">Choose a Plan</button>
+                  <p class="card-text">Lorem ipsum dolor.</p>
+                  <p class="card-text">Lorem, ipsum dolor.</p>
+                  <p class="card-text">Lorem ipsum.</p>
+                  <p class="card-text">Lorem ipsum dolor sit</p>
+                  <p class="card-text">Lorem ipsum.</p>
+                  <button class="btn btn-secondary">Choose a Plan</button>
+              </div>
             </div>
+          </div>
 
 
-        </div>
 
 
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
 
 
 

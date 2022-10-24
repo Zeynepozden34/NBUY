@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Prje07_tarihMetotları\\Prje07_tarihMetotları.csproj",
+      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta01\\C#\\Proje07_tarihMetotları\\Prje07_tarihMetotları.csproj",
       "projectName": "Prje07_tarihMetotları",
-      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Prje07_tarihMetotları\\Prje07_tarihMetotları.csproj",
+      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta01\\C#\\Proje07_tarihMetotları\\Prje07_tarihMetotları.csproj",
       "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Prje07_tarihMetotları\\obj\\",
+      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta01\\C#\\Proje07_tarihMetotları\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
