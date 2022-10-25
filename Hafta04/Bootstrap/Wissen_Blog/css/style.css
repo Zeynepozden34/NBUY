@@ -1,0 +1,9 @@
+.navbar, .bg-dark{
+    background-color: #085E7D !important;
+}
+.card-image-top{
+    width: 100%; 
+    height: 35vh; 
+    object-fit: cover;
+    /* object- fit resmi tam sığ */
+}
