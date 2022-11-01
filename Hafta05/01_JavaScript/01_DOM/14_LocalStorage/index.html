@@ -26,8 +26,13 @@
                         </div>
                     </form>
                 </div>
-                <div class="card mt-3">
-                    <div class="card-header">
+                <div class="card mt-3" id="taskBox">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                        <div class="filters" >
+                            <span class="active" id="all">Tümü</span>
+                            <span id="pending">Yapılacaklar</span>
+                            <span id="completed">Tamamlananlar</span>
+                        </div>
                         <button class="btn btn-sm btn-danger float-end" id="btnClear">Temizle</button>
                     </div>
                     <ul id="task-list" class="list-group">
