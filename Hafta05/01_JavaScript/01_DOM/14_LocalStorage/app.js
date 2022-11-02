@@ -44,7 +44,7 @@ function displayTasks(filter) {
                  type="checkbox" id="${gorev.id}" 
                  class="form-check-input"${completed}>
                 <label for="${gorev.id}" class="form-check-label ${completed}">${gorev.gorevAdi}</label>
-            </div>
+            </div> flex-direction: column;
             <div class="dropdown">
             <button class="btn btn-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="fa-solid fa-ellipsis"></i>

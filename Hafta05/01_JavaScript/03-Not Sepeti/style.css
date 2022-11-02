@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.container{
+    /* position: relative; */
+ 
+    text-align: center;
+    justify-content: center;
+}
+.text{
+    margin-top: 80px;
+    font-size: 80px; 
+    color: white;
+}
+.input{
+    position: relative;
+}
+.plus{
+    position: absolute;
+    right: 33%;
+    margin-top: 55px;
+}
+.task{
+    margin-top: 50px;
+    height: 30px;
+    width: 500px;
+}
+.tamamı{
+    margin-top: 100px;
+}
+
+.notlar{
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+.not-kutusu{
+    display: flex;
+}
+.not-listesi{
+    
+    list-style-type: none;
+}
+.not-ad{
+   
+    height: 30px;
+    border:none;
+    background-color: white;
+    width: 800px;
+}
+.not-tamamlandi{
+    height: 30px;
+    width: 30px;
+    border:none;
+    margin:0;
+    background-color: orange;
+}
+.not-sil{
+    height: 30px;
+    width: 30px;
+    border:none;
+    margin:0;
+    background-color: red;
+
+}
+
+
+ 
+ 
+
+    
