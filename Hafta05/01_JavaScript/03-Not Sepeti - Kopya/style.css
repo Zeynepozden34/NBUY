@@ -4,99 +4,41 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aqua;
+    background-color:cadetblue;
 }
 .container{
-    /* position: relative; */
- 
-    text-align: center;
-    justify-content: center;
-}
-.text{
-    margin-top: 80px;
-    font-size: 80px; 
-    color: white;
-}
-
-/* .notlar{
     padding: 5px;
     width: 50%;
     margin: 0 auto;
 }
-.not{
-    
-}
-.not-listesi{
-    list-style-type: none;
-}
-.not-ad{
-    height: 30px;
-    border:none;
-    background-color: white;
-}
-.not-tamamlandi{
-    height: 30px;
-    width: 30px;
-    border:none;
-    margin:0;
-    background-color: orange;
-}
-.not-sil{
-    height: 30px;
-    width: 30px;
-    border:none;
-    margin:0;
-    background-color: red;
-
-} */
-
-
- .gorev-ad{
-    
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 80px; 
+    color: white;
 }
 .input{
-    display: inline-block;
-}
-
-.list{
-    list-style-type: none;
-}
-.plus{
-    background-color: chocolate;
-    position: relative;
-    right: 40px;
-    margin-top: 100px;
-    font-size: 13px;
-    cursor: pointer;
-}
-.task{
-    display:flex;
+    position:relative;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.düzenle{
-    right: 60px;
-    background-color: chocolate;
-    width: 50px;
-    font-size: 15px;
-    cursor: pointer; 
-    margin:0;
-    
+.task{
+    width: 500px;
+    height: 30px;
+    margin-top: 50px;
 }
-.sil{ 
-
-    right: 60px;
-    background-color: darkred;
-    width: 50px;
-    font-size: 15px;
-    cursor: pointer; 
-   margin:0;
-}
-.icon{
-   
-    
-} 
+button{
+ position: absolute;
  
+ top: 5px;
+ 
+}
+.plus{ 
+    margin-top: 50px;  
+}
+
 
     

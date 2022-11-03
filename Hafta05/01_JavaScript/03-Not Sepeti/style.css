@@ -7,34 +7,43 @@ body{
     background-color: aqua;
 }
 .container{
-    /* position: relative; */
- 
-    text-align: center;
-    justify-content: center;
+    
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
 }
 .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 80px;
     font-size: 80px; 
     color: white;
 }
 .input{
-    position: relative;
+    margin-top: 50px;
+    display: flex;
 }
 .plus{
-    position: absolute;
-    right: 33%;
+  
+   
+    right: 5vh;
     margin-top: 55px;
 }
 .task{
-    margin-top: 50px;
+    margin: 0 auto;
     height: 30px;
-    width: 500px;
+    border:none;
+    background-color: white;
+    width: 800px
 }
 .tamamı{
-    margin-top: 100px;
+   
+    margin-top: 50px;
 }
 
 .notlar{
+    
     padding: 5px;
     width: 50%;
     margin: 0 auto;
@@ -43,11 +52,11 @@ body{
     display: flex;
 }
 .not-listesi{
-    
+   
     list-style-type: none;
 }
 .not-ad{
-   
+    margin: 0 auto;
     height: 30px;
     border:none;
     background-color: white;
