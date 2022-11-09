@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z6K6FaYsOJma1bs/9pXyzr9xIAeN8gkiHlKGG6NGkvrkmTMsNbDRWin3pbRnN5tQlaLnbc7bR4OJ6pI0yu6BPA==",
+  "dgSpecHash": "XsI6m9HvBJdm4Qvmmg0dVbmTIK0KypF4Qf0L7CLQ52ooFcRAZhjQwWNixcndFPko/2vtlA96GsA+oN8+PVcMAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta06\\DotNetCore-VeriTabanıİslemleri\\P01_SqlBağlantiOlusturma\\P01_SqlBağlantiOlusturma.csproj",
+  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta06\\DotNetCore-VeriTabanıİslemleri\\P01_SqlBağlantiOlusturma\\P01_SqlBağlantiOlusturma.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
