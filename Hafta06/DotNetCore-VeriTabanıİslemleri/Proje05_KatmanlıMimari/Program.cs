@@ -2,8 +2,8 @@
 using System.Data.SqlClient;
 using Proje05_KatmanlıMimari.DataAccessLayer;
 using Proje05_KatmanlıMimari.BusinessLayer;
+using Microsoft.Data.Sqlite;
 using Proje05_KatmanlıMimari.DataAccessLayer.Entities;
-
 
 namespace Proje05_KatmanlıMimari;
 
@@ -27,7 +27,7 @@ class program
             }
             else if (secim == 2)
             {
-                //customerList();
+                customerList();
                 Console.ReadLine();
             }
             else if (secim != 0)
@@ -37,13 +37,14 @@ class program
             Console.ReadLine();
         } while (secim != 0);
 
-        //static void customerList()
+        static void customerList()
         {
-            // List<Customer> customers = GetAllCustomers();
-            // foreach (var customer in customers)
-            // {
-            //     System.Console.WriteLine($"ID: {customer.Id}, Company Name: {customer.CompanyName}, city: {customer.City}, Country: {customer.Country} ");
-            // }
+            List<Customer> customers = GetAllCustomers();
+           
+            foreach (var customer in customers)
+            {
+                System.Console.WriteLine($"ID: {customer.Id}, Company Name: {customer.CompanyName}, city: {customer.City}, Country: {customer.Country} ");
+            }
         }
         static void productList()
         {
@@ -57,49 +58,12 @@ class program
 
         }
 
-    } 
-    // static List<Customer> GetAllCustomers() 
-    // {
-    //     List<Customer> customers = new List<Customer>(); 
-    //     using (var connection = GetSqlConnection())
-    //     {
-    //         try
-    //         {
-    //             connection.Open();
-    //             string queryString = "SELECT CustomerId, CompanyName, City, Country FROM Customers";
-    //             SqlCommand sqlCommand = new SqlCommand(queryString, connection);
-    //             SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
-    //             while (sqlDataReader.Read())
-    //             {
-    //                 customers.Add(new Customer()
-    //                 {
-    //                     Id = sqlDataReader["CustomerId"].ToString(), 
-    //                     CompanyName = sqlDataReader["CompanyName"].ToString(),
-    //                     City = sqlDataReader["City"].ToString(),
-    //                     Country = sqlDataReader["Country"].ToString()
+    }
 
-    //                 });
-    //             }
-    //             sqlDataReader.Close();
-    //         }
-    //         catch (Exception e)
-    //         {
-    //             Console.WriteLine(e.Message);
-
-    //         }
-    //         finally
-    //         {
-    //             connection.Close();
-    //         }
-    //     }
-    //     return customers;
-    // }
-    
-    
-
-   
-
-
+    private static List<Customer> GetAllCustomers()
+    {
+        throw new NotImplementedException();
+    }
 }
 
 

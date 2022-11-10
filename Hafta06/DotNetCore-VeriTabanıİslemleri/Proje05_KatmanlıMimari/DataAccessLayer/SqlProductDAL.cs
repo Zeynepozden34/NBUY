@@ -6,7 +6,7 @@ namespace Proje05_KatmanlıMimari.DataAccessLayer
     {
         static SqlConnection GetSqlConnection()
         {
-            string connectionString = @"Server=DESKTOP-OFVK2FD\SQLEXPRESS;Database=Northwind; User Id=sa; password=123";
+            string connectionString = @"Server=NIRVANAZEYNEP\SQLEXPRESS;Database=Northwind; User Id=sa; password=123";
             SqlConnection sqlConnection = new SqlConnection(connectionString);
             return sqlConnection;
 
