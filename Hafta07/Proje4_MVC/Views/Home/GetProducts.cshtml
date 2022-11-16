@@ -1,0 +1,25 @@
+@model List<Proje4_MVC.Controllers.Product>
+@{
+    ViewData["Title"] = "GetProducts";
+}
+
+<h1 class="display-1">All Products</h1>
+
+<ul class="list-unstyled">
+    @foreach (var p in Model)
+    {
+        <li>@p.Id - @p.Name - @p.Price</li>
+    }
+</ul> 
+
+
+
+
+
+
+@* <ul>  vieewbağ ile yazılınca bu şekilde çağırırız.
+    @foreach (var p in ViewBag.Products)
+    {
+        <li>@p.Id - @p.Name - @p.Price</li>
+    }
+</ul> *@

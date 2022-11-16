@@ -20,8 +20,10 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+//app.MapDefaultControllerRoute();
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    //app.MapControllerRoute(); aşagıdaki default'un kısa yoludur.
+     name: "default",
+     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
