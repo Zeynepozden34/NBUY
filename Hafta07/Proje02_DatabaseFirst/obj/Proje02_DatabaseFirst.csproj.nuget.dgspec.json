@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje02_DatabaseFirst\\Proje02_DatabaseFirst.csproj": {}
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje02_DatabaseFirst\\Proje02_DatabaseFirst.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje02_DatabaseFirst\\Proje02_DatabaseFirst.csproj": {
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje02_DatabaseFirst\\Proje02_DatabaseFirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje02_DatabaseFirst\\Proje02_DatabaseFirst.csproj",
+        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje02_DatabaseFirst\\Proje02_DatabaseFirst.csproj",
         "projectName": "Proje02_DatabaseFirst",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje02_DatabaseFirst\\Proje02_DatabaseFirst.csproj",
+        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje02_DatabaseFirst\\Proje02_DatabaseFirst.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje02_DatabaseFirst\\obj\\",
+        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje02_DatabaseFirst\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",

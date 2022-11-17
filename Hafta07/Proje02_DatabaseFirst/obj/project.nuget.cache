@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hAZjnk9USNzAV3qgKwQC0sQjJrslza9PVhi4LOn60SOgOXUvD4I0xaC2tRGbWdixrMSldRyMXGvnoF7n7p+4wg==",
+  "dgSpecHash": "2lq7rmR3mxh3+MkY2pGoW/N1xIsC8t/G6Fdp/xyYL1rkvgBK8UQTWcJyLdecHJNhRAXIrvaduu6SJk/rU46n+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje02_DatabaseFirst\\Proje02_DatabaseFirst.csproj",
+  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje02_DatabaseFirst\\Proje02_DatabaseFirst.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

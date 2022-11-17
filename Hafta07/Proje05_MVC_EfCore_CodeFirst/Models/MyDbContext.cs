@@ -17,7 +17,7 @@ namespace Proje05_MVC_EfCore_CodeFirst.Models
         {
             optionsBuilder.UseSqlite("Data Source=First.Db"); //bu isimli veritabanını getirir.
         }
-
+    
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>()   //veritabanında category tablosundan bahsetmiş luruzve burada category'e veri ekleyebiliriz.

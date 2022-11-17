@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HOypTcDImu8Ni3HRIpBtU95B2kHKiecjx0rCCZ23cKfSQIILqOmPWN+WZlu9+IhzZDomnIwMDpPLi4S18aXJww==",
+  "dgSpecHash": "MvxvHCVh4VGit/dmWzymwf+Q0PmsC/d4APvN3CpRIM5qKSc46+qbaPCCNoqh/EXrC6YEoDhf6lBK+f+B8kjIfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje05_MVC_EfCore_CodeFirst\\Proje05_MVC_EfCore_CodeFirst.csproj",
+  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje05_MVC_EfCore_CodeFirst\\Proje05_MVC_EfCore_CodeFirst.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.11\\microsoft.data.sqlite.core.6.0.11.nupkg.sha512",
