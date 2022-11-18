@@ -22,6 +22,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
+    pattern: "{controller=Home}/{action=Index}/{id?}");   
 app.Run();
+
+// Rotayı bozmadan da yeni parametre ekleyebiliriz bunun için home de parametre yollarız web sayfasında ? koyarak dagösterebiliriz buna string quary denir. 

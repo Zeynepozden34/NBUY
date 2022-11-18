@@ -15,7 +15,8 @@
                 <p>Sayfa Sayısı: @Model.SayfaSayisi</p>
             </div>
         </div>
-        <div class="card-footer">
+        <div class="card-footer"> 
+            @* incele butonuna basınca homedaki detay cshtmli çalıştırdı. *@
             <a asp-controller="Home" asp-action="Detay" asp-route-id=@Model.Id class="btn btn-sm btn-info">İncele</a>
             <a class="btn btn-sm btn-success">Sepete Ekle</a>
         </div>

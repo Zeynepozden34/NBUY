@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje06_MVC_KitapEviDb\\Proje06_MVC_KitapEviDb.csproj": {}
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje06_MVC_KitapEviDb\\Proje06_MVC_KitapEviDb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje06_MVC_KitapEviDb\\Proje06_MVC_KitapEviDb.csproj": {
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje06_MVC_KitapEviDb\\Proje06_MVC_KitapEviDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje06_MVC_KitapEviDb\\Proje06_MVC_KitapEviDb.csproj",
+        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje06_MVC_KitapEviDb\\Proje06_MVC_KitapEviDb.csproj",
         "projectName": "Proje06_MVC_KitapEviDb",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje06_MVC_KitapEviDb\\Proje06_MVC_KitapEviDb.csproj",
+        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje06_MVC_KitapEviDb\\Proje06_MVC_KitapEviDb.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje06_MVC_KitapEviDb\\obj\\",
+        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta07\\Proje06_MVC_KitapEviDb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
