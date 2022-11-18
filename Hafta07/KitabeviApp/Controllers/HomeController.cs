@@ -22,41 +22,36 @@ public class HomeController : Controller
         var yazarlar = context.Yazarlar.ToList();
         return View(yazarlar);
     }
-    public IActionResult KitapListesi(int? id=null)  // soru işareti kullanma nedenim id primary key olduğu için null bırakılamaz bu nedenle soru işareti koyduk.
+    public IActionResult KitapListesi(int? id = null)
     {
-        List<Kitap> kitaplar=null;
-        if (id==null)
+        List<Kitap> kitaplar = null;
+        if (id == null)
         {
-            
             kitaplar = context
-            .Kitaplar
-            .Include(k => k.Kategori)
-            .Include(k => k.Yazar)
-            .ToList();
-        }else
-        {
-        //AsQueryable to liste çevirmeden yapılması gereken birşey varsakullanılır sorgulama yapar.
-             kitaplar = context
-            .Kitaplar
-            .Where(K=>K.KategoriId==id)
-            .Include(k => k.Kategori)
-            .Include(k => k.Yazar)
-            .ToList();
-        
+                .Kitaplar
+                .Include(k => k.Kategori)
+                .Include(k => k.Yazar)
+                .ToList();
         }
-        
-         return View(kitaplar); 
+        else
+        {
+            kitaplar = context
+                .Kitaplar
+                .Where(c => c.KategoriId == id)
+                .Include(k => k.Kategori)
+                .Include(k => k.Yazar)
+                .ToList();
+        }
+        return View(kitaplar);
     }
     public IActionResult Detay(int id)
     {
-        var kitap=context.Kitaplar
-        .Where(k=>k.Id==id)
-        .Include(k=>k.Yazar)
-        .Include(k=>k.Kategori)
-        .FirstOrDefault();
-
-
+        var kitap = context
+            .Kitaplar
+            .Where(k => k.Id == id)
+            .Include(k => k.Yazar)
+            .Include(k => k.Kategori)
+            .FirstOrDefault();
         return View(kitap);
     }
-
 }

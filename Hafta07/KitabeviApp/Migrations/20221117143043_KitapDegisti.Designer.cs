@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KitabeviApp.Migrations
 {
     [DbContext(typeof(KitabeviContext))]
-    [Migration("20221117143045_KitapDegisti")]
+    [Migration("20221117143043_KitapDegisti")]
     partial class KitapDegisti
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -104,7 +104,7 @@ namespace KitabeviApp.Migrations
                             AnaSayfa = true,
                             BasimYili = 2021,
                             KategoriId = 2,
-                            Ozet = "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque temporibus labore ipsam magni dicta laborum similique quam cupiditate eius. Debitis nemo eius ducimus officiis corrupti dolorum expedita neque distinctio tempora!",
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magnam animi sapiente quos atque voluptatem, at molestias eum eius quia quod nostrum cum eos maiores doloribus veniam reprehenderit natus laboriosam.",
                             SayfaSayisi = 330,
                             YazarId = 1
                         },
@@ -115,7 +115,7 @@ namespace KitabeviApp.Migrations
                             AnaSayfa = true,
                             BasimYili = 2021,
                             KategoriId = 1,
-                            Ozet = "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque temporibus labore ipsam magni dicta laborum similique quam cupiditate eius. Debitis nemo eius ducimus officiis corrupti dolorum expedita neque distinctio tempora!",
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magnam animi sapiente quos atque voluptatem, at molestias eum eius quia quod nostrum cum eos maiores doloribus veniam reprehenderit natus laboriosam.",
                             SayfaSayisi = 370,
                             YazarId = 1
                         },
@@ -126,7 +126,7 @@ namespace KitabeviApp.Migrations
                             AnaSayfa = true,
                             BasimYili = 2017,
                             KategoriId = 2,
-                            Ozet = "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque temporibus labore ipsam magni dicta laborum similique quam cupiditate eius. Debitis nemo eius ducimus officiis corrupti dolorum expedita neque distinctio tempora!",
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magnam animi sapiente quos atque voluptatem, at molestias eum eius quia quod nostrum cum eos maiores doloribus veniam reprehenderit natus laboriosam.",
                             SayfaSayisi = 400,
                             YazarId = 4
                         },
@@ -137,7 +137,7 @@ namespace KitabeviApp.Migrations
                             AnaSayfa = true,
                             BasimYili = 2018,
                             KategoriId = 2,
-                            Ozet = "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque temporibus labore ipsam magni dicta laborum similique quam cupiditate eius. Debitis nemo eius ducimus officiis corrupti dolorum expedita neque distinctio tempora!",
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magnam animi sapiente quos atque voluptatem, at molestias eum eius quia quod nostrum cum eos maiores doloribus veniam reprehenderit natus laboriosam.",
                             SayfaSayisi = 330,
                             YazarId = 9
                         },
@@ -145,10 +145,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 5,
                             Ad = "Serenad",
-                            AnaSayfa = true,
+                            AnaSayfa = false,
                             BasimYili = 2020,
                             KategoriId = 2,
-                            Ozet = "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque temporibus labore ipsam magni dicta laborum similique quam cupiditate eius. Debitis nemo eius ducimus officiis corrupti dolorum expedita neque distinctio tempora!",
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magnam animi sapiente quos atque voluptatem, at molestias eum eius quia quod nostrum cum eos maiores doloribus veniam reprehenderit natus laboriosam.",
                             SayfaSayisi = 300,
                             YazarId = 9
                         },
@@ -156,10 +156,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 6,
                             Ad = "19",
-                            AnaSayfa = true,
+                            AnaSayfa = false,
                             BasimYili = 2016,
                             KategoriId = 2,
-                            Ozet = "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque temporibus labore ipsam magni dicta laborum similique quam cupiditate eius. Debitis nemo eius ducimus officiis corrupti dolorum expedita neque distinctio tempora!",
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magnam animi sapiente quos atque voluptatem, at molestias eum eius quia quod nostrum cum eos maiores doloribus veniam reprehenderit natus laboriosam.",
                             SayfaSayisi = 380,
                             YazarId = 6
                         },
@@ -167,10 +167,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 7,
                             Ad = "C# Programlama Dili",
-                            AnaSayfa = true,
+                            AnaSayfa = false,
                             BasimYili = 2011,
                             KategoriId = 3,
-                            Ozet = "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque temporibus labore ipsam magni dicta laborum similique quam cupiditate eius. Debitis nemo eius ducimus officiis corrupti dolorum expedita neque distinctio tempora!",
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magnam animi sapiente quos atque voluptatem, at molestias eum eius quia quod nostrum cum eos maiores doloribus veniam reprehenderit natus laboriosam.",
                             SayfaSayisi = 730,
                             YazarId = 7
                         },
@@ -178,10 +178,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 8,
                             Ad = "React Uygulama Geliştirme",
-                            AnaSayfa = true,
+                            AnaSayfa = false,
                             BasimYili = 2021,
                             KategoriId = 3,
-                            Ozet = "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque temporibus labore ipsam magni dicta laborum similique quam cupiditate eius. Debitis nemo eius ducimus officiis corrupti dolorum expedita neque distinctio tempora!",
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magnam animi sapiente quos atque voluptatem, at molestias eum eius quia quod nostrum cum eos maiores doloribus veniam reprehenderit natus laboriosam.",
                             SayfaSayisi = 530,
                             YazarId = 3
                         },
@@ -189,10 +189,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 9,
                             Ad = "İnsan Ömrünü Neyle Geçirmeli?",
-                            AnaSayfa = true,
+                            AnaSayfa = false,
                             BasimYili = 2021,
                             KategoriId = 2,
-                            Ozet = "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque temporibus labore ipsam magni dicta laborum similique quam cupiditate eius. Debitis nemo eius ducimus officiis corrupti dolorum expedita neque distinctio tempora!",
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magnam animi sapiente quos atque voluptatem, at molestias eum eius quia quod nostrum cum eos maiores doloribus veniam reprehenderit natus laboriosam.",
                             SayfaSayisi = 330,
                             YazarId = 8
                         });
