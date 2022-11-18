@@ -22,7 +22,7 @@ public class HomeController : Controller
         var yazarlar = context.Yazarlar.ToList();
         return View(yazarlar);
     }
-    public IActionResult KitapListesi(int? id = null)
+    public IActionResult KitapListesi(int? id = null) // soru işareti kullanma nedenim id primary key olduğu için null bırakılamaz bu nedenle soru işareti koyduk.
     {
         List<Kitap> kitaplar = null;
         if (id == null)
