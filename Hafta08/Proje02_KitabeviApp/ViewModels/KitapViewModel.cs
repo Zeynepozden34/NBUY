@@ -8,7 +8,7 @@ namespace Proje02_KitabeviApp.ViewModels
 {
     public class KitapViewModel
     {
-        public List<Kitap> Kitaplar { get; set; }
+        public Kitap Kitap { get; set; }
         public List<Yazar> Yazarlar { get; set; }
         public List<Kategori> Kategoriler { get; set; }
     }

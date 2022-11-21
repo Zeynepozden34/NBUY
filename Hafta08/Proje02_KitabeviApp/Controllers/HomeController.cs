@@ -43,7 +43,17 @@ public class HomeController : Controller
                 .Include(k => k.Yazar)
                 .ToList();
         }
-        return View(kitaplar);
+
+        List<KitapListViewModel> kitapListViewModels = kitaplar
+            .Select(k=> new KitapListViewModel(){
+                Id=k.Id,
+                Ad=k.Ad,
+                BasimYili=k.BasimYili,
+                SayfaSayisi=k.SayfaSayisi,
+                YazarAd=k.Yazar.Ad,
+                KategoriAd=k.Kategori.Ad
+            }).ToList();
+        return View(kitapListViewModels);
     }
     public IActionResult Detay(int id)
     {
@@ -66,34 +76,6 @@ public class HomeController : Controller
         context.SaveChanges();
         return RedirectToAction("KategoriListesi");
     }
-       public IActionResult KategoriGuncelle(int id)
-    {
-        // Kategori kategori = context.Kategoriler.Where(k=>k.Id==id).FirstOrDefault();
-        Kategori kategori = context.Kategoriler.Find(id);
-        return View(kategori);
-    }
-
-    [HttpPost]
-    public IActionResult KategoriGuncelle(Kategori kategori)
-    {
-        context.Kategoriler.Update(kategori);
-        context.SaveChanges();
-        return RedirectToAction("KategoriListesi");
-    }
-
-   
-    public IActionResult KategoriSil(int id)
-    {
-        Kategori kategori = context.Kategoriler.Find(id);
-        return View(kategori);
-    }
-    [HttpPost]
-    public IActionResult KategoriSil(Kategori kategori)
-    {
-        context.Kategoriler.Remove(kategori);
-        context.SaveChanges();
-        return RedirectToAction("KategoriListesi");
-    }
 
     public IActionResult YazarEkle()
     {
@@ -106,33 +88,6 @@ public class HomeController : Controller
         context.SaveChanges();
         return RedirectToAction("YazarListesi");
     }
-     public IActionResult YazarGuncelle(int id)
-    {
-        // Yazar yazar = context.Yazarlar.Where(k=>k.Id==id).FirstOrDefault();
-        Yazar yazar = context.Yazarlar.Find(id);
-        return View(yazar);
-    }
-
-    [HttpPost]
-    public IActionResult YazarGuncelle(Yazar yazar)
-    {
-        context.Yazarlar.Update(yazar);
-        context.SaveChanges();
-        return RedirectToAction("YazarListesi");
-    }
-    public IActionResult YazarSil(int id)
-    {
-        Yazar yazar = context.Yazarlar.Find(id);
-        return View(yazar);
-    }
-    [HttpPost]
-    public IActionResult YazarSil(Yazar yazar)
-    {
-        context.Yazarlar.Remove(yazar);
-        context.SaveChanges();
-        return RedirectToAction("YazarListesi");
-    }
-
 
     public IActionResult KitapEkle()
     {
@@ -147,20 +102,77 @@ public class HomeController : Controller
         context.SaveChanges();
         return RedirectToAction("KitapListesi");
     }
+
+    public IActionResult KategoriGuncelle(int id)
+    {
+        // Kategori kategori = context.Kategoriler.Where(k=>k.Id==id).FirstOrDefault();
+        Kategori kategori = context.Kategoriler.Find(id);
+        return View(kategori);
+    }
+
+    [HttpPost]
+    public IActionResult KategoriGuncelle(Kategori kategori)
+    {
+        context.Kategoriler.Update(kategori);
+        context.SaveChanges();
+        return RedirectToAction("KategoriListesi");
+    }
+
+    public IActionResult YazarGuncelle(int id)
+    {
+        // Yazar yazar = context.Yazarlar.Where(k=>k.Id==id).FirstOrDefault();
+        Yazar yazar = context.Yazarlar.Find(id);
+        return View(yazar);
+    }
+
+    [HttpPost]
+    public IActionResult YazarGuncelle(Yazar yazar)
+    {
+        context.Yazarlar.Update(yazar);
+        context.SaveChanges();
+        return RedirectToAction("YazarListesi");
+    }
+    public IActionResult KategoriSil(int id)
+    {
+        Kategori kategori = context.Kategoriler.Find(id);
+        return View(kategori);
+    }
+    [HttpPost]
+    public IActionResult KategoriSil(Kategori kategori)
+    {
+        context.Kategoriler.Remove(kategori);
+        context.SaveChanges();
+        return RedirectToAction("KategoriListesi");
+    }
+
+    public IActionResult YazarSil(int id)
+    {
+        Yazar yazar = context.Yazarlar.Find(id);
+        return View(yazar);
+    }
+    [HttpPost]
+    public IActionResult YazarSil(Yazar yazar)
+    {
+        context.Yazarlar.Remove(yazar);
+        context.SaveChanges();
+        return RedirectToAction("YazarListesi");
+    }
+
     public IActionResult KitapGuncelle(int id)
     {
         Kitap kitap = context.Kitaplar.Find(id);
-        // KitapViewModel kitapModel=new KitapViewModel();
+        // KitapViewModel kitapModel = new KitapViewModel();
         // kitapModel.Kitap=kitap;
         // kitapModel.Yazarlar=context.Yazarlar.ToList();
-        // kitapModel.Kategoriler=context.Yazarlar.ToList();
-       KitapViewModel kitapViewModel =new KitapViewModel()
-       {
-        Kitap=kitap,
-        Yazarlar=context.Yazarlar.ToList();
-        Kategoriler=context.Kategoriler.ToList();
-       };
-        return View(kitapModel);
+        // kitapModel.Kategoriler=context.Kategoriler.ToList();
+
+        KitapViewModel kitapViewModel = new KitapViewModel()
+        {
+            Kitap = kitap,
+            Yazarlar = context.Yazarlar.ToList(),
+            Kategoriler = context.Kategoriler.ToList()
+        };
+        return View(kitapViewModel);
     }
 
     [HttpPost]
@@ -186,10 +198,4 @@ public class HomeController : Controller
         context.SaveChanges();
         return RedirectToAction("KitapListesi");
     }
-
- 
-
-    
-    
-    
 }
