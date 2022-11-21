@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta06\\DotNetCore-VeriTabanıİslemleri\\Proje03_VerilerinNesneyleTasınması\\Proje03_VerilerinNesneyleTasınması.csproj": {}
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta06\\DotNetCore-VeriTabanıİslemleri\\Proje03_VerilerinNesneyleTasınması\\Proje03_VerilerinNesneyleTasınması.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta06\\DotNetCore-VeriTabanıİslemleri\\Proje03_VerilerinNesneyleTasınması\\Proje03_VerilerinNesneyleTasınması.csproj": {
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta06\\DotNetCore-VeriTabanıİslemleri\\Proje03_VerilerinNesneyleTasınması\\Proje03_VerilerinNesneyleTasınması.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta06\\DotNetCore-VeriTabanıİslemleri\\Proje03_VerilerinNesneyleTasınması\\Proje03_VerilerinNesneyleTasınması.csproj",
+        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta06\\DotNetCore-VeriTabanıİslemleri\\Proje03_VerilerinNesneyleTasınması\\Proje03_VerilerinNesneyleTasınması.csproj",
         "projectName": "Proje03_VerilerinNesneyleTasınması",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta06\\DotNetCore-VeriTabanıİslemleri\\Proje03_VerilerinNesneyleTasınması\\Proje03_VerilerinNesneyleTasınması.csproj",
+        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta06\\DotNetCore-VeriTabanıİslemleri\\Proje03_VerilerinNesneyleTasınması\\Proje03_VerilerinNesneyleTasınması.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta06\\DotNetCore-VeriTabanıİslemleri\\Proje03_VerilerinNesneyleTasınması\\obj\\",
+        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta06\\DotNetCore-VeriTabanıİslemleri\\Proje03_VerilerinNesneyleTasınması\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
