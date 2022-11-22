@@ -9,14 +9,14 @@ namespace KitabeviApp.ViewComponents
 {
     public class KategorilerViewComponent : ViewComponent
     {
-        KitabeviContext context=new KitabeviContext();
+        KitabeviContext context = new KitabeviContext();
         public IViewComponentResult Invoke()
         {
-            if (RouteData.Values["id"] !=null)
+            if (RouteData.Values["id"] != null)
             {
-                ViewBag.SeciliKategori=int.Parse(RouteData.Values["id"].ToString());
+                ViewBag.SeciliKategori = int.Parse(RouteData.Values["id"].ToString());
             }
-           
+            
             return View(context.Kategoriler.ToList());
         }
     }

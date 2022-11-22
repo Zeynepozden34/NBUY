@@ -16,21 +16,18 @@ public class HomeController : Controller
                 .Include(k => k.Kategori)
                 .Include(k => k.Yazar)
                 .ToList();
-        
-         List<KitapListViewModel> kitapListViewModels = kitaplar
-            .Select(k=> new KitapListViewModel(){
-                Id=k.Id,
-                Ad=k.Ad,
-                BasimYili=k.BasimYili,
-                SayfaSayisi=k.SayfaSayisi,
-                YazarAd=k.Yazar.Ad,
-                KategoriAd=k.Kategori.Ad
+        List<KitapListViewModel> kitapListViewModels = kitaplar
+            .Select(k => new KitapListViewModel()
+            {
+                Id = k.Id,
+                Ad = k.Ad,
+                BasimYili = k.BasimYili,
+                SayfaSayisi = k.SayfaSayisi,
+                YazarAd = k.Yazar.Ad,
+                KategoriAd = k.Kategori.Ad
             }).ToList();
         return View(kitapListViewModels);
     }
-
-    
-    
     public IActionResult KategoriListesi()
     {
         var kategoriler = context.Kategoriler.ToList();
@@ -63,13 +60,14 @@ public class HomeController : Controller
         }
 
         List<KitapListViewModel> kitapListViewModels = kitaplar
-            .Select(k=> new KitapListViewModel(){
-                Id=k.Id,
-                Ad=k.Ad,
-                BasimYili=k.BasimYili,
-                SayfaSayisi=k.SayfaSayisi,
-                YazarAd=k.Yazar.Ad,
-                KategoriAd=k.Kategori.Ad
+            .Select(k => new KitapListViewModel()
+            {
+                Id = k.Id,
+                Ad = k.Ad,
+                BasimYili = k.BasimYili,
+                SayfaSayisi = k.SayfaSayisi,
+                YazarAd = k.Yazar.Ad,
+                KategoriAd = k.Kategori.Ad
             }).ToList();
         return View(kitapListViewModels);
     }
@@ -104,19 +102,15 @@ public class HomeController : Controller
     {
         if (ModelState.IsValid)
         {
-            if (ModelState.IsValid)
+            Yazar yazar = new Yazar()
             {
-                Yazar yazar =new Yazar()
-                {
-                    Ad=yazarViewModel.Ad,
-                    DogumYili=yazarViewModel.DogumYili,
-                    Cinsiyet=yazarViewModel.Cinsiyet
-                };
-                  context.Yazarlar.Add(yazar);
-        context.SaveChanges();
-        return RedirectToAction("YazarListesi");
-            }
-
+                Ad = yazarViewModel.Ad,
+                DogumYili = yazarViewModel.DogumYili,
+                Cinsiyet = yazarViewModel.Cinsiyet
+            };
+            context.Yazarlar.Add(yazar);
+            context.SaveChanges();
+            return RedirectToAction("YazarListesi");
         }
         return View();
     }
@@ -197,7 +191,7 @@ public class HomeController : Controller
         // kitapModel.Kitap=kitap;
         // kitapModel.Yazarlar=context.Yazarlar.ToList();
         // kitapModel.Kategoriler=context.Kategoriler.ToList();
-
+        var liste = context.Yazarlar.Select(y => y.Ad).ToList();
         KitapViewModel kitapViewModel = new KitapViewModel()
         {
             Kitap = kitap,
@@ -216,7 +210,6 @@ public class HomeController : Controller
     }
 
 
-
     public IActionResult KitapSil(int id)
     {
         Kitap kitap = context.Kitaplar.Find(id);
@@ -231,52 +224,52 @@ public class HomeController : Controller
         context.SaveChanges();
         return RedirectToAction("KitapListesi");
     }
-    
-    public IActionResult KategoriyeGöreKitapListesi(int id)
+
+    public IActionResult KategoriyeGoreKitapListesi(int id)
     {
-         List<Kitap> kitaplar =context
+        List<Kitap> kitaplar = context
             .Kitaplar
-            .Where(k=>k.KategoriId==id)
-            .Include(k=>k.Kategori)
-            .Include(k=>k.Yazar)
+            .Where(k => k.KategoriId == id)
+            .Include(k => k.Kategori)
+            .Include(k => k.Yazar)
             .ToList();
 
-           List<KitapListViewModel> kitapListViewModels = kitaplar
-            .Select(k=> new KitapListViewModel(){
-                Id=k.Id,
-                Ad=k.Ad,
-                BasimYili=k.BasimYili,
-                SayfaSayisi=k.SayfaSayisi,
-                YazarAd=k.Yazar.Ad,
-                KategoriAd=k.Kategori.Ad
+        List<KitapListViewModel> kitapListViewModels = kitaplar
+            .Select(k => new KitapListViewModel()
+            {
+                Id = k.Id,
+                Ad = k.Ad,
+                BasimYili = k.BasimYili,
+                SayfaSayisi = k.SayfaSayisi,
+                YazarAd = k.Yazar.Ad,
+                KategoriAd = k.Kategori.Ad
             }).ToList();
-            ViewBag.Tip="Kategori";
+        ViewBag.Tip="Kategori";
         return View("Index", kitapListViewModels);
-        
+
     }
-    public IActionResult YazaraGöreKitapListesi(int id)
+    public IActionResult YazaraGoreKitapListesi(int id)
     {
-       List<Kitap> kitaplar =context
+        List<Kitap> kitaplar = context
             .Kitaplar
-            .Where(k=>k.KategoriId==id)
-            .Include(k=>k.Kategori)
-            .Include(k=>k.Yazar)
+            .Where(k => k.YazarId == id)
+            .Include(k => k.Kategori)
+            .Include(k => k.Yazar)
             .ToList();
 
-           List<KitapListViewModel> kitapListViewModels = kitaplar
-            .Select(k=> new KitapListViewModel(){
-                Id=k.Id,
-                Ad=k.Ad,
-                BasimYili=k.BasimYili,
-                SayfaSayisi=k.SayfaSayisi,
-                YazarAd=k.Yazar.Ad,
-                KategoriAd=k.Kategori.Ad
+        List<KitapListViewModel> kitapListViewModels = kitaplar
+            .Select(k => new KitapListViewModel()
+            {
+                Id = k.Id,
+                Ad = k.Ad,
+                BasimYili = k.BasimYili,
+                SayfaSayisi = k.SayfaSayisi,
+                YazarAd = k.Yazar.Ad,
+                KategoriAd = k.Kategori.Ad
             }).ToList();
-            ViewBag.Tip="Yazar";
+        ViewBag.Tip="Yazar";
         return View("Index", kitapListViewModels);
-        
 
-       
     }
 
 }

@@ -5,7 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-<ItemGroup>
-  <ProjectReference Include="../KitbeviApp.Entity/KitbeviApp.Entity.csproj" />
-</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../KitabeviApp.Data/KitabeviApp.Data.csproj" />
+  </ItemGroup>
+
 </Project>
