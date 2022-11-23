@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using KitabeviApp.Web.Models;
+using KitabeviApp.Data.EfCore;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KitabeviApp.Web.ViewComponents

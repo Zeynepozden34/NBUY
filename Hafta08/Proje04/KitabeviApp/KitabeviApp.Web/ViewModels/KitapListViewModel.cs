@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using KitabeviApp.Web.Models;
 
 namespace KitabeviApp.Web.ViewModels
 {
