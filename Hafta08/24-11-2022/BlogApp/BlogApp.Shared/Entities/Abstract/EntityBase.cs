@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BlogApp.Shared.Entities.Abstract
+{
+    public abstract class EntityBase
+    {
+        public int Id { get; set; }
+        public virtual DateTime CreatedDate { get; set; } = DateTime.Now; 
+        public virtual DateTime ModifiedDate { get; set; } = DateTime.Now;
+        public virtual string CreatedByName { get; set; }
+        public virtual string ModifiedByName { get; set; }
+        public bool IsDeleted { get; set; } = false;
+        public bool IsActive { get; set; } = true;
+
+    }
+}
+
+
+
+// ınterface implemnete edilmek zorundadır bu nedenle class kullandık istenilenleri tek kullanabilmek için.
+// DateTime.Now sistemin tarihini atar.
+// virtual override şeklinde başka yerde kullanmak için yazdık.
+// bool default değeri false

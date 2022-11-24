@@ -14,7 +14,7 @@ public class HomeController : Controller
     KitabeviContext context = new KitabeviContext();
     EfCoreKategoriRepository kategoriRepository= new EfCoreKategoriRepository();  
     EfCoreYazarRepository yazarRepository=new EfCoreYazarRepository();
-     EfCoreKitapRepository kitapRepository=new EfCoreKitapRepository();
+    EfCoreKitapRepository kitapRepository=new EfCoreKitapRepository();
     public IActionResult Index()
     {
         List<Kitap> kitaplar = context
@@ -34,8 +34,7 @@ public class HomeController : Controller
             }).ToList();
         return View(kitapListViewModels);
     }
-
-  #region KATEGORİ İŞLEMLERİ
+    #region KATEGORİ İŞLEMLERİ
        public IActionResult KategoriListesi()
     {
         var kategoriManager=new KategoriManager();
@@ -49,7 +48,8 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult KategoriEkle(Kategori kategori)
     {
-        kategoriRepository.KategoriEkle(kategori);
+        var kategoriManger=new KategoriManager();
+        kategoriManger.KategoriEkle(kategori);
         return RedirectToAction("KategoriListesi");
     }
     public IActionResult KategoriGuncelle(int id)
@@ -75,8 +75,7 @@ public class HomeController : Controller
         return RedirectToAction("KategoriListesi");
     }
   #endregion
-
-#region YAZAR İŞLEMLERİ
+    #region YAZAR İŞLEMLERİ
         public IActionResult YazarListesi()
     {
         var yazarlar=yazarRepository.YazarListele(); // burada data efcore conreate projemdeki metodu çağırdm.
@@ -130,8 +129,7 @@ public class HomeController : Controller
     }
 
 #endregion
- 
- #region KİTAP İŞLEMLERİ
+    #region KİTAP İŞLEMLERİ
     public IActionResult KitapListesi(int? id = null)
     {
         List<Kitap> kitaplar = kitapRepository.KitapListele();
