@@ -10,13 +10,13 @@ namespace KitabeviApp.Business.Concrete
 {
     public class KategoriManager : IKategoriService
     {
-        public void KategoriEkle(Kategori kategori)   //public void de return olmamalý geri döndürülemez.
+        public void KategoriEkle(Kategori kategori)
         {
             var kategoriRepository = new EfCoreKategoriRepository();
             kategoriRepository.Ekle(kategori);
         }
 
-        public Kategori KategoriGetir(int id)  //public kategori de return olmalý
+        public Kategori KategoriGetir(int id)
         {
             var kategoriRepository = new EfCoreKategoriRepository();
             return kategoriRepository.Getir(id);
@@ -29,16 +29,11 @@ namespace KitabeviApp.Business.Concrete
 
         public List<Kategori> KategoriListele()
         {
-            var kategoriRepository=new EfCoreKategoriRepository();
+            var kategoriRepository = new EfCoreKategoriRepository();
             return kategoriRepository.Listele();
         }
 
         public void KategoriSil(Kategori kategori)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Kategori KategoriSil(int id)
         {
             throw new NotImplementedException();
         }

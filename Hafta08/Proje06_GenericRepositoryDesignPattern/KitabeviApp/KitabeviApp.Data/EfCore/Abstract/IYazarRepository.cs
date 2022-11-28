@@ -6,10 +6,8 @@ using KitabeviApp.Entity;
 
 namespace KitabeviApp.Data.EfCore.Abstract
 {
-    public interface IYazarRepository :IGenericRepository<Yazar>
+    public interface IYazarRepository : IGenericRepository<Yazar>
     {
-        
-       
-        
+
     }
 }

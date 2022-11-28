@@ -7,8 +7,8 @@ using KitabeviApp.Entity;
 
 namespace KitabeviApp.Data.EfCore.Concrete
 {
-    public class EfCoreKategoriRepository :EfCoreGenericRepository<Kategori>, IKategoriRepository
+    public class EfCoreKategoriRepository: EfCoreGenericRepository<Kategori>, IKategoriRepository
     {
-        
+
     }
 }

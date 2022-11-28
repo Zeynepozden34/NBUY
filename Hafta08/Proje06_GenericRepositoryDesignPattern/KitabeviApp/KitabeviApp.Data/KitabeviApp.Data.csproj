@@ -15,5 +15,3 @@
     </PackageReference>
   </ItemGroup>
 </Project>
-
-<!-- Home controllerdeki kodalrı buraya ekleyip webde sadece o metodu çağırmalıyız.-->

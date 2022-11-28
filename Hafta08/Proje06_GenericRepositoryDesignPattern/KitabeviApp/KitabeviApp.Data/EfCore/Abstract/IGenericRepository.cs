@@ -12,13 +12,8 @@ namespace KitabeviApp.Data.EfCore.Abstract
         List<T> Listele();
         void Ekle(T varlik);
         void Guncelle(T varlik);
-
         void Sil(T varlik);
-       
-
     }
 }
-
-
 // ınternal ile public farkı, ınternal sadece bulunduğun dosyanın içinde kullanabiliriz.
 //Yukarıda t harfi genel kullanığımız için istenilen sınıfta işaretin içine kullanacağımız sınıfı yazarız.

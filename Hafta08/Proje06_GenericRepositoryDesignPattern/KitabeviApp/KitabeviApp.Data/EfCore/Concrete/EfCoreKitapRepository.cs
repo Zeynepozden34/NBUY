@@ -10,7 +10,7 @@ namespace KitabeviApp.Data.EfCore.Concrete
 {
     public class EfCoreKitapRepository : EfCoreGenericRepository<Kitap>, IKitapRepository
     {
-        public List<Kitap> KategoriyeGöreKitapListesi()
+        public List<Kitap> KategoriyeGoreKitapListesi(int id)
         {
             throw new NotImplementedException();
         }

@@ -10,9 +10,3 @@
     <ProjectReference Include="../KitabeviApp.Business/KitabeviApp.Business.csproj" />
   </ItemGroup>
 </Project>
-
-<!-- Uygulamanın ara yüzüburasıdır. bu dosyayı çalıştırıyoruz diğer katmanlarda gerekli olan katmna bu katmanı referans gösterdik. -->
-
-<!-- Business, data ve entity çalıştırılabilir bir proje değildir. -->
-
-<!-- normal şartlarda web sayfamız businessden verileri çeker -->

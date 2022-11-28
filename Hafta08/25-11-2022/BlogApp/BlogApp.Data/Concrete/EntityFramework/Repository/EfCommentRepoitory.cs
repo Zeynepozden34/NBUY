@@ -1,4 +1,5 @@
-﻿using BlogApp.Shared.Data.Concrete.EntityFrameWork;
+﻿using BlogApp.Entities.Concrete;
+using BlogApp.Shared.Data.Concrete.EntityFrameWork;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

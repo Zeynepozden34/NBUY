@@ -1,0 +1,13 @@
+1- ÝLk önce Sahared-entity-abstract-Ientitybase oluþturduk.
+2- SHARED KLASÖRÜ TÜM ENTÝTLERÝMÝZ OLACAÐI BÝR KLASÖR, PAYLAÞMASI KOLAYLIK OLSUN DÝYE YAPTIK
+3- emtitites klasörüne concrete ekleyip entiylerimizi ekledik
+4- Shared-Data-concrete klasörüü oluþturup entityframework buraya eklendi.
+5- Tüm entitylerimiz de kullanmak için shared-data-abstract'a  ýentityrepository ýnterface ekledik.
+imzlarýmýz bunlar
+6- SENC SIRA BEKLEMEDEN ÝLERLER ASENC ÝSE ÝÞLEM BÝTMEDEN DÝÐERÝNE GEÇMEZ. ASENC YAPIDA(TASK<>) ÞWKLÝNDE YAZILIR
+7- shared-data-concrete-entityframewok-EfentityRepository de metotlarýý yazýyorum
+8- Data-abstract ve concrete oluþtueduk abstract klasöründe ýnterface repositorylerimizi oluþturduk. concrete klasörde EntityFramework klasör birde kütüphanemiz için bir klasör oluþturduk. oraya entity-framework cs'lrimizi oluþturduk.
+9- Data-concrete-efw-repository de gerekli klasörleri oluþturudk.
+10- Data-concrete-EFW konumuna contextS klasörü açýp BLOGAPPONTEXT CS'DE dbcontextÝMÝZÝ GETÝRDÝK. dbcontextimizi burada oluþturmaya baþladýk.
+11- Data-concrete-EFW konumuna Mapping kalsörü oluþturup Entity Yapýlandýrmamýzý bu klasörde yaparýz. MAPPLERÝMÝZ DATA-CONCRETE-EFW-CONTEXT KLASÖRÜNDEKÝ bLOGAPPcONTEXTE MAPLERÝMÝ METOTLA ÇAÐIRDIK.
+12-Data-concrete-etw-mAPPÝNGS Herbir mapimizde veri giriþimizi yaptýk.

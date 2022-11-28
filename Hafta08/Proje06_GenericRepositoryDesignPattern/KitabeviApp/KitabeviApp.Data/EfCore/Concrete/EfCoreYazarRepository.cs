@@ -9,6 +9,6 @@ namespace KitabeviApp.Data.EfCore.Concrete
 {
     public class EfCoreYazarRepository : EfCoreGenericRepository<Yazar>, IYazarRepository
     {
-       
+        
     }
 }

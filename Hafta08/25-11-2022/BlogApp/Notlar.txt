@@ -1,0 +1,10 @@
+1- İLk önce Sahared-entity-abstract-Ientitybase oluşturduk.
+2- SHARED KLASÖRÜ TÜM ENTİTLERİMİZ OLACAĞI BİR KLASÖR, PAYLAŞMASI KOLAYLIK OLSUN DİYE YAPTIK
+3- emtitites klasörüne concrete ekleyip entiylerimizi ekledik
+4- Shared-Data-concrete klasörüü oluşturup entityframework buraya eklendi.
+5- Tüm entitylerimiz de kullanmak için shared-data-abstract'a  ıentityrepository ınterface ekledik.
+imzlarımız bunlar
+6- SENC SIRA BEKLEMEDEN İLERLER ASENC İSE İŞLEM BİTMEDEN DİĞERİNE GEÇMEZ. ASENC YAPIDA(TASK<>) ŞWKLİNDE YAZILIR
+7- shared-data-concrete-entityframewok-EfentityRepository de metotlarıı yazıyorum
+8- Data-abstract ve concrete oluştueduk abstract klasöründe ınterface repositorylerimizi oluşturduk. concrete klasörde EntityFramework klasör birde kütüphanemiz için bir klasör oluşturduk. oraya entity-framework cs'lrimizi oluşturduk.
+9- Data-concrete-efw-repository de gerekli klasörleri oluşturudk.

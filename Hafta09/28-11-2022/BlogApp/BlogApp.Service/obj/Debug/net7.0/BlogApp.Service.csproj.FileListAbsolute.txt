@@ -1,0 +1,12 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta09\28-11-2022\BlogApp\BlogApp.Service\bin\Debug\net7.0\BlogApp.Service.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta09\28-11-2022\BlogApp\BlogApp.Service\bin\Debug\net7.0\BlogApp.Service.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta09\28-11-2022\BlogApp\BlogApp.Service\bin\Debug\net7.0\BlogApp.Service.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta09\28-11-2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\BlogApp.Service.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta09\28-11-2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\BlogApp.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta09\28-11-2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\BlogApp.Service.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta09\28-11-2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\BlogApp.Service.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta09\28-11-2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\BlogApp.Service.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta09\28-11-2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\BlogApp.Service.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta09\28-11-2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\refint\BlogApp.Service.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta09\28-11-2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\BlogApp.Service.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta09\28-11-2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\ref\BlogApp.Service.dll

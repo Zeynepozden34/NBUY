@@ -6,13 +6,11 @@ using KitabeviApp.Entity;
 
 namespace KitabeviApp.Data.EfCore.Abstract
 {
-    public interface IKitapRepository :IGenericRepository<Kitap>
+    public interface IKitapRepository : IGenericRepository<Kitap>
     {
-        // þU AN IGenericRepositoryden kitap için hazýrlanmýl crud metotlarý var
-        //Eðer class IkitapRepositoryden miras alýrsa tüm bu crud metotlarý oraya implenmente edilir.
-        // Buraya yazýlacak metotlar sadece(aþagýdaki gibi) sadece kitaap entitysine özgü metotlardýr.
-        List<Kitap> KategoriyeGöreKitapListesi();
-
-        
+        //Þu an burada IGenericRepository'den gelen Kitap için hazýrlnamýþ CRUD metotlar var.
+        //Eðer bir class IKitapRepository'den miras alýrsa, tüm bu CRUD metotlarý da oraya implemente edilir.
+        //Buraya ayrýca yazýlacak metotlar(aþaðýdaki gibi) sadece Kitap entitysine özgü metotlardýr.
+        List<Kitap> KategoriyeGoreKitapListesi(int id);
     }
 }

@@ -6,8 +6,8 @@ using KitabeviApp.Entity;
 
 namespace KitabeviApp.Data.EfCore.Abstract
 {
-    public interface IKategoriRepository :IGenericRepository<Kategori>
+    public interface IKategoriRepository : IGenericRepository<Kategori>
     {
-        
+
     }
 }

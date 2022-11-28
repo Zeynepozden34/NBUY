@@ -1,9 +1,8 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
 using KitabeviApp.Web.ViewModels;
 using KitabeviApp.Data.EfCore;
 using KitabeviApp.Entity;
+using Microsoft.EntityFrameworkCore;
 using KitabeviApp.Data.EfCore.Concrete;
 using KitabeviApp.Business.Concrete;
 
@@ -12,9 +11,7 @@ namespace KitabeviApp.Web.Controllers;
 public class HomeController : Controller
 {
     KitabeviContext context = new KitabeviContext();
-    EfCoreKategoriRepository kategoriRepository= new EfCoreKategoriRepository();  
-    EfCoreYazarRepository yazarRepository=new EfCoreYazarRepository();
-    EfCoreKitapRepository kitapRepository=new EfCoreKitapRepository();
+    EfCoreKategoriRepository kategoriRepository = new EfCoreKategoriRepository();
     public IActionResult Index()
     {
         List<Kitap> kitaplar = context
@@ -35,9 +32,9 @@ public class HomeController : Controller
         return View(kitapListViewModels);
     }
     #region KATEGORİ İŞLEMLERİ
-       public IActionResult KategoriListesi()
+    public IActionResult KategoriListesi()
     {
-        var kategoriManager=new KategoriManager();
+        var kategoriManager = new KategoriManager();
         var kategoriler = kategoriManager.KategoriListele();
         return View(kategoriler);
     }
@@ -48,41 +45,43 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult KategoriEkle(Kategori kategori)
     {
-        var kategoriManger=new KategoriManager();
-        kategoriManger.KategoriEkle(kategori);
+        var kategoriManager = new KategoriManager();
+        kategoriManager.KategoriEkle(kategori);
         return RedirectToAction("KategoriListesi");
     }
     public IActionResult KategoriGuncelle(int id)
     {
-        var KategoriManager = new KategoriManager();
-        Kategori kategori = KategoriManager.KategoriGetir(id);
+        var kategoriManager = new KategoriManager();
+        Kategori kategori = kategoriManager.KategoriGetir(id);
         return View(kategori);
     }
     [HttpPost]
     public IActionResult KategoriGuncelle(Kategori kategori)
     {
-        var KategoriManager = new KategoriManager();
-        KategoriManager.KategoriGuncelle(kategori);
+        var kategoriManager = new KategoriManager();
+        kategoriManager.KategoriGuncelle(kategori);
         return RedirectToAction("KategoriListesi");
     }
     public IActionResult KategoriSil(int id)
     {
-        var KategoriManager = new KategoriManager();
-        Kategori kategori = KategoriManager.KategoriSil(id);
+        var kategoriManager = new KategoriManager();
+        Kategori kategori = kategoriManager.KategoriGetir(id);
         return View(kategori);
     }
     [HttpPost]
     public IActionResult KategoriSil(Kategori kategori)
     {
-        var KategoriManager = new KategoriManager();
-        KategoriManager.KategoriSil(kategori);
+        var kategoriManager = new KategoriManager();
+        kategoriManager.KategoriSil(kategori);
         return RedirectToAction("KategoriListesi");
     }
+
     #endregion
     #region YAZAR İŞLEMLERİ
     public IActionResult YazarListesi()
     {
-        var yazarlar = yazarRepository.Listele(); 
+        var yazarRepository = new EfCoreYazarRepository();
+        var yazarlar = yazarRepository.Listele();
         return View(yazarlar);
     }
     public IActionResult YazarEkle()
@@ -92,7 +91,6 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult YazarEkle(YazarViewModel yazarViewModel)
     {
-
         if (ModelState.IsValid)
         {
             Yazar yazar = new Yazar()
@@ -101,33 +99,35 @@ public class HomeController : Controller
                 DogumYili = yazarViewModel.DogumYili,
                 Cinsiyet = yazarViewModel.Cinsiyet
             };
-            yazarRepository.Ekle(yazar);
+            context.Yazarlar.Add(yazar);
+            context.SaveChanges();
             return RedirectToAction("YazarListesi");
         }
         return View();
-
     }
     public IActionResult YazarGuncelle(int id)
     {
-
-        Yazar yazar = yazarRepository.Getir(id);
+        // Yazar yazar = context.Yazarlar.Where(k=>k.Id==id).FirstOrDefault();
+        Yazar yazar = context.Yazarlar.Find(id);
         return View(yazar);
     }
     [HttpPost]
     public IActionResult YazarGuncelle(Yazar yazar)
     {
-        yazarRepository.Guncelle(yazar);
+        context.Yazarlar.Update(yazar);
+        context.SaveChanges();
         return RedirectToAction("YazarListesi");
     }
     public IActionResult YazarSil(int id)
     {
-        Yazar yazar = yazarRepository.Sil(id);
+        Yazar yazar = context.Yazarlar.Find(id);
         return View(yazar);
     }
     [HttpPost]
     public IActionResult YazarSil(Yazar yazar)
     {
-        yazarRepository.Sil(yazar);
+        context.Yazarlar.Remove(yazar);
+        context.SaveChanges();
         return RedirectToAction("YazarListesi");
     }
 
@@ -135,7 +135,8 @@ public class HomeController : Controller
     //#region KİTAP İŞLEMLERİ
     //public IActionResult KitapListesi(int? id = null)
     //{
-    //    List<Kitap> kitaplar = kitapRepository.KitapListele();
+    //    var kitapRepository = new EfCoreKitapRepository();
+    //    List<Kitap> kitaplar = kitapRepository.KitapListesi(id);
     //    List<KitapListViewModel> kitapListViewModels = kitaplar
     //        .Select(k => new KitapListViewModel()
     //        {
@@ -164,10 +165,10 @@ public class HomeController : Controller
     //public IActionResult KitapGuncelle(int id)
     //{
     //    Kitap kitap = context.Kitaplar.Find(id);
-    //    KitapViewModel kitapModel = new KitapViewModel();
-    //    kitapModel.Kitap = kitap;
-    //    kitapModel.Yazarlar = context.Yazarlar.ToList();
-    //    kitapModel.Kategoriler = context.Kategoriler.ToList();
+    //    // KitapViewModel kitapModel = new KitapViewModel();
+    //    // kitapModel.Kitap=kitap;
+    //    // kitapModel.Yazarlar=context.Yazarlar.ToList();
+    //    // kitapModel.Kategoriler=context.Kategoriler.ToList();
     //    var liste = context.Yazarlar.Select(y => y.Ad).ToList();
     //    KitapViewModel kitapViewModel = new KitapViewModel()
     //    {
@@ -205,6 +206,7 @@ public class HomeController : Controller
     //        .Where(k => k.KategoriId == id)
     //        .Include(k => k.Kategori)
     //        .Include(k => k.Yazar)
+               
     //        .ToList();
 
     //    List<KitapListViewModel> kitapListViewModels = kitaplar
