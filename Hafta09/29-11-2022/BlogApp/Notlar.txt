@@ -1,0 +1,22 @@
+1- ÝLk önce Sahared-entity-abstract-Ientitybase oluþturduk.
+2- SHARED KLASÖRÜ TÜM ENTÝTLERÝMÝZ OLACAÐI BÝR KLASÖR, PAYLAÞMASI KOLAYLIK OLSUN DÝYE YAPTIK
+3- emtitites klasörüne concrete ekleyip entiylerimizi ekledik
+4- Shared-Data-concrete klasörüü oluþturup entityframework buraya eklendi.
+5- Tüm entitylerimiz de kullanmak için shared-data-abstract'a  ýentityrepository ýnterface ekledik.
+imzlarýmýz bunlar
+6- SENC SIRA BEKLEMEDEN ÝLERLER ASENC ÝSE ÝÞLEM BÝTMEDEN DÝÐERÝNE GEÇMEZ. ASENC YAPIDA(TASK<>) ÞWKLÝNDE YAZILIR
+7- shared-data-concrete-entityframewok-EfentityRepository de metotlarýý yazýyorum
+8- Data-abstract ve concrete oluþtueduk abstract klasöründe ýnterface repositorylerimizi oluþturduk. concrete klasörde EntityFramework klasör birde kütüphanemiz için bir klasör oluþturduk. oraya entity-framework cs'lrimizi oluþturduk.
+9- Data-concrete-efw-repository de gerekli klasörleri oluþturudk.
+10- Data-concrete-EFW konumuna contextS klasörü açýp BLOGAPPONTEXT CS'DE dbcontextÝMÝZÝ GETÝRDÝK. dbcontextimizi burada oluþturmaya baþladýk.
+11- Data-concrete-EFW konumuna Mapping kalsörü oluþturup Entity Yapýlandýrmamýzý bu klasörde yaparýz. MAPPLERÝMÝZ DATA-CONCRETE-EFW-CONTEXT KLASÖRÜNDEKÝ bLOGAPPcONTEXTE MAPLERÝMÝ METOTLA ÇAÐIRDIK.
+12-Data-concrete-etw-mAPPÝNGS Herbir mapimizde veri giriþimizi yaptýk.
+13-Data-abstract-UnitofWork inretfacesi oluþturduk ve concretine de metodunu yazdýk.
+14- Shared klasöründe Unitilies-Result-Abstract-Complex Types-concrete klasörlerini oluþturduk.
+15-Servixes-Abstract-concrete klasörü oluþturduk. abstract da imzalarýnýzý attýk.
+16- Entities da Dtos klasörü oluþturduk. Ýlk articleadddto oluþturduk.(notlar burada) 
+17- service-concrete- articlemanager classý oluþturuldu 
+hared-Unitilies-result-abstract da IDataResult tanýmladýk ve concrete de ekledik.  IDataResult yapmamýzýn nedeni resultdan miras alýp baþka birþey eklemek için oluþturduk.(Categorye 16-17 maddeyi yapýp aþaðýdan devam ettim.)
+18- Entities-dtos a CategoryDto OLuþturduk. ama tek tek yazmamak için bunu shared-entities-abstracta DtoGetBase classý oluþturduk. tek bir þeyi geri döndürmek için kullanýdýk.
+19-Entities-dtos a CategoryListDto classýný oluþturduj burada tek bir tane deðil birden fazlayý liste halinde döndürmek için oluþturduk.
+20- Service-concret-CategoryMangrera dönüp yeniden implemente ettik. ve metotlarý yazdýk (article geri dönüp kalan iþlemleri tamamladýk)
