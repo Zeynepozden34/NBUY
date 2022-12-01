@@ -19,7 +19,7 @@ namespace BlogApp.Data.Concrete.EntityFramework.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-OFVK2FD\SQLEXPRESS;Database=BlogAppDb;Integrated Security=true;TrustServerCertificate=true");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-OFVK2FD;Database=BlogAppDb;Integrated Security=true;TrustServerCertificate=true");
             #region TrustedServerSertificate
             //EntityFrameworkCore 7 ile SqlServer veri tabanına bağlantı ile ilgili önemli bir değişiklik olmuştur. Bu da güvenlik amacıyla doğrulanmış sertifika gereksinimidir. Bunu ifade eden TrustServerCertificate özelliği, böyle bir sertifika yoksa True'ya çekilmelidir, çünkü default olarak False'dur. False iken maalesef veri tabanına bağlansa bile kullanıma izin vermez.
             #endregion

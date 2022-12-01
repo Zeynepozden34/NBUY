@@ -18,8 +18,8 @@ namespace BlogApp.Services.Abstract
         Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAndActive();
         Task<IDataResult<ArticleListDto>> GetAllByCategory(int categoryId);
 
-        Task<IResult> Add(ArticleAddDto articleAddDto, string createdByName);
-        Task<IResult> Update(ArticleUpdateDto articleUpdateDto, string modifiedByName);
+        Task<IDataResult<ArticleDto>> Add(ArticleAddDto articleAddDto, string createdByName);
+        Task<IDataResult<ArticleDto>> Update(ArticleUpdateDto articleUpdateDto, string modifiedByName);
         Task<IResult> Delete(int articleId, string modifiedByName);
         Task<IResult> HardDelete(int articleId);
     }

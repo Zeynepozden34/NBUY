@@ -1,4 +1,5 @@
-﻿using BlogApp.Services.Abstract;
+﻿using BlogApp.Entities.Dtos;
+using BlogApp.Services.Abstract;
 using BlogApp.Shared.Utilities.Result.ComplexTypes;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,6 +23,16 @@ namespace BlogApp.Mvc.Areas.Admin.Controllers
                 return View(result.Data);
             }
             return View();
+        }
+        public  IActionResult Add()
+        {
+            return PartialView("_CategoryAddPartial");
+        }
+        [HttpPost]
+        public async Task<IActionResult> Add(CategoryAddDto categoryAddDto)
+        {
+
+            return Redirect("/Admin");
         }
     }
 }

@@ -102,34 +102,42 @@ namespace BlogApp.Services.Concrete
             return new DataResult<ArticleListDto>(ResultStatus.Error, "Hiç makale bulunamadı.", null);
         }
 
-        public async Task<IResult> Add(ArticleAddDto articleAddDto, string createdByName)
+        public async Task<IDataResult<ArticleDto>> Add(ArticleAddDto articleAddDto, string createdByName)
         {
             var article = _mapper.Map<Article>(articleAddDto);
             article.CreatedByName= createdByName;
             article.ModifiedByName= createdByName;
-            article.UserId = 1; 
+            article.UserId = 1;
             #region Açıklamalar
             //UserId'yi şimdilik elle veriyoruz, login işlemlerini tamamladığımızda burayı değiştiriyor olacağız.
             //Eğer entity base içerisinde CreatedDate için default değer vermemiş olsaydık, böyle yapabilirdik. Bunun ikinci bir yolu da, profile içinden bu değeri vermektir.
             //article.CreatedDate= DateTime.Now;
             #endregion
-            await _unitOfWork.Articles.AddAsync(article)
-                .ContinueWith(t => _unitOfWork.SaveAsync());
-            return new Result(ResultStatus.Success, $"{articleAddDto.Title} başlıklı makale başarıyla eklenmiştir.");
+            var addedArticle = await _unitOfWork.Articles.AddAsync(article);
+               await _unitOfWork.SaveAsync();
+            return new DataResult<ArticleDto>(ResultStatus.Success, $"{articleAddDto.Title} başlıklı makale başarıyla eklenmiştir.", new ArticleDto
+            {
+                Article=addedArticle,
+                ResultStatus=ResultStatus.Success,
+                Message=$"{articleAddDto.Title} adlı makale başarıyla eklenmiştir."
+
+            });
         }
 
-        public async Task<IResult> Update(ArticleUpdateDto articleUpdateDto, string modifiedByName)
+        public async Task<IDataResult<ArticleDto>> Update(ArticleUpdateDto articleUpdateDto, string modifiedByName)
         {
-            var result = await _unitOfWork.Articles.GetAsync(a=>a.Id==articleUpdateDto.Id);
-            if (result!=null)
-            {
+           
                 var article = _mapper.Map<Article>(articleUpdateDto);
                 article.ModifiedByName= modifiedByName; 
-                await _unitOfWork.Articles.UpdateAsync(article)
-                    .ContinueWith(t => _unitOfWork.SaveAsync());
-                return new Result(ResultStatus.Success, $"{articleUpdateDto.Title} başlıklı kategori başarıyla güncellenmiştir.");
-            }
-            return new Result(ResultStatus.Error, "Böyle bir makale bulunamadı");
+               var updateArticle= await _unitOfWork.Articles.UpdateAsync(article);
+                    await _unitOfWork.SaveAsync();
+                return new DataResult<ArticleDto>(ResultStatus.Success, $"{articleUpdateDto.Title} başlıklı kategori başarıyla güncellenmiştir.", new ArticleDto
+                {
+                    Article=updateArticle,
+                    ResultStatus=ResultStatus.Success,
+                    Message = $"{articleUpdateDto.Title} adlı makale başarıyla eklenmiştir."
+                });
+        
         }
 
         public async Task<IResult> Delete(int articleId, string modifiedByName)

@@ -12,5 +12,6 @@ namespace BlogApp.Entities.Dtos
     public class CategoryDto : DtoGetBase
     {
         public Category Category { get; set; }
+        public string Message { get; set; }
     }
 }
