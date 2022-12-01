@@ -1,10 +1,11 @@
-1- Ä°Lk Ã¶nce Sahared-entity-abstract-Ientitybase oluÅŸturduk.
-2- SHARED KLASÃ–RÃœ TÃœM ENTÄ°TLERÄ°MÄ°Z OLACAÄI BÄ°R KLASÃ–R, PAYLAÅMASI KOLAYLIK OLSUN DÄ°YE YAPTIK
-3- emtitites klasÃ¶rÃ¼ne concrete ekleyip entiylerimizi ekledik
-4- Shared-Data-concrete klasÃ¶rÃ¼Ã¼ oluÅŸturup entityframework buraya eklendi.
-5- TÃ¼m entitylerimiz de kullanmak iÃ§in shared-data-abstract'a  Ä±entityrepository Ä±nterface ekledik.
-imzlarÄ±mÄ±z bunlar
-6- SENC SIRA BEKLEMEDEN Ä°LERLER ASENC Ä°SE Ä°ÅLEM BÄ°TMEDEN DÄ°ÄERÄ°NE GEÃ‡MEZ. ASENC YAPIDA(TASK<>) ÅWKLÄ°NDE YAZILIR
-7- shared-data-concrete-entityframewok-EfentityRepository de metotlarÄ±Ä± yazÄ±yorum
-8- Data-abstract ve concrete oluÅŸtueduk abstract klasÃ¶rÃ¼nde Ä±nterface repositorylerimizi oluÅŸturduk. concrete klasÃ¶rde EntityFramework klasÃ¶r birde kÃ¼tÃ¼phanemiz iÃ§in bir klasÃ¶r oluÅŸturduk. oraya entity-framework cs'lrimizi oluÅŸturduk.
-9- Data-concrete-efw-repository de gerekli klasÃ¶rleri oluÅŸturudk.
+********************************25-11-2022***********************************
+1- İLk önce Sahared-entity-abstract-Ientitybase oluşturduk.
+2- SHARED KLASÖRÜ TÜM ENTİTLERİMİZ OLACAĞI BİR KLASÖR, PAYLAŞMASI KOLAYLIK OLSUN DİYE YAPTIK
+3- emtitites klasörüne concrete ekleyip entiylerimizi ekledik
+4- Shared-Data-concrete klasörüü oluşturup entityframework buraya eklendi.
+5- Tüm entitylerimiz de kullanmak için shared-data-abstract'a  ıentityrepository ınterface ekledik.
+imzlarımız bunlar
+6- SENC SIRA BEKLEMEDEN İLERLER ASENC İSE İŞLEM BİTMEDEN DİĞERİNE GEÇMEZ. ASENC YAPIDA(TASK<>) ŞWKLİNDE YAZILIR
+7- shared-data-concrete-entityframewok-EfentityRepository de metotlarıı yazıyorum
+8- Data-abstract ve concrete oluştueduk abstract klasöründe ınterface repositorylerimizi oluşturduk. concrete klasörde EntityFramework klasör birde kütüphanemiz için bir klasör oluşturduk. oraya entity-framework cs'lrimizi oluşturduk.
+9- Data-concrete-efw-repository de gerekli klasörleri oluşturudk.

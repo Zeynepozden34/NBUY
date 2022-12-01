@@ -7,19 +7,23 @@ imzlarýmýz bunlar
 6- SENC SIRA BEKLEMEDEN ÝLERLER ASENC ÝSE ÝÞLEM BÝTMEDEN DÝÐERÝNE GEÇMEZ. ASENC YAPIDA(TASK<>) ÞWKLÝNDE YAZILIR
 7- shared-data-concrete-entityframewok-EfentityRepository de metotlarýý yazýyorum
 8- Data-abstract ve concrete oluþtueduk abstract klasöründe ýnterface repositorylerimizi oluþturduk. concrete klasörde EntityFramework klasör birde kütüphanemiz için bir klasör oluþturduk. oraya entity-framework cs'lrimizi oluþturduk.
-9- Data-concrete-efw-repository de gerekli klasörleri oluþturudk.
-10- Data-concrete-EFW konumuna contextS klasörü açýp BLOGAPPONTEXT CS'DE dbcontextÝMÝZÝ GETÝRDÝK. dbcontextimizi burada oluþturmaya baþladýk.
-11- Data-concrete-EFW konumuna Mapping kalsörü oluþturup Entity Yapýlandýrmamýzý bu klasörde yaparýz. MAPPLERÝMÝZ DATA-CONCRETE-EFW-CONTEXT KLASÖRÜNDEKÝ bLOGAPPcONTEXTE MAPLERÝMÝ METOTLA ÇAÐIRDIK.
-12-Data-concrete-etw-mAPPÝNGS Herbir mapimizde veri giriþimizi yaptýk.
-13-Data-abstract-UnitofWork inretfacesi oluþturduk ve concretine de metodunu yazdýk.
-14- Shared klasöründe Unitilies-Result-Abstract-Complex Types-concrete klasörlerini oluþturduk.
-15-Servixes-Abstract-concrete klasörü oluþturduk. abstract da imzalarýnýzý attýk.
-16- Entities da Dtos klasörü oluþturduk. Ýlk articleadddto oluþturduk.(notlar burada) 
-17- service-concrete- articlemanager classý oluþturuldu 
-hared-Unitilies-result-abstract da IDataResult tanýmladýk ve concrete de ekledik.  IDataResult yapmamýzýn nedeni resultdan miras alýp baþka birþey eklemek için oluþturduk.(Categorye 16-17 maddeyi yapýp aþaðýdan devam ettim.)
-18- Entities-dtos a CategoryDto OLuþturduk. ama tek tek yazmamak için bunu shared-entities-abstracta DtoGetBase classý oluþturduk. tek bir þeyi geri döndürmek için kullanýdýk.
-19-Entities-dtos a CategoryListDto classýný oluþturduj burada tek bir tane deðil birden fazlayý liste halinde döndürmek için oluþturduk.
-20- Service-concret-CategoryMangrera dönüp yeniden implemente ettik. ve metotlarý yazdýk (article geri dönüp kalan iþlemleri tamamladýk)
+************************28-11-2022*******************************************************
+1- Data-concrete-EFW konumuna contextS klasörü açýp BLOGAPPONTEXT CS'DE dbcontextÝMÝZÝ GETÝRDÝK. dbcontextimizi burada oluþturmaya baþladýk.
+2- Data-concrete-EFW konumuna Mapping kalsörü oluþturup Entity Yapýlandýrmamýzý bu klasörde yaparýz. MAPPLERÝMÝZ DATA-CONCRETE-EFW-CONTEXT KLASÖRÜNDEKÝ bLOGAPPcONTEXTE MAPLERÝMÝ METOTLA ÇAÐIRDIK.
+3--Data-concrete-etw-mAPPÝNGS Herbir mapimizde veri giriþimizi yaptýk.
+
+***************************29-11-2022******************************
+1-Data-abstract-UnitofWork inretfacesi olu turduk ve concretine de metodunu yazd k.
+2- Shared klas r nde Unitilies-Result-Abstract-Complex Types-concrete klas rlerini olu turduk.
+3-Servixes-Abstract-concrete klas r  olu turduk. abstract da imzalar n z  att k.
+4- Entities da Dtos klas r  olu turduk.  lk articleadddto olu turduk.(notlar burada) 
+5- service-concrete- articlemanager class  olu turuldu 
+hared-Unitilies-result-abstract da IDataResult tan mlad k ve concrete de ekledik.  IDataResult yapmam z n nedeni resultdan miras al p ba ka bir ey eklemek i in olu turduk.(Categorye 16-17 maddeyi yap p a a  dan devam ettim.)
+6- Entities-dtos a CategoryDto OLu turduk. ama tek tek yazmamak i in bunu shared-entities-abstracta DtoGetBase class  olu turduk. tek bir  eyi geri d nd rmek i in kullan d k.
+7-Entities-dtos a CategoryListDto class n  olu turduj burada tek bir tane de il birden fazlay  liste halinde d nd rmek i in olu turduk.
+8- Service-concret-CategoryMangrera d n p yeniden implemente ettik. ve metotlar  yazd k (article geri d n p kalan i lemleri tamamlad k)
+
+****************************30-11-2022**************************************
 21- SERVÝCES KATMANINA AUTOMapper-profiles oluþturduk. bu bizim service-concrete-managerlerimizi uzun yazmaktansa otomatik getirecez.
 22-servize-automapper-profiles dosysýnda eþleþtirmemizi yaptýk
 23- service-concrete-managerlerimizi articleprofilsdeki metotu bu dosyada çaðýrdýk.

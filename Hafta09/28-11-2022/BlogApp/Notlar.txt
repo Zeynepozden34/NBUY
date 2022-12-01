@@ -8,6 +8,8 @@ imzlarýmýz bunlar
 7- shared-data-concrete-entityframewok-EfentityRepository de metotlarýý yazýyorum
 8- Data-abstract ve concrete oluþtueduk abstract klasöründe ýnterface repositorylerimizi oluþturduk. concrete klasörde EntityFramework klasör birde kütüphanemiz için bir klasör oluþturduk. oraya entity-framework cs'lrimizi oluþturduk.
 9- Data-concrete-efw-repository de gerekli klasörleri oluþturudk.
-10- Data-concrete-EFW konumuna contextS klasörü açýp BLOGAPPONTEXT CS'DE dbcontextÝMÝZÝ GETÝRDÝK. dbcontextimizi burada oluþturmaya baþladýk.
-11- Data-concrete-EFW konumuna Mapping kalsörü oluþturup Entity Yapýlandýrmamýzý bu klasörde yaparýz. MAPPLERÝMÝZ DATA-CONCRETE-EFW-CONTEXT KLASÖRÜNDEKÝ bLOGAPPcONTEXTE MAPLERÝMÝ METOTLA ÇAÐIRDIK.
-12-Data-concrete-etw-mAPPÝNGS Herbir mapimizde veri giriþimizi yaptýk.
+
+************************28-11-2022*******************************************************
+1- Data-concrete-EFW konumuna contextS klasörü açýp BLOGAPPONTEXT CS'DE dbcontextÝMÝZÝ GETÝRDÝK. dbcontextimizi burada oluþturmaya baþladýk.
+2- Data-concrete-EFW konumuna Mapping kalsörü oluþturup Entity Yapýlandýrmamýzý bu klasörde yaparýz. MAPPLERÝMÝZ DATA-CONCRETE-EFW-CONTEXT KLASÖRÜNDEKÝ bLOGAPPcONTEXTE MAPLERÝMÝ METOTLA ÇAÐIRDIK.
+3--Data-concrete-etw-mAPPÝNGS Herbir mapimizde veri giriþimizi yaptýk.

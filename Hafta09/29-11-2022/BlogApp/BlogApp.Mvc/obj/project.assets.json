@@ -8,19 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SABAH\\.nuget\\packages\\": {}
+    "C:\\Users\\Casper\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta09\\29-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
+      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta09\\29-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
       "projectName": "BlogApp.Mvc",
-      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta09\\29-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
-      "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta09\\29-11-2022\\BlogApp\\BlogApp.Mvc\\obj\\",
+      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta09\\29-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
+      "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta09\\29-11-2022\\BlogApp\\BlogApp.Mvc\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
