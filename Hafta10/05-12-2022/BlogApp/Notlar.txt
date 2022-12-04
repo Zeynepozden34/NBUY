@@ -1,0 +1,59 @@
+1- ÝLk önce Sahared-entity-abstract-Ientitybase oluþturduk.
+2- SHARED KLASÖRÜ TÜM ENTÝTLERÝMÝZ OLACAÐI BÝR KLASÖR, PAYLAÞMASI KOLAYLIK OLSUN DÝYE YAPTIK
+3- emtitites klasörüne concrete ekleyip entiylerimizi ekledik
+4- Shared-Data-concrete klasörüü oluþturup entityframework buraya eklendi.
+5- Tüm entitylerimiz de kullanmak için shared-data-abstract'a  ýentityrepository ýnterface ekledik.
+imzlarýmýz bunlar
+6- SENC SIRA BEKLEMEDEN ÝLERLER ASENC ÝSE ÝÞLEM BÝTMEDEN DÝÐERÝNE GEÇMEZ. ASENC YAPIDA(TASK<>) ÞWKLÝNDE YAZILIR
+7- shared-data-concrete-entityframewok-EfentityRepository de metotlarýý yazýyorum
+8- Data-abstract ve concrete oluþtueduk abstract klasöründe ýnterface repositorylerimizi oluþturduk. concrete klasörde EntityFramework klasör birde kütüphanemiz için bir klasör oluþturduk. oraya entity-framework cs'lrimizi oluþturduk.
+
+***************************29-11-2022******************************
+1-Data-abstract-UnitofWork inretfacesi olu turduk ve concretine de metodunu yazd k.
+2- Shared klas r nde Unitilies-Result-Abstract-Complex Types-concrete klas rlerini olu turduk.
+3-Servixes-Abstract-concrete klas r  olu turduk. abstract da imzalar n z  att k.
+4- Entities da Dtos klas r  olu turduk.  lk articleadddto olu turduk.(notlar burada) 
+5- service-concrete- articlemanager class  olu turuldu 
+hared-Unitilies-result-abstract da IDataResult tan mlad k ve concrete de ekledik.  IDataResult yapmam z n nedeni resultdan miras al p ba ka bir ey eklemek i in olu turduk.(Categorye 16-17 maddeyi yap p a a  dan devam ettim.)
+6- Entities-dtos a CategoryDto OLu turduk. ama tek tek yazmamak i in bunu shared-entities-abstracta DtoGetBase class  olu turduk. tek bir  eyi geri d nd rmek i in kullan d k.
+7-Entities-dtos a CategoryListDto class n  olu turduj burada tek bir tane de il birden fazlay  liste halinde d nd rmek i in olu turduk.
+8- Service-concret-CategoryMangrera d n p yeniden implemente ettik. ve metotlar  yazd k (article geri d n p kalan i lemleri tamamlad k)
+
+****************************30-11-2022-AUTOMAPPER**************************************
+1- SERVÝCES KATMANINA AUTOMapper-profiles oluþturduk. bu bizim service-concrete-managerlerimizi uzun yazmaktansa otomatik getirecez.
+2-servize-automapper-profiles dosysýnda eþleþtirmemizi yaptýk
+3- service-concrete-managerlerimizi articleprofilsdeki metotu bu dosyada çaðýrdýk.
+4- SERVÝCE EXTENSÝONS EKLEDÝK(EKLEMTÝLER) MVC DE PROGRAM CS DE TEK TEK YAZMAK YERÝNE BURADA YAZIP PROGRAM CS DE ÇAÐORODK.
+5- MVC-program cs de  builder.Services.LoadByServices(); SERVÝSLERÝ ÇAÐIRDIK TEK TEK YAZMAMK ÇÝN.
+6- MVC-PROGRAM CS ELSE EKLEDÝK DEVELOPMENT OLMAZSAK NE YAPMAMIZ GEREKTÝÐÝNÝ YAZDIK.
+7- MVC DE SÝLMEMZ GEREKEN DOSYALARI SÝLDÝK.
+8-MVC-HOME-ÝNDEX DE DÜZENLEME YAPTIK
+9-MVC-AREAS-ADMÝN KLASÖRLERÝNÝ OLUÞTURDUK.
+10-MVC DE CONTROLLER MODEL VE VÝEW KLASÖRLERÝNÝ KOPYALAYIP MVC-AREAS-ADMÝNE YAPIÞTIRDIK.
+11-mvc-programcs de areann homecontrollunü ekledik.
+
+*************************30-11-2022-MVC*************************
+1- Startboostrap temamýzý mvc-wwroot a yerleþtirdik.
+2- Temamýzda layottu dosyamýza yapýþtýrýp temayý deðiþtirdik ve kestikgerekli yerleri -mvc-area-admin view de sharedda layout dosyalarýný oluþturdum   farklý layotlarýn içinde yapýþtrdýk
+3- Admin-conteoller categorycontrooler oluþtutuldu.
+4- category vontrol indeximin viewini ekledik.ve temamýzdan tablesý kopyalayýp buraya yapýþtýrdýk. düzenlemeleri yaptýk.
+
+****************01-12-2022***********************
+1-googledan Datatables sayfasýndan https://datatables.net/plug-ins/i18n/Turkish.html bu linke bakabilirsin sayfamýzý türkçe yaptýk. bu uygulamalarý mvc-admin-view-category-indexte yaptýk. button da ekledik. burada blog yaparken ekle ve yenile butonlarý ekledik týklayýnca da verileri geri döndürmesini istiyoruz artýk o yüzden aþaðýdaki 2 numaralý deðiþkilpði yaptýk.
+2-Service-abstractda categoryde add ve updatelerimizi IDataresult yaptýk bu nedenle shared-data-abstract da add ve update metotuözdde Task<T> düzenledik ve concrete de wfentityRepositorydebase de ayný iþlemi yaptýk. ve son olarak categorymanagermýzda add ve update metodumuzu yeniledik. articleda bunlarý uyguladýk.
+3- area-view de categoryaddpartial oluþturudk.ve bootstrap yardýmýyla modal tasarýmýný aldýk ve kategori ekleme form oluþturmak için gerekli düzenlemerli yapýtk.
+4-mvc-area-categorycontroller add metodunu ekledik
+
+********************02-12-2022************************
+1- shareda extenson klasörü içinede contrllerextensions classýný oluþturduk bu classa googleden https://www.surinderbhomra.com/Blog/2018/09/02/ASPNET-Core-Render-Partial-View-To-String-Outside-Controller-Context blunan kodlarý aldýk.
+2- Admin model klasörümüze CategoryAddAjaxViewModel claasýný oluþturduk.
+3-admin categorycontroller add metodunu düeltittik.
+4-Admin-view-categoryaddpartiallda düzenleme yaptýk 
+5- ($) jquery kullanmak çin kullanýlýr. javascript kullanýyoruz ama json sayesinde araþtýr 
+6-seriliza araþtýr.
+7- admin-area-view-category-index Ajax ile post iþlemlerini yaptýk.
+8- her hatayla karþýlaþtýpýnda js kodu se cnsole log yazarak hatayý bulmaya çalýþ.
+9-https://github.com/CodeSeven/toastr linkinde uygulamamýzýn sað-üst tarafýnda uyarýkarýmzý vermek için CDN-MÝNÝFÝED kýsmýnda yer ala linkleri gerekli yerelere yapýþtýrdýk-admin-shared-csspartial ve jspartial'a yapýþtýrfýk.
+10- Yeni kayýt yaptýðýmýzda veride küçük büyük harfler yanlýþ tarýh uzun geliyor onu düzelymek için wwwroot dosyamýzda js klasorümüze sað týklayýp js dosyasýný seçersek iki ayrý js dodyasý gelie site.js dosyasýnsa kodlarýzý yazarýzz. ve jspartial dosyamýza site.js imizin linkini ekledik.
+
+*************************05-12-2022*************************************
