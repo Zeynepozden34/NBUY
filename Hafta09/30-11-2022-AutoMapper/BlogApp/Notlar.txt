@@ -23,7 +23,7 @@ hared-Unitilies-result-abstract da IDataResult tan mlad k ve concrete de ekledik
 7-Entities-dtos a CategoryListDto class n  olu turduj burada tek bir tane de il birden fazlay  liste halinde d nd rmek i in olu turduk.
 8- Service-concret-CategoryMangrera d n p yeniden implemente ettik. ve metotlar  yazd k (article geri d n p kalan i lemleri tamamlad k)
 
-****************************30-11-2022**************************************
+****************************30-11-2022-AutoMapper**************************************
 21- SERVÝCES KATMANINA AUTOMapper-profiles oluþturduk. bu bizim service-concrete-managerlerimizi uzun yazmaktansa otomatik getirecez.
 22-servize-automapper-profiles dosysýnda eþleþtirmemizi yaptýk
 23- service-concrete-managerlerimizi articleprofilsdeki metotu bu dosyada çaðýrdýk.

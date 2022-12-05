@@ -23,5 +23,5 @@ namespace BlogApp.Shared.Entities.Abstract
 
 // ınterface implemnete edilmek zorundadır bu nedenle class kullandık istenilenleri tek kullanabilmek için.
 // DateTime.Now sistemin tarihini atar.
-// virtual override şeklinde başka yerde kullanmak için yazdık.
+// virtual'ı override şeklinde başka yerde kullanmak için yazdık.
 // bool default değeri false

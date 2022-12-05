@@ -19,7 +19,7 @@ imzlar�m�z bunlar
 3-Servixes-Abstract-concrete klas�r� olu�turduk. abstract da imzalar�n�z� att�k.
 4- Entities da Dtos klas�r� olu�turduk. �lk articleadddto olu�turduk.(notlar burada) 
 5- service-concrete- articlemanager class� olu�turuldu 
-hared-Unitilies-result-abstract da IDataResult tan�mlad�k ve concrete de ekledik.  IDataResult yapmam�z�n nedeni resultdan miras al�p ba�ka bir�ey eklemek i�in olu�turduk.(Categorye 16-17 maddeyi yap�p a�a��dan devam ettim.)
+shared-Unitilies-result-abstract da IDataResult tan�mlad�k ve concrete de ekledik.  IDataResult yapmam�z�n nedeni resultdan miras al�p ba�ka bir�ey eklemek i�in olu�turduk.(Categorye 4-5 maddeyi yap�p a�a��dan devam ettim.)
 6- Entities-dtos a CategoryDto OLu�turduk. ama tek tek yazmamak i�in bunu shared-entities-abstracta DtoGetBase class� olu�turduk. tek bir �eyi geri d�nd�rmek i�in kullan�d�k.
 7-Entities-dtos a CategoryListDto class�n� olu�turduj burada tek bir tane de�il birden fazlay� liste halinde d�nd�rmek i�in olu�turduk.
 8- Service-concret-CategoryMangrera d�n�p yeniden implemente ettik. ve metotlar� yazd�k (article geri d�n�p kalan i�lemleri tamamlad�k)
