@@ -56,4 +56,11 @@ hared-Unitilies-result-abstract da IDataResult tan mlad k ve concrete de ekledik
 9-https://github.com/CodeSeven/toastr linkinde uygulamamýzýn sað-üst tarafýnda uyarýkarýmzý vermek için CDN-MÝNÝFÝED kýsmýnda yer ala linkleri gerekli yerelere yapýþtýrdýk-admin-shared-csspartial ve jspartial'a yapýþtýrfýk.
 10- Yeni kayýt yaptýðýmýzda veride küçük büyük harfler yanlýþ tarýh uzun geliyor onu düzelymek için wwwroot dosyamýzda js klasorümüze sað týklayýp js dosyasýný seçersek iki ayrý js dodyasý gelie site.js dosyasýnsa kodlarýzý yazarýzz. ve jspartial dosyamýza site.js imizin linkini ekledik.
 
-*************************05-12-2022*************************************
+***************************05-12-2022*************************************
+1- Yenile butonu üzerinden çalýþýyoruz.
+2- area-admin de category controllere getallcategories metotdu oluþturduk.
+3- admin-Category-indexte yenile butonunda gerekli kodlarý yazdýk. spinnerde ekledik.
+4- Silme iþlemlerine baþladýk.
+5- category -indexte silme ve düzeltme butonunu ekledik. 
+6- https://sweetalert2.github.io/ silme için kodlarý aldýk.
+7- category controller delete ekledik

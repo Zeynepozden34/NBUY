@@ -62,6 +62,11 @@ namespace BlogApp.Entities.Dtos
         public int CategoryId { get; set; }
         public Category Category { get; set; }
 
+        [DisplayName("Yazar")]
+        [Required(ErrorMessage = "{0} alanı boş geçilmemelidir.")]
+        public int UserId{ get; set; }
+        public User User { get; set; }
+
 
         [DisplayName("Aktif mi?")]
         [Required(ErrorMessage = "{0} alanı boş geçilmemelidir.")]

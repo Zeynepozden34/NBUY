@@ -6,6 +6,7 @@ using BlogApp.Shared.Utilities.Result.ComplexTypes;
 using BlogApp.Shared.Utilities.Result.Concrete;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace BlogApp.Mvc.Areas.Admin.Controllers
 {
@@ -21,7 +22,7 @@ namespace BlogApp.Mvc.Areas.Admin.Controllers
         
         public async Task<IActionResult> Index()
         {
-            var result = await _categoryService.GetAll();
+            var result = await _categoryService.GetAllByNonDeleted();
             if (result.ResultStatus==ResultStatus.Success)
             {
                 return View(result.Data);
@@ -37,7 +38,7 @@ namespace BlogApp.Mvc.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await _categoryService.Add(categoryAddDto,"Engin Niyazi");
+                var result = await _categoryService.Add(categoryAddDto,"Zeynep Özden");
                 if (result.ResultStatus==ResultStatus.Success)
                 {
                     var categoryAddAjaxModel = JsonSerializer.Serialize(new CategoryAddAjaxViewModel
@@ -53,6 +54,24 @@ namespace BlogApp.Mvc.Areas.Admin.Controllers
                 CategoryAddPartial = await this.RenderViewToStringAsync("_CategoryAddPartial", categoryAddDto)
             });
             return Json(categoryAddAjaxErrorModel);
+        }
+        public async Task<JsonResult> GetAllCategories()  // yenile butonuna basınca çalışıyor.
+        {
+            var result = await _categoryService.GetAllByNonDeleted(); //Categoryservice bağlandık.
+            var resultJson= JsonSerializer.Serialize(result.Data, new JsonSerializerOptions //json'a dönüştürülmüş halini tutacak.(result.Data) ve JsonSeriliazrobject nesnesi yarattık
+            {
+                ReferenceHandler=ReferenceHandler.Preserve
+            });
+            return Json(resultJson);
+
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(int categoryId)
+        {
+            var result = await _categoryService.Delete(categoryId, "Zeynep Özden");
+            
+            var resultJson = JsonSerializer.Serialize(result);
+            return Json(resultJson);
         }
     }
 }
