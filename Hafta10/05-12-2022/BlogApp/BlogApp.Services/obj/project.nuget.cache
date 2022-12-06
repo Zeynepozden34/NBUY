@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CeJYvDBDEQGhA+VA1pJHH/61e6fnh3KGJ5aSwQqG944vWAbGNqpTIpTWV+S0c28hT8cZhMl0/ERzT58h8/HRsQ==",
+  "dgSpecHash": "pMRZo77NH0ZNJLni2xU6AHAyEMFpNC9OipuiWGiYyoydKYvdiyOq01TZeXFjfP4h1ecLQJgjyfGhIvqXsbzxYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\05-12-2022\\BlogApp\\BlogApp.Services\\BlogApp.Services.csproj",
+  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\05-12-2022\\BlogApp\\BlogApp.Services\\BlogApp.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

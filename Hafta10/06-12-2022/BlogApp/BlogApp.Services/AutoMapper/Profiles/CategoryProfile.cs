@@ -19,6 +19,8 @@ namespace BlogApp.Services.AutoMapper.Profiles
             CreateMap<CategoryUpdateDto, Category>().
                 ForMember(destination => destination.ModifiedDate, option => option.MapFrom(x => DateTime.Now));
 
+            CreateMap<Category, CategoryUpdateDto>();
+                
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IVKq6YJ4FQPVP5cRgWNKp1jL/b1+POat4cLPi8/HlCkOooNJB/LupFB3XEBqJ0Dle9dAtqgdXTxgSpZQWlxovw==",
+  "dgSpecHash": "VRIPrZaBbBWbFIJfwqjul90soKcEZ1htBZ9NoXx/VvikkFc5JUX29I2sw/GYQcfYXpExPgpEgFX9pbGmj6AiHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\05-12-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
+  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\05-12-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

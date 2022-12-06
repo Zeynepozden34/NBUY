@@ -66,3 +66,15 @@ hared-Unitilies-result-abstract da IDataResult tan mlad k ve concrete de ekledik
 7- category controller delete ekledik
 
 *****************************06-12-2022***********************
+1- Admin -categoy-indexte script içindeki kodlarý yani js kodalrýmýzý wwwroot-js de categoryIndex js doyayý oluþturup yapýþtýrdýk.
+2- normalde js kodlarýmý cshtml'e uygun þekilde yazdýk ama bunu js dosyasýna aldýpmýzda hata almamak için düzeltmeler yaptýk. @ iþaret olan yerleri deðiþtirdik.
+3- Admin -categoy-indexte scriptimizse categoryIndex js dosyamýzýn yolunu yazdýk.
+4- Update düzenle butonu için 
+Service-abstract ICategoryService GetCategoryUpdateDto metodun imzasýný atýp concrete de düzenledik. 
+6- Service-automappaer-categoryprofile categoryUpdate metodunu yazdýk.
+5- admin categorycontrollerde update metotu yaptýk düzenleme butonu için.
+6- admin view de categoryupdatepartial oluþturduk.
+7- admin model de categorajaxcmodelupdate oluþturudk.
+8- admin categorycontroller post update hazýrlaýk. ama update yaparken sýkýntý yaaþadýðýmýz için managerýn update metodunu düzenledik.
+9- category-index, categoryaddpartial ve update partieldan note ve is deleted td lerini kaldýrrýp data-id lerimizi verdik.
+10- categoryIndex js dosyasýnda update metorlarýna devam ediyoruz.
