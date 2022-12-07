@@ -1,0 +1,21 @@
+********************07-12-2022*************************
+1- Referanslarýmý verdik. web-business, business-data, data-entity (dependencies references diyerek verdik.)
+2- Entity-abstract ve concrete klasörlerini luþturup entitylerimzi yazdýk. IEntityBase interfaace ve Product Category ProductCategory classlarýný oluþturup IENtityBae interfaceden miras aldýrdýk.
+3- Data da abstraxct concrete config klasörü ve concrete-efcore ve efcore-context ve repository oluþturduk daha sonra Microsoft.EntityFrameworkCore.Sqlite ve Microsoft.EntityFrameworkCore.Design paketini data katmanýmýza ekledik.
+4- Data-efcore-context'e ShopAppContext clasý oluþturduk. ve DbContexten mmiras aldk.
+5-  ShopAppContext classýna kodalrý yaazdýk.
+6- Config de classlarýmýzý oluþturduk. (Map benzeri)
+7- Configarionslarýmýzý shopappcontextde çaðýrdýrk.
+8- Web de migrations oluþturduk. ancak Microsoft.EntityFrameworkCore.Sqlite ve Microsoft.EntityFrameworkCore.Design paketini paketlerini de web e de ekledik.
+9- data-abstract Irepository oluþturduk.
+10- data-concretede-repositort efcoregenericrepositort classýmýzý oluþturduk ve daha sonra luþturacaðýmýz repositortleri genericten miras alacaz.
+11- Data abstract da IUNitofwork yaptýk. ve concrete de classýný yaptýk.
+12- business abstract ve concrete oluþrurduk.
+13-business abstract ICategoryService yaptýk
+14- busnes -concrete managerlerimizi yazdýk.
+15- web-program.cs de builder serviceslerimizi ekledik.
+16- web homexontroller index metodunu yazdýk.
+17- view home indexte kodlarý yazdýk.
+18- mvc-model-dtos klasörü açtýk. ve dtolarýmýzý oluþturduk.
+19- Anasayfada gösterelecek ürünler için productservice metot ekleyip concreteini yaýyorzu.
+
