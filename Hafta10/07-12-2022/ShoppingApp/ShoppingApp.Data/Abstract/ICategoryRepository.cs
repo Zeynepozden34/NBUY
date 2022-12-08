@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace ShoppingApp.Data.Abstract
 {
-    public interface ICategoryRepository :IRepository<Category>
+    public interface ICategoryRepository : IRepository<Category>
     {
-        //Categorye özgü memberler burada olacak.(property, field, method....)
+        //Category'e özgü memberlar burada olacak.(property, field, method...)ü
+        //Örneğin aşağıdakiler gibi:
         Category GetByIdWithProducts();
     }
 }
