@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.Entity", "Shopp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.Web", "ShoppingApp.Web\ShoppingApp.Web.csproj", "{34BB879E-9A93-4986-BE7A-90D5B92E0190}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{190BD311-FD0A-4E36-AC46-6BC0437973D4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D2EC8AD8-ECB7-4DE7-83EA-A8B673C5F5B2}"
 	ProjectSection(SolutionItems) = preProject
 		Notlar.txt = Notlar.txt
 	EndProjectSection
@@ -43,6 +43,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {294DB010-FD94-4BF4-A4E6-1ED0E59DB0D7}
+		SolutionGuid = {10527C15-2C4C-494B-ABC9-0D6903F64EB1}
 	EndGlobalSection
 EndGlobal

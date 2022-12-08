@@ -53,9 +53,14 @@ namespace ShoppingApp.Business.Concrete
             return await _unitOfWork.Products.GetHomePageProductsAsync();
         }
 
-        public List<Product> GetProductsByCategory()
+        public async Task<List<Product>> GetProductsByCategoryAsync(string category)
         {
-            throw new NotImplementedException();
+            return await _unitOfWork.Products.GetProductsByCategoryAsync(category);
+        }
+
+        public async Task<Product> GetProductDetailsByUrlAsync(string productUrl)
+        {
+           return await _unitOfWork.Products.GetProductDetailsByUrlAsync(productUrl);
         }
         #endregion
     }

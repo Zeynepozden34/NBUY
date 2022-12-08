@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using ShoppingApp.Business.Abstract;
 using ShoppingApp.Business.Concrete;
 using ShoppingApp.Data.Abstract;
@@ -27,8 +28,44 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+//app.MapControllerRoute( // shared/productpartial bak
+//    name:"productDetails",
+//    pattern:"{url?}",
+//    defaults:new {controller="Shop", action="ProductDetails"}    
+//    );
+//https:/localhost:5178/shop/productdetails/iphone-13-plus
+
+
+//app.MapControllerRoute( //component/categories/default bak 
+//    name: "products", 
+//    pattern: "{category?}",  // bu bizim url tasarýmýmýzý saðlar hangi kategorideysek o yazacak.
+//    defaults: new { controller = "Shop", action = "ProductList" }
+//    //https:/localhost:5178/elektronik
+//    ); silmemizin nedeni açýlan sayfada home çýksýn ama comment yapýnca url bozulutor b nedenle default dosyasýnda defaults:asp-route-category i id yazdýk ama hala url istediðimiz gibi olmadý olan://https:/
+//    localhost:5178/shop/productdetails/iphone-13-plus olmasý gereekn https:/localhost:5178/elektronik
+
+
+app.MapControllerRoute(   //component/categories/default bak 
+    name: "products",
+    pattern: "kategori/{categoryurl?}",
+    defaults: new { controller = "Shop", action = "ProductList" }
+    );
+
+app.MapControllerRoute(  //shared / productpartial bak
+    name:"productdetails",
+    pattern:"urunler/{producturl}",
+    defaults:new {controller="Shop", action= "ProductDetails" }    
+    );
+
+app.MapAreaControllerRoute(
+    name: "Admin",
+    areaName: "Admin",
+    pattern: "Admin/{controller=Home}/{action=Index}/{id?}"
+    );
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
     //www.enginniyazi.com/home/index
 app.Run();

@@ -29,9 +29,30 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
                 .ToListAsync();
         }
 
-        public List<Product> GetProductsByCategory()
+        public Task<Product> GetProductDetailsByUrlAsync(string productUrl)
         {
-            throw new NotImplementedException();
+            return ShopAppContext
+                  .Products
+                  .Where(p => p.Url == productUrl)
+                  .Include(p => p.ProductCategories)
+                  .ThenInclude(p => p.Category)
+                  .FirstOrDefaultAsync();
+        }
+
+        public async Task<List<Product>> GetProductsByCategoryAsync(string category)
+        {
+            var products= ShopAppContext.Products.AsQueryable();
+            if (category != null)
+            {
+                products = products
+                    .Where(p => p.IsApproved)
+                    .Include(p => p.ProductCategories)
+                    .ThenInclude(pc => pc.Category)
+                    .Where(p => p.ProductCategories.Any(pc => pc.Category.Url == category));
+            }
+            return await products.ToListAsync();
+
+
         }
     }
 }

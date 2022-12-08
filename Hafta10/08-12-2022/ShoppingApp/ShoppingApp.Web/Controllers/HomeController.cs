@@ -26,7 +26,8 @@ public class HomeController : Controller
                 Id = product.Id,
                 Name = product.Name,
                 Price = product.Price,
-                DateAdded = product.DateAdded,
+                ImageUrl=product.ImageUrl,
+                Url= product.Url,
             });
         }
         return View(productDtos);

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingApp.Data.Abstract
 {
-    public interface ICategoryRepository : IRepository<Category> // interfadeceden interfaceye miras aldığımız için implemente etmemize gerek yok.
+    public interface ICategoryRepository : IRepository<Category>
     {
         //Category'e özgü memberlar burada olacak.(property, field, method...)ü
         //Örneğin aşağıdakiler gibi:

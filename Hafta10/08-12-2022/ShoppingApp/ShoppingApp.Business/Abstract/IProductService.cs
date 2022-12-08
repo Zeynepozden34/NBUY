@@ -14,7 +14,8 @@ namespace ShoppingApp.Business.Abstract
         Task CreateAsync(Product product);
         void Update(Product product);
         void Delete(Product product);
-        List<Product> GetProductsByCategory();
+        Task<List<Product>> GetProductsByCategoryAsync(string category);
         Task<List<Product>> GetHomePageProductsAsync();
+        Task<Product> GetProductDetailsByUrlAsync(string ProductUrl);
     }
 }

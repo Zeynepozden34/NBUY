@@ -11,7 +11,7 @@ using ShoppingApp.Data.Concrete.EfCore.Contexts;
 namespace ShoppingApp.Data.Migrations
 {
     [DbContext(typeof(ShopAppContext))]
-    [Migration("20221207111605_InitialDb")]
+    [Migration("20221208090731_InitialDb")]
     partial class InitialDb
     {
         /// <inheritdoc />
@@ -186,7 +186,7 @@ namespace ShoppingApp.Data.Migrations
                             Id = 6,
                             DateAdded = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "1.5 metre",
-                            ImageUrl = "6.png",
+                            ImageUrl = "15.png",
                             IsApproved = true,
                             IsHome = false,
                             Name = "Type C Usb Bağlantı Kablosu",
@@ -198,7 +198,7 @@ namespace ShoppingApp.Data.Migrations
                             Id = 7,
                             DateAdded = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Tam otomatik çamaşır makinesi",
-                            ImageUrl = "7.png",
+                            ImageUrl = "20.png",
                             IsApproved = true,
                             IsHome = true,
                             Name = "Vestel CM123",
@@ -210,7 +210,7 @@ namespace ShoppingApp.Data.Migrations
                             Id = 8,
                             DateAdded = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Köpüklü Türk kahvesi keyfi",
-                            ImageUrl = "8.png",
+                            ImageUrl = "16.png",
                             IsApproved = true,
                             IsHome = true,
                             Name = "Arçelik Türk Kahvesi Makinesi TK8",
@@ -222,7 +222,7 @@ namespace ShoppingApp.Data.Migrations
                             Id = 9,
                             DateAdded = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "M2 işlemcinin gücü",
-                            ImageUrl = "9.png",
+                            ImageUrl = "17.png",
                             IsApproved = true,
                             IsHome = false,
                             Name = "Macbook Air M2",
@@ -234,7 +234,7 @@ namespace ShoppingApp.Data.Migrations
                             Id = 10,
                             DateAdded = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "I9 işlemci",
-                            ImageUrl = "10.png",
+                            ImageUrl = "21.png",
                             IsApproved = true,
                             IsHome = false,
                             Name = "Asus Tulpar G45",
@@ -246,7 +246,7 @@ namespace ShoppingApp.Data.Migrations
                             Id = 11,
                             DateAdded = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "İş için ideal",
-                            ImageUrl = "11.png",
+                            ImageUrl = "22.png",
                             IsApproved = true,
                             IsHome = false,
                             Name = "Lenovo K234",
@@ -258,7 +258,7 @@ namespace ShoppingApp.Data.Migrations
                             Id = 12,
                             DateAdded = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Derin donduruculu",
-                            ImageUrl = "12.png",
+                            ImageUrl = "19.png",
                             IsApproved = false,
                             IsHome = false,
                             Name = "Samsung NF34 Buzdolabı",

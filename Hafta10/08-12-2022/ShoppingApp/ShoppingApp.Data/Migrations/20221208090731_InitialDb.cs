@@ -93,13 +93,13 @@ namespace ShoppingApp.Data.Migrations
                     { 3, "Güzel bir telefon", "3.png", true, false, "Iphone 13", 21500m, "iphone-13" },
                     { 4, "Kamerası son teknoloji!", "4.png", true, false, "Iphone 14 Pro", 34500m, "iphone-14-pro" },
                     { 5, "Kamerası son teknoloji!", "5.png", false, true, "IPad 12", 4500m, "ipad-12" },
-                    { 6, "1.5 metre", "6.png", true, false, "Type C Usb Bağlantı Kablosu", 400m, "type-c-usb-baglanti-kablosu" },
-                    { 7, "Tam otomatik çamaşır makinesi", "7.png", true, true, "Vestel CM123", 9500m, "vestel-cm123" },
-                    { 8, "Köpüklü Türk kahvesi keyfi", "8.png", true, true, "Arçelik Türk Kahvesi Makinesi TK8", 24500m, "arcelik-turk-kahvesi-makinesi-tk8" },
-                    { 9, "M2 işlemcinin gücü", "9.png", true, false, "Macbook Air M2", 29500m, "macbook-air-m2" },
-                    { 10, "I9 işlemci", "10.png", true, false, "Asus Tulpar G45", 26500m, "asus-tulpar-g45" },
-                    { 11, "İş için ideal", "11.png", true, false, "Lenovo K234", 19000m, "lenovo-k234" },
-                    { 12, "Derin donduruculu", "12.png", false, false, "Samsung NF34 Buzdolabı", 13000m, "samsung-nf34-buzdolabi" }
+                    { 6, "1.5 metre", "15.png", true, false, "Type C Usb Bağlantı Kablosu", 400m, "type-c-usb-baglanti-kablosu" },
+                    { 7, "Tam otomatik çamaşır makinesi", "20.png", true, true, "Vestel CM123", 9500m, "vestel-cm123" },
+                    { 8, "Köpüklü Türk kahvesi keyfi", "16.png", true, true, "Arçelik Türk Kahvesi Makinesi TK8", 24500m, "arcelik-turk-kahvesi-makinesi-tk8" },
+                    { 9, "M2 işlemcinin gücü", "17.png", true, false, "Macbook Air M2", 29500m, "macbook-air-m2" },
+                    { 10, "I9 işlemci", "21.png", true, false, "Asus Tulpar G45", 26500m, "asus-tulpar-g45" },
+                    { 11, "İş için ideal", "22.png", true, false, "Lenovo K234", 19000m, "lenovo-k234" },
+                    { 12, "Derin donduruculu", "19.png", false, false, "Samsung NF34 Buzdolabı", 13000m, "samsung-nf34-buzdolabi" }
                 });
 
             migrationBuilder.InsertData(
