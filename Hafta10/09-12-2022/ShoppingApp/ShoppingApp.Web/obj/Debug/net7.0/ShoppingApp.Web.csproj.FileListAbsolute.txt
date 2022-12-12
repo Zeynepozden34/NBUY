@@ -42,9 +42,11 @@ C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\ShoppingApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\ShoppingApp.Core.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\ShoppingApp.Data.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\ShoppingApp.Entity.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\ShoppingApp.Business.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\ShoppingApp.Core.pdb
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\ShoppingApp.Data.pdb
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\ShoppingApp.Entity.pdb
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.csproj.AssemblyReference.cache
@@ -71,5 +73,3 @@ C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.pdb
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.genruntimeconfig.cache
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ref\ShoppingApp.Web.dll
-C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\ShoppingApp.Core.dll
-C:\Users\SABAH\Documents\GitHub\NBUY\Hafta10\09-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\ShoppingApp.Core.pdb

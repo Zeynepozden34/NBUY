@@ -18,7 +18,7 @@
             </div>
             <div class="mb-3">
                 <label asp-for="ImageFile" class="form-label"></label>
-                <input type="file" asp-asp-for="ImageFile" accept="image/"/>
+                <input type="file" asp-asp-for="ImageFile" accept="image/" />
                 <span asp-validation-for="ImageFile" class="text-danger"></span>
             </div>
             <div class="mb-3">
@@ -33,12 +33,12 @@
             <div>
                 <label asp-for="Categories"></label>
             </div>
-          @foreach (var category in Model.Categories)
+            @foreach (var category in Model.Categories)
             {
                 <div>
                     <input type="checkbox"
-                        class="form-check-input"/>
-                        <label>@category.Name</label>
+                       class="form-check-input" />
+                    <label>@category.Name</label>
                 </div>
             }
 

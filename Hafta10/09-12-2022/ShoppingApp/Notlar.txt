@@ -51,3 +51,5 @@
 12- yeni ürün eklemek için productadddto oluþturdk.
 13- product controllemize create get metod yazdýk view oluþturduk.
 14-product controllemize create post metod yazdýk 
+
+****************************12-12
