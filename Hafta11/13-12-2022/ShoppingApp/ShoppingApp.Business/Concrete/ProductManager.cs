@@ -82,6 +82,15 @@ namespace ShoppingApp.Business.Concrete
         {
             await _unitOfWork.Products.UpdateProductAsync(product, selectedCategoryIds);
         }
+
+        public async Task<Product> GetProductShoppingAddAsync(string productUrl)
+        {
+            return await _unitOfWork.Products.GetProductShoppingAddAsync(productUrl);
+        }
+
+
+
+
         #endregion
     }
 }

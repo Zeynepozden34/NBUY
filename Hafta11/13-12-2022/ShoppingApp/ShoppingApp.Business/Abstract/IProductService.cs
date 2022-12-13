@@ -21,5 +21,6 @@ namespace ShoppingApp.Business.Abstract
         Task<Product> GetProductDetailsByUrlAsync(string productUrl);
         Task<List<Product>> GetProductsWithCategories();
         Task<Product> GetProductWithCategories(int id);
+        Task<Product> GetProductShoppingAddAsync(string productUrl);
     }
 }

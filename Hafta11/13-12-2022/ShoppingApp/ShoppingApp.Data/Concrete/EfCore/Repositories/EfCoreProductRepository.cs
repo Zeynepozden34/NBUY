@@ -21,6 +21,7 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
             get { return _context as ShopAppContext;  }
         }
 
+
         public async Task CreateProductAsync(Product product, int[] selectedCategoryIds)
         {
             //Önce product kaydı yapacağız. Böylece elimizde product Id olacak.
@@ -53,6 +54,15 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
                 .ThenInclude(pc => pc.Category)
                 .FirstOrDefaultAsync();
         }
+        public Task<Product> GetProductShoppingAddAsync(string productUrl)
+        {
+            return ShopAppContext
+                .Products
+                .Where(p=>p.Url==productUrl)
+                .Include(p=>p.ProductCategories)
+                .ThenInclude(pc=>pc.Category)
+                .FirstOrDefaultAsync();
+        }
 
         public async Task<List<Product>> GetProductsByCategoryAsync(string category)
         {
@@ -69,6 +79,7 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
 
 
         }
+
 
         public async Task<List<Product>> GetProductsWithCategories()
         {

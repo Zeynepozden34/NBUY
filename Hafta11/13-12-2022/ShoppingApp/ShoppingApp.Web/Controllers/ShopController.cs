@@ -2,7 +2,9 @@
 using ShoppingApp.Business.Abstract;
 using ShoppingApp.Business.Concrete;
 using ShoppingApp.Entity.Concrete;
+using ShoppingApp.Web.Areas.Admin.Models.Dtos;
 using ShoppingApp.Web.Models.Dtos;
+using System.Xml.Linq;
 
 namespace ShoppingApp.Web.Controllers
 {
@@ -17,7 +19,23 @@ namespace ShoppingApp.Web.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return null;
+            //var product = await _productManager.GetAllAsync();
+            //ProductShoppingAddDto productShoppingAddDto = new ProductShoppingAddDto
+            //{
+            //    Id = product.Id,
+            //    Name = product.Name,
+            //    Price = product.Price,
+            //    ImageUrl = product.ImageUrl,
+            //    Url = product.Url,
+            //    Description = product.Description,
+            //    Categories = product
+            //        .ProductCategories
+            //        .Select(pc => pc.Category)
+            //        .ToList()
+
+            //};
+            //return View(productShoppingAddDto);
         }
 
         public async Task<IActionResult> ProductList(string categoryurl)
@@ -59,6 +77,25 @@ namespace ShoppingApp.Web.Controllers
             };
 
             return View(productDetailsDto);
+        }
+        public async Task<IActionResult> ProductShoppingAdd(string producturl) 
+        {
+            var product = await _productManager.GetProductShoppingAddAsync(producturl);
+            ProductShoppingAddDto productShoppingAddDto = new ProductShoppingAddDto
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Price = product.Price,
+                ImageUrl = product.ImageUrl,
+                Url = product.Url,
+                Description = product.Description,
+                Categories = product
+                    .ProductCategories
+                    .Select(pc => pc.Category)
+                    .ToList()
+
+            };
+            return View(productShoppingAddDto);
         }
     }
 }

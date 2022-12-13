@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GYmBMimCeMUsXLpdMTXzyeyySu2j2SldbAIsdTeqv/qnkLwDQDuanEgNgPtS21YQ7O597ZNZpKOz0DH/CFMbYw==",
+  "dgSpecHash": "jzyhhNZwQVvjIDYH32d9NvT8cUQBSgtZP7OazBSc9RornVhC7qGBic/7ukIyj9bqU1lvC4xUggpS46obJq0rQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta11\\12-12-2022\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj",
+  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta11\\12-12-2022\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",

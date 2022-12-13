@@ -18,5 +18,8 @@ namespace ShoppingApp.Data.Abstract
         Task CreateProductAsync(Product product, int[] selectedCategoryIds);
         Task<Product> GetProductWithCategories(int id);
         Task UpdateProductAsync(Product product, int[] selectedCategoryIds);
+        // Task AddAsync(Product product);
+        Task<Product> GetProductShoppingAddAsync(string productUrl);
+
     }
 }
