@@ -60,3 +60,4 @@
 5- Üürünlerde uyarı mesajı verinde categorilerin seçili olarak gelmesi için create dosyamızda kodlar yazdık.
 
 *********************13-12-2022***************************
+benim çalışmalarım sepete ekle kısmını yaptım.
