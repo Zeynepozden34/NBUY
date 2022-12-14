@@ -71,5 +71,5 @@
 6-  @await RenderSectionAsync("Scripts", required:false); admin layotumuza bunu ekledik jqeryi gerekli yerlerde kullanmak için yazdýk.
 7- View product edit de script kodlarýmýzý yazýyoruz. edit deki imageurli yeniden düzenledik.
 8- pud da imagefile requiredini kaldýrdýk. resmin seçilme kýsmýný manuel olarak yapacaz. product cntrllerde gerekli yerleri düzenledik. create de ayný iþlemleri yazdýk. ama create de pad muzda imagefilein requriedini kaldýrmadýk.
-9- Admin sayfasýna sidebarpartial ekledik. prouct indeximizi deðiþtirdik. sil butonu için modal oluþtueduk. roductdeletepartial
+9- Admin sayfasýna sidebarpartial ekledik. prouct indeximizi deðiþtirdik. sil butonu için modal oluþtueduk. roductdeletepartial gerekli yerlerden çaðýrdýk.
 10- 

@@ -11,7 +11,7 @@ using ShoppingApp.Data.Concrete.EfCore.Contexts;
 namespace ShoppingApp.Data.Migrations
 {
     [DbContext(typeof(ShopAppContext))]
-    [Migration("20221208090731_InitialDb")]
+    [Migration("20221214145347_InitialDb")]
     partial class InitialDb
     {
         /// <inheritdoc />
