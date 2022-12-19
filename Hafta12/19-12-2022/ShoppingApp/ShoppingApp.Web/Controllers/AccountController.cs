@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using ShoppingApp.Core;
 using ShoppingApp.Entity.Concrete.Identity;
 using ShoppingApp.Web.EmailServices.Abstract;
@@ -29,7 +30,7 @@ namespace ShoppingApp.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _userManager.FindByNameAsync(loginDto.UserName);
+                var user = await _userManager.FindByEmailAsync(loginDto.Email);
                 if (user==null)
                 {
                     ModelState.AddModelError("", "Böyle bir kullanıcı bulunamadı!");
@@ -181,6 +182,79 @@ namespace ShoppingApp.Web.Controllers
             }
             TempData["Message"] = Jobs.CreateMessage("Hata", "Bir hata oluştu. Lütfen admin ile iletişime geçiniz.", "danger");
             return Redirect("~/");
+        }
+        public async Task<IActionResult> Manage(string id)
+        {
+            var name = id;
+            if (String.IsNullOrEmpty(name))
+            {
+                return NotFound();
+            }
+            var user = await _userManager.FindByNameAsync(name);
+            if(user==null) { return NotFound(); }
+            List<SelectListItem> genderList = new List<SelectListItem>();
+            genderList.Add(new SelectListItem
+            {
+                 Text="Kadın",
+                 Value="Kadın",
+                 Selected=user.Gender=="Kadın" ? true : false
+            });
+            genderList.Add(new SelectListItem
+            {
+                Text = "Erkek",
+                Value = "Erkek",
+                Selected=user.Gender=="Erkek" ? true : false
+            });
+            UserManageDto userManageDto = new UserManageDto
+            {
+                Id=user.Id,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Gender = user.Gender,
+                DateOfBirth = user.DateOfBirth,
+                UserName = user.UserName,
+                Email = user.Email,
+                GenderSelectList=genderList
+            };
+
+            return View(userManageDto);
+        }
+        [HttpPost]
+        public async Task <IActionResult> Manage(UserManageDto userManageDto)
+        {
+            if (userManageDto == null) { return NotFound(); }
+            var user = await _userManager.FindByIdAsync(userManageDto.Id);
+            if (user==null){ return NotFound(); }
+
+            user.FirstName = userManageDto.FirstName;
+            user.LastName = userManageDto.LastName;
+            user.UserName = userManageDto.UserName;
+            user.Gender = userManageDto.Gender;
+            user.Email = userManageDto.Email;
+            var result = await _userManager.UpdateAsync(user);
+            if (result.Succeeded)
+            {
+                TempData["Message"] = Jobs.CreateMessage("Başarılı!", "Profiliniz başarıyla kaydedilmiştir.", "success");
+
+            }
+
+            List<SelectListItem> genderList = new List<SelectListItem>();
+            genderList.Add(new SelectListItem
+            {
+                Text = "Kadın",
+                Value = "Kadın",
+                Selected = user.Gender == "Kadın" ? true : false
+            });
+            genderList.Add(new SelectListItem
+            {
+                Text = "Erkek",
+                Value = "Erkek",
+                Selected = user.Gender == "Erkek" ? true : false
+            });
+            userManageDto.GenderSelectList = genderList;
+            return View(userManageDto);
+            //ÖDEV: Eğer kullanıcı adı değiştirilmişse sağ üst köşedeki username bölümünün güncellenmesini JavaScript kodları yazarak sağlayınız.
+            //Veya "Benim aklmıma başka çözüm geldi" diyen varsa, kabülümüzdür :)
         }
     }
 }

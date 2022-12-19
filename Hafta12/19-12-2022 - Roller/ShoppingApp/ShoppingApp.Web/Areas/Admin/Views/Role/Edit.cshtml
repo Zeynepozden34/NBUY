@@ -1,0 +1,59 @@
+﻿@using ShoppingApp.Core;
+@model RoleDetailsDto
+<h3><span class="text-danger">@Model.Role.Name </span>Rolü Kullanıcıları Düzenle</h3>
+<hr />
+<form asp-area="Admin" asp-controller="Role" asp-action="Edit" method="post" class=""> 
+    <input type="hidden" name="RoleId" value="@Model.Role.Id" />
+    <input type="hidden" name="RoleName" value="@Model.Role.Name" />
+    <div class="row">
+        <div class="col-6">  @*Nonmembers*@
+            <h6 class="bg-success text-white p-3">@Model.Role.Name Rolüne ekle</h6>
+            <table class="table table-sm table-bordered">
+                @if (Model.NonMembers.Count==0)
+                {
+                    TempData["Message"] = Jobs.CreateMessage("", $"Tüm kullanıcılar{Model.Role.Name} rolünde.", "warning");
+                }
+                else
+                {
+                    <table class="table table-sm table-bordered">
+                        @foreach (var user in Model.NonMembers)
+                        {
+                            <tr>
+                                <td>
+                                    <input type="checkbox" class="form-check-input" name="IdsToAdd" value="@user.Id" /> @user.UserName
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                }
+            </table>
+        </div>
+
+
+        <div class="col-6"> @*members*@ 
+            <h6 class="bg-danger text-white p-3">@Model.Role.Name Rolünden Çıkar</h6>
+            
+                @if (Model.Members.Count == 0)
+                {
+                            <div class="alert alert-warning">@Model.Role.Name rolüne ait kullanıcı yok.</div>
+
+                }
+                else
+                {
+                <table class="table table-sm table-bordered">
+                    @foreach (var user in Model.Members)
+                    {
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="form-check-input" name="IdsToRemove" value="@user.Id" /> @user.UserName
+                            </td>
+                        </tr>
+                    }
+                </table>
+                }
+            
+        </div>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Değşikleri Kaydet</button>
+</form>
