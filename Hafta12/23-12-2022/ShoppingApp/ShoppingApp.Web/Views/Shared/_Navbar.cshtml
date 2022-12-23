@@ -19,7 +19,7 @@
                            asp-action="ProductList">Ürünler</a>
                     </li>
 
-                    @if (User.Identity.IsAuthenticated)
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                     {
                         <li class="nav-item">
                             <a class="nav-link text-dark"
@@ -38,6 +38,11 @@
                            asp-controller="Card"
                            asp-action="Index"
                            >Sepet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"
+                           asp-controller="Card"
+                           asp-action="GetOrders">Siparişler</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark"

@@ -10,5 +10,6 @@ namespace ShoppingApp.Data.Abstract
     public interface ICardItemRepository : IRepository<CardItem>
     {
         Task ChangeQuantity(CardItem cardItem, int quantity);
+        void ClearCard(int cardId);
     }
 }

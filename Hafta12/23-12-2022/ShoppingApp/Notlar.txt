@@ -1,0 +1,6 @@
+*****************23-12-2022****************
+1- cardla ödeme iþlemleri için https://dev.iyzipay.com/tr/api/odeme sayfasýndan yararlanacaz.
+2- Kredi kartý numarasý kontrolü için Luch algoritmasýna çalýþ.
+3- https://dev.iyzipay.com/tr sandbox text hesabý açtýk. https://sandbox-merchant.iyzipay.com/dashboard da giriþ yapýlmýþ hali. hesap giriþ bilgileri= mognamurzi@gufum.com þifre : 192837 
+4- web katmanýnýa iyizico ve newtonsoft.json paketlerini yükledim https://github.com/iyzico/iyzipay-dotnet sitesinde kullanýlacak þeyler yazýyor. bu sayfadaki usage yazan kýsmý kopyalayýp card controllerda gerekli yere yazdým.
+5-

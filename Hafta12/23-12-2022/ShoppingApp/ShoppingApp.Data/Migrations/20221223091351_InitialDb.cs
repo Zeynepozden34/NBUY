@@ -225,6 +225,8 @@ namespace ShoppingApp.Data.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     OrderNumber = table.Column<string>(type: "TEXT", nullable: true),
+                    PaymentId = table.Column<string>(type: "TEXT", nullable: true),
+                    ConversationId = table.Column<string>(type: "TEXT", nullable: true),
                     OrderDate = table.Column<DateTime>(type: "TEXT", nullable: false),
                     UserId = table.Column<string>(type: "TEXT", nullable: true),
                     FirstName = table.Column<string>(type: "TEXT", nullable: true),
@@ -330,8 +332,8 @@ namespace ShoppingApp.Data.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Description", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "929ce818-1bf5-489b-9ec3-be70b4333f5f", null, "User rolü", "User", "USER" },
-                    { "c911d2fe-4734-46b4-b70c-dee28a93e405", null, "Admin rolü", "Admin", "ADMIN" }
+                    { "040a9c45-0ce6-4d71-819f-d52abec16419", null, "Admin rolü", "Admin", "ADMIN" },
+                    { "8053dca2-9c1e-44b9-be2a-3288190d82d4", null, "User rolü", "User", "USER" }
                 });
 
             migrationBuilder.InsertData(
@@ -339,8 +341,8 @@ namespace ShoppingApp.Data.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "Address", "City", "ConcurrencyStamp", "DateOfBirth", "Email", "EmailConfirmed", "FirstName", "Gender", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "9469c54f-7d1b-41d6-84a2-ece731b77754", 0, "Akasya cd. Orkide sk. Gül ap.", "İzmir", "4f6fb11a-befb-450d-8c2a-01dd4169dc02", new DateTime(1985, 10, 29, 0, 0, 0, 0, DateTimeKind.Unspecified), "user@gmail.com", true, "Kemal", "Erkek", "User", false, null, "USER@GMAIL.COM", "USER", "AQAAAAIAAYagAAAAEM9obnw7TLWuSkicrEWxJ/5qED8KJVlOXz7m0vC+SAvRBKsUfEGU8gpKk6oDrCE1xg==", "4444444444", false, "aca9930d-b4da-44ea-8447-e854c8994c20", false, "user" },
-                    { "d5b9aa9b-e235-4200-aa6e-3cd60a3af917", 0, "Çek cd. Senet sk. Fatura ap.", "İstanbul", "d0c4331a-2482-484f-b5f2-146961057cfa", new DateTime(1998, 5, 19, 0, 0, 0, 0, DateTimeKind.Unspecified), "admin@gmail.com", true, "Deniz", "Kadın", "Admin", false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAELUMaq+DWPt5Y+5Fdgk1Wh2AV99fepnM7WYw2R80b7vzFpeeI5ch6QS7FU8pNLfQkg==", "5555555555", false, "42cb228e-a7ca-4830-8589-432067ecab57", false, "admin" }
+                    { "49e7adef-8922-4b7b-bf48-08a859c70e52", 0, "Akasya cd. Orkide sk. Gül ap.", "İzmir", "73a0d51d-e644-4e7d-9938-34db214f7251", new DateTime(1985, 10, 29, 0, 0, 0, 0, DateTimeKind.Unspecified), "user@gmail.com", true, "Kemal", "Erkek", "User", false, null, "USER@GMAIL.COM", "USER", "AQAAAAIAAYagAAAAEH48zOrr0PXMoyoCs3MFIhH4a9C4UPDbROelA+xB6nXGGXa/9DVu2OJ/zTQKLXyP6A==", "4444444444", false, "93432213-efb9-4567-9e46-dbf61ddc1079", false, "user" },
+                    { "e485686a-a210-4f21-9370-189bbd7ddf99", 0, "Çek cd. Senet sk. Fatura ap.", "İstanbul", "d7374327-1208-467b-89fc-5bbf86d12190", new DateTime(1998, 5, 19, 0, 0, 0, 0, DateTimeKind.Unspecified), "admin@gmail.com", true, "Deniz", "Kadın", "Admin", false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEBWPr/myyoywog5srVu8U/7rsCUweH6+BjoOVHra+7/WmduOQfs1A1dHOA5BBvC7VA==", "5555555555", false, "ed66dd55-1c6d-4159-831b-0c677693a416", false, "admin" }
                 });
 
             migrationBuilder.InsertData(
@@ -378,8 +380,8 @@ namespace ShoppingApp.Data.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "929ce818-1bf5-489b-9ec3-be70b4333f5f", "9469c54f-7d1b-41d6-84a2-ece731b77754" },
-                    { "c911d2fe-4734-46b4-b70c-dee28a93e405", "d5b9aa9b-e235-4200-aa6e-3cd60a3af917" }
+                    { "8053dca2-9c1e-44b9-be2a-3288190d82d4", "49e7adef-8922-4b7b-bf48-08a859c70e52" },
+                    { "040a9c45-0ce6-4d71-819f-d52abec16419", "e485686a-a210-4f21-9370-189bbd7ddf99" }
                 });
 
             migrationBuilder.InsertData(
@@ -387,8 +389,8 @@ namespace ShoppingApp.Data.Migrations
                 columns: new[] { "Id", "UserId" },
                 values: new object[,]
                 {
-                    { 1, "d5b9aa9b-e235-4200-aa6e-3cd60a3af917" },
-                    { 2, "9469c54f-7d1b-41d6-84a2-ece731b77754" }
+                    { 1, "e485686a-a210-4f21-9370-189bbd7ddf99" },
+                    { 2, "49e7adef-8922-4b7b-bf48-08a859c70e52" }
                 });
 
             migrationBuilder.InsertData(

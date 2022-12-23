@@ -25,6 +25,12 @@ namespace ShoppingApp.Business.Concrete
             await _unitOfWork.SaveAsync();
         }
 
+        public void ClearCard(int cardId)
+        {
+            _unitOfWork.CardItems.ClearCard(cardId);
+            _unitOfWork.Save();
+        }
+
         public void Delete(CardItem cardItem)
         {
             _unitOfWork.CardItems.Delete(cardItem);

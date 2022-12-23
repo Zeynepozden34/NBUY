@@ -12,6 +12,8 @@ namespace ShoppingApp.Entity.Concrete
     {
         public int Id { get; set; }
         public string OrderNumber { get; set; }
+        public string PaymentId { get; set; }  //Ödeme işlmleri için yazdık
+        public string ConversationId { get; set; } //Ödeme işlmleri için yazdık
         public DateTime OrderDate { get; set; }
         public string UserId { get; set; }
         public User User { get; set; }
@@ -24,6 +26,7 @@ namespace ShoppingApp.Entity.Concrete
         public EnumOrderState OrderState { get; set; }
         public EnumOrderType OrderType { get; set; }
         public List<OrderItem> OrderItems { get; set; }
+       
     }
 
     public enum EnumOrderState

@@ -1,4 +1,5 @@
-﻿using ShoppingApp.Data.Abstract;
+﻿using Microsoft.EntityFrameworkCore;
+using ShoppingApp.Data.Abstract;
 using ShoppingApp.Data.Concrete.EfCore.Contexts;
 using ShoppingApp.Entity.Concrete;
 using System;
@@ -23,6 +24,11 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
         {
             cardItem.Quantity = quantity;
             ShopAppContext.CardItems.Update(cardItem);
+        }
+
+        public void ClearCard(int cardId)
+        {
+            ShopAppContext.CardItems.Where(ci => ci.CardId == cardId).ExecuteDelete();
         }
     }
 }

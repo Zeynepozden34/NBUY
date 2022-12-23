@@ -12,5 +12,6 @@ namespace ShoppingApp.Business.Abstract
         Task ChangeQuantity(int cardItemId, int quantity);
         Task<CardItem> GetByIdAsync(int id);
         void Delete(CardItem cardItem);
+        void ClearCard(int cardId);
     }
 }
