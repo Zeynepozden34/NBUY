@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using ShoppingApp.Business.Abstract;
 using ShoppingApp.Core;
 using ShoppingApp.Entity.Concrete.Identity;
 using ShoppingApp.Web.Areas.Admin.Models.Dtos;
@@ -128,7 +129,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
                 }
                 
             }
-            return Redirect("/Admin/Role/Edit/" + roleEditDetailsDto.RoleId);
+            return Redirect("/Admin/Role/UserRoles/" + roleEditDetailsDto.RoleId);
 
         }
         [NonAction]
@@ -188,6 +189,17 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             userRolesDto.Users = userRolesDtoInstance.Users;
             return View("UserRoles",userRolesDto);
 
+        }
+        [HttpGet]
+        public async Task<IActionResult> Delete(string id)
+        {
+            var role = await _roleManager.FindByIdAsync(id);
+            if (role == null)
+            {
+                return NotFound();
+            }
+            _roleManager.DeleteAsync(role);
+            return RedirectToAction("Index");
         }
     }
 }

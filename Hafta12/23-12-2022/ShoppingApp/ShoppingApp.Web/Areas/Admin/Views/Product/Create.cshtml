@@ -20,7 +20,7 @@
             </div>
             <div class="mb-3">
                 <img id="img-viewer" src="" />
-                <input type="file" asp-for="ImageFile" accept="image/" />
+                <input class="d-none"type="file" asp-for="ImageFile" accept="image/" />
                 <div>
                     <label for="ImageFile" class="btn btn-success">Resim Yükle</label>
                     <label id="img-url">@Model.ImageUrl</label>

@@ -1,0 +1,77 @@
+﻿@model OrderListDto
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#OrderDetailsModal_@Model.OrderId">
+    Detay Gör
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="OrderDetailsModal_@Model.OrderId" tabindex="-1" aria-labelledby="OrderDetailsModalLabel_@Model.OrderId" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-warning">
+                <h1 class="modal-title fs-5" id="OrderDetailsModalLabel_@Model.OrderId">Sipariş Detayları</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-5 mb-4">
+                        <span class="text-danger">Sipariş No: </span>
+                        <h6 class="d-inline">@Model.OrderNumber</h6>
+                    </div>
+                    <div class="col-4">
+                        <span class="text-danger">Sipariş Tarihi: </span>
+                        <h6 class="d-inline">@Model.OrderDate.ToShortDateString()</h6>
+                    </div>
+                    <div class="col-3">
+                        <span class="text-danger">Tutar: </span>
+                        <h6 class="d-inline"> @($"{Model.TotalPrice():C0}")</h6>
+                    </div>
+                </div>
+                <table class="table table-sm table-bordered">
+                    <thead>
+                    <th width="15">Resim</th>
+                    <th>Ürün</th>
+                    <th>Fiyat</th>
+                    <th>Adet</th>
+                    <th>Fiyat</th>
+                    </thead>
+                    <tbody>
+                        @foreach (var orderListItem in Model.OrderListItems)
+                        {
+                            <tr>
+                                <td>
+                                    <a asp-controller="Shop"
+                                   asp-action="ProductDetails"
+                                   asp-route-producturl=@orderListItem.ProductUrl>
+                                        <img src="~/images/@orderListItem.ImageUrl" width="20" />
+                                    </a>
+                                </td>
+                                <td>
+                                    <a class="text-decoration-none"
+                                   asp-controller="Shop"
+                                   asp-action="ProductDetails"
+                                   asp-route-producturl=@orderListItem.ProductUrl>
+                                        @orderListItem.ProductName
+                                    </a>
+                                </td>
+                                <td>@($"{orderListItem.Price:C0}")</td>
+                                <td>@orderListItem.Quantity</td>
+                                @{
+                                    decimal? total = orderListItem.Price * orderListItem.Quantity;
+                                }
+                                <td>@($"{total:C0}")</td>
+                            </tr>
+                        }
+                        <tr class="mb-5 text-danger">
+                            <td class="text-end" colspan="4">Toplam Tutar:</td>
+                            <td>@($"{Model.TotalPrice():C0}")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>
