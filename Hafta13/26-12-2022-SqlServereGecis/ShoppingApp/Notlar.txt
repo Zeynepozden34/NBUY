@@ -1,0 +1,3 @@
+1- extension metotlarý statix olmalý. 
+2- migrationManger adýnda oluþturduðumuz class sayesnde dotnet update yapmmýza gerek kalmadý ama program.cs de app.run'ý app.updateDatabase.run olarak düzelmemeiz gerekiyor 
+3- 
