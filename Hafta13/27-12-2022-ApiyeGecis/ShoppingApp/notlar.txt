@@ -1,0 +1,4 @@
+1- [nonaction] action olmadýðný metot yazdýðýmýzý belirtiriz.
+2- admin ürünlerinde selectler için product controllümzüzde nonactionlarýmý yazýp index metodunda yazdýk. nonactionlarý index metodunu kalabalýk yapmasýn diye yazdýk.
+3- productlistwithsearchdt oluþturuk.
+4- productsearch artýk comment olmalý çünkü artýk ürün arama iþlemini index üzerinden yapýyoruz.
