@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj": {}
+    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj": {}
   },
   "projects": {
-    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj": {
+    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
         "projectName": "ShoppingApp.Business",
-        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
+        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\ShoppingApp\\ShoppingApp.Business\\obj\\",
+        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\ShoppingApp\\ShoppingApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
