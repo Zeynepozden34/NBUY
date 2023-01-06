@@ -33,7 +33,7 @@ namespace OzelDers.Data.Config
                .IsRequired()
                .HasMaxLength(75);
 
-            builder.Property<int>(t => t.BrunchId)
+            builder.Property<int>(t => t.BranchId)
              .IsRequired();
 
             builder.Property(t => t.FirstName)
@@ -73,7 +73,7 @@ namespace OzelDers.Data.Config
                     IsFacetoFace = false,
                     CertifiedTrainer = true,
                     Email = "jackbrand@ozelders.com",
-                    BrunchId = 5,
+                    BranchId = 5,
                     FirstName = "Jack",
                     LastName = "Brand",
                     Description = "Engish lessons are given.",
@@ -90,7 +90,7 @@ namespace OzelDers.Data.Config
                     IsFacetoFace = true,
                     CertifiedTrainer = true,
                     Email = "sevgiozer@ozelders.com",
-                    BrunchId = 2,
+                    BranchId = 2,
                     FirstName = "Sevgi",
                     LastName = "Özer",
                     Description = "Fizik dersi verilir.",
@@ -108,7 +108,7 @@ namespace OzelDers.Data.Config
                     IsFacetoFace = true,
                     CertifiedTrainer = true,
                     Email = "denizkuru@ozelders.com",
-                    BrunchId = 1,
+                    BranchId = 1,
                     FirstName = "Deniz",
                     LastName = "Kuru",
                     Description = "Matematik dersi verilir.",
@@ -126,7 +126,7 @@ namespace OzelDers.Data.Config
                     IsFacetoFace = true,
                     CertifiedTrainer = true,
                     Email = "selimgoren@ozelders.com",
-                    BrunchId = 3,
+                    BranchId = 3,
                     FirstName = "Selim",
                     LastName = "Gören",
                     Description = "Kimya dersi verilir.",
@@ -144,7 +144,7 @@ namespace OzelDers.Data.Config
                     IsFacetoFace = true,
                     CertifiedTrainer = false,
                     Email = "kemaleren@ozelders.com",
-                    BrunchId = 9,
+                    BranchId = 9,
                     FirstName = "Kemal",
                     LastName = "Eren",
                     Description = "C# dersi verilir.",
@@ -162,7 +162,7 @@ namespace OzelDers.Data.Config
                     IsFacetoFace = true,
                     CertifiedTrainer = true,
                     Email = "melissusan@ozelders.com",
-                    BrunchId = 6,
+                    BranchId = 6,
                     FirstName = "Melis",
                     LastName = "Susan",
                     Description = "Edebiyat dersi verilir.",
@@ -179,7 +179,7 @@ namespace OzelDers.Data.Config
                     IsFacetoFace = false,
                     CertifiedTrainer = true,
                     Email = "defnebilen@ozelders.com",
-                    BrunchId = 8,
+                    BranchId = 8,
                     FirstName = "Defne",
                     LastName = "Bilen",
                     Description = "Almanca dersi verilir.",

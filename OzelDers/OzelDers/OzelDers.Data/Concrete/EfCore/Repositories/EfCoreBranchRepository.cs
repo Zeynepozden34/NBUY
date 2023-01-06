@@ -19,5 +19,12 @@ namespace OzelDers.Data.Concrete.EfCore.Repositories
         {
             get { return _context as OzelDersContext; }
         }
+
+        public async Task<List<Branch>> GetHomePageProductsAsync()
+        {
+            return await OzelDersContext
+                      .Branches                     
+                      .ToListAsync();
+        }
     }
 }

@@ -40,6 +40,11 @@ namespace OzelDers.Business.Concrete
             throw new NotImplementedException();
         }
 
+        public async Task<List<Branch>> GetHomePageProductsAsync()
+        {
+            return await _unitOfWork.Branchs.GetHomePageProductsAsync();
+        }
+
         public void Update(Branch branch)
         {
             _unitOfWork.Branchs.Update(branch);

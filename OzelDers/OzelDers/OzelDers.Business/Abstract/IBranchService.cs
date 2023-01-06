@@ -14,5 +14,6 @@ namespace OzelDers.Business.Abstract
         void Update(Branch branch);
         void Delete(Branch branch);
         Task<List<Teacher>> GetByIdBranch(int id);
+        Task<List<Branch>> GetHomePageProductsAsync();
     }
 }

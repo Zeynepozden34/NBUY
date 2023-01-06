@@ -10,5 +10,6 @@ namespace OzelDers.Data.Abstract
     public interface ITeacherRepository : IRepository<Teacher>
     {
         Task<List<Teacher>> GetByIdBranch(int id);
+        Task<List<Teacher>> GetHomePageTeachersAsync();
     }
 }

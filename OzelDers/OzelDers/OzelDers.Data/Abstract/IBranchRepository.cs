@@ -9,6 +9,6 @@ namespace OzelDers.Data.Abstract
 {
     public interface IBranchRepository :IRepository<Branch>
     {
-
+        Task<List<Branch>> GetHomePageProductsAsync();
     }
 }

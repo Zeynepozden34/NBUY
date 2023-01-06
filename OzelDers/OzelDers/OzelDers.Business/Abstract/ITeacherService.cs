@@ -13,6 +13,7 @@ namespace OzelDers.Business.Abstract
         Task CreateAsync(Teacher teacher);
         void Update(Teacher teacher);
         void Delete(Teacher teacher);
-       
+        Task<List<Teacher>> GetHomePageTeachersAsync();
+
     }
 }
