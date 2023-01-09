@@ -62,6 +62,10 @@ namespace OzelDers.Data.Config
                 .IsRequired()
                 .HasMaxLength(200);
 
+            builder.Property(t => t.Url)
+                .IsRequired()
+                .HasMaxLength(200);
+
             builder.ToTable("Teachers");
 
             builder.HasData(
@@ -80,7 +84,8 @@ namespace OzelDers.Data.Config
                     Age = 27,
                     Gender = "erkek",
                     ImageUrl = "20.png",
-                    Location = "Toronto/Canada"
+                    Location = "Toronto/Canada",
+                    Url="jackbrand"
                 },
                 new Teacher
                 {
@@ -97,7 +102,8 @@ namespace OzelDers.Data.Config
                     Age = 27,
                     Gender = "kadın",
                     ImageUrl = "21.png",
-                    Location = "Avcılar/İstanbul"
+                    Location = "Avcılar/İstanbul",
+                    Url="sevgiozer"
                 },
 
                 new Teacher
@@ -115,7 +121,8 @@ namespace OzelDers.Data.Config
                     Age = 35,
                     Gender = "kadın",
                     ImageUrl = "22.png",
-                    Location = "Avcılar/İstanbul"
+                    Location = "Avcılar/İstanbul",
+                    Url="denizkuru"
                 },
 
                 new Teacher
@@ -133,7 +140,8 @@ namespace OzelDers.Data.Config
                     Age = 30,
                     Gender = "erkek",
                     ImageUrl = "23.png",
-                    Location = "Çankaya/Ankara"
+                    Location = "Çankaya/Ankara",
+                    Url="selimgören"
                 },
 
                 new Teacher
@@ -151,7 +159,8 @@ namespace OzelDers.Data.Config
                     Age = 40,
                     Gender = "erkek",
                     ImageUrl = "24.png",
-                    Location = "Bornova/İzmir"
+                    Location = "Bornova/İzmir",
+                    Url="kemaleren"
                 },
 
                 new Teacher
@@ -169,7 +178,8 @@ namespace OzelDers.Data.Config
                     Age = 25,
                     Gender = "kadın",
                     ImageUrl = "25.png",
-                    Location = "Sefaköy/İstanbul"
+                    Location = "Sefaköy/İstanbul",
+                    Url="melissusan"
                 },
                 new Teacher
                 {
@@ -186,7 +196,8 @@ namespace OzelDers.Data.Config
                     Age = 34,
                     Gender = "kadın",
                     ImageUrl = "26.png",
-                    Location = "Buca/İzmir"
+                    Location = "Buca/İzmir",
+                    Url="defnebilen"
                 }
                 );
         }

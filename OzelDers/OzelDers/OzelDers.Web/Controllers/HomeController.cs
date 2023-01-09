@@ -54,7 +54,8 @@ public class HomeController : Controller
                 Age=teacher.Age,
                 Gender=teacher.Gender,
                 ImageUrl=teacher.ImageUrl,
-                Location=teacher.Location
+                Location=teacher.Location,
+                Url=teacher.Url,
             });
         }
         return View(teacherDtos);

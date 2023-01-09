@@ -30,19 +30,19 @@ namespace OzelDers.Business.Concrete
             _unitOfWork.Save();
         }
 
+        public async Task<List<Branch>> GetAllAsync()
+        {
+            return await _unitOfWork.Branchs.GetAllAsync();
+        }
+
         public async Task<Branch> GetByIdAsync(int id)
         {
             return await _unitOfWork.Branchs.GetByIdAsync(id);
         }
 
-        public Task<List<Teacher>> GetByIdBranch(int id)
+        public async Task<List<Branch>> GetTeacherByIdBranch(int id)
         {
-            throw new NotImplementedException();
-        }
-
-        public async Task<List<Branch>> GetHomePageProductsAsync()
-        {
-            return await _unitOfWork.Branchs.GetHomePageProductsAsync();
+            return await _unitOfWork.Branchs.GetTeacherByIdBranch(id);
         }
 
         public void Update(Branch branch)

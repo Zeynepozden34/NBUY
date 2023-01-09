@@ -10,10 +10,11 @@ namespace OzelDers.Business.Abstract
     public interface IBranchService
     {
         Task<Branch> GetByIdAsync(int id);
+        Task<List<Branch>> GetAllAsync();
         Task CreateAsync(Branch branch);
         void Update(Branch branch);
         void Delete(Branch branch);
-        Task<List<Teacher>> GetByIdBranch(int id);
-        Task<List<Branch>> GetHomePageProductsAsync();
+        Task<List<Branch>> GetTeacherByIdBranch(int id);
+        
     }
 }

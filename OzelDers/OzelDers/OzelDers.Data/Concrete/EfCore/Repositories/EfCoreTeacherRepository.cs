@@ -34,5 +34,15 @@ namespace OzelDers.Data.Concrete.EfCore.Repositories
                        .Include(t=>t.Branch)
                        .ToListAsync();
         }
+
+        public Task<List<Teacher>> GetTeacherByIdBranch(int id)
+        {
+            return await OzelDersContext
+                .Branches
+                .Where(b => b.Id == id)
+                .Include(b => b.Branch)
+                .ThenInclude(bt => bt.BranchId)
+                .ToListAsync();
+        }
     }
 }

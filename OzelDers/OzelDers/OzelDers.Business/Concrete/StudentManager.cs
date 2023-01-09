@@ -30,6 +30,11 @@ namespace OzelDers.Business.Concrete
             _unitOfWork.SaveAsync();
         }
 
+        public async Task<List<Student>> GetAllAsync()
+        {
+            return await _unitOfWork.Students.GetAllAsync();
+        }
+
         public async Task<Student> GetByIdAsync(int id)
         {
             return await _unitOfWork.Students.GetByIdAsync(id);

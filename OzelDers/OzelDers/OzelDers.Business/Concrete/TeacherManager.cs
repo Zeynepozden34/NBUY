@@ -30,6 +30,11 @@ namespace OzelDers.Business.Concrete
             _unitOfWork.Save();
         }
 
+        public async Task<List<Teacher>> GetAllAsync()
+        {
+            return await _unitOfWork.Teachers.GetAllAsync();
+        }
+
         public async Task<Teacher> GetByIdAsync(int id)
         {
             return await _unitOfWork.Teachers.GetByIdAsync(id);
@@ -39,6 +44,11 @@ namespace OzelDers.Business.Concrete
         public async Task<List<Teacher>> GetHomePageTeachersAsync()
         {
             return await _unitOfWork.Teachers.GetHomePageTeachersAsync();
+        }
+
+        public Task<List<Teacher>> GetTeacherByIdBranch(int id)
+        {
+            return await _unitOfWork.Teachers.GetTeacherByIdBranch(id);
         }
 
         public void Update(Teacher teacher)
