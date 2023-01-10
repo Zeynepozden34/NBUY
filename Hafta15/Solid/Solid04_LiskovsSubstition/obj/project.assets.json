@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta15\\Solid04_LiskovsSubstition\\Solid04_LiskovsSubstition.csproj",
+      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta15\\Solid\\Solid04_LiskovsSubstition\\Solid04_LiskovsSubstition.csproj",
       "projectName": "Solid04_LiskovsSubstition",
-      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta15\\Solid04_LiskovsSubstition\\Solid04_LiskovsSubstition.csproj",
+      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta15\\Solid\\Solid04_LiskovsSubstition\\Solid04_LiskovsSubstition.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta15\\Solid04_LiskovsSubstition\\obj\\",
+      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta15\\Solid\\Solid04_LiskovsSubstition\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",

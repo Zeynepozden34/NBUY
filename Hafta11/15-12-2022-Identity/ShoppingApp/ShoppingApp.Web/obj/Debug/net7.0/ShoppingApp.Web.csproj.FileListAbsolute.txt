@@ -153,3 +153,14 @@ C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022\ShoppingApp\ShoppingApp.
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022\ShoppingApp\ShoppingApp.Web\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022-Identity\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022-Identity\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022-Identity\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022-Identity\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022-Identity\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022-Identity\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022-Identity\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.RazorAssemblyInfo.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022-Identity\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.RazorAssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022-Identity\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022-Identity\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\refint\ShoppingApp.Web.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Hafta11\15-12-2022-Identity\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.pdb
