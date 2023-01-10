@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,16 +10,18 @@ namespace Solid01_SingleResponsibility.Before
     {
         void Login(string username, string password)
         {
-            //login işlemleri ilgili kodlar
+            //Login işlemleri ile ilgili kodlar
         }
+
         void Register(string username, string password, string email)
         {
-            //registerİşleleri
-            SendMail("kaydınız başarıla gerçekleşti");
+            //Register işlemleri ile ilgili kodlar
+            SendMail("Kaydınız başarıyla gerçekleşmiştir.");
         }
-        void SendMail(string text) //MAİL GÖNDERME SADECE CUSTOMERLE İLGİLİ DEĞİL BAŞKA BİRŞEYDE MAİL GÖNDEREBİLRİİZ. BUNUN BURADA OLMAMASI GEREKİYIR
+
+        void SendMail(string text)
         {
-            //MAİL GÖNDERME İLE İLGİLİ KODLAR
+            //Mail gönderme işlemleri ile ilgili kodlar
         }
     }
 }

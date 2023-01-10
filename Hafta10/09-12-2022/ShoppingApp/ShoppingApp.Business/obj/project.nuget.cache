@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CIlwP0q9vaQu00hidxchxzVDtr1TtNSzli5O0ExLQsUTQWKe/z9InQjRnxb6LSwJ6WQIVG0s0kQLiciYKh5AyA==",
+  "dgSpecHash": "YV5kAy7I88vRkazuut98JEYR5bRO14zKQ9+99CGs1f27m+ew891FWTrvKGtkITx1E0Xsn4wtyVRdXBnzzCls1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\09-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
+  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\09-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
