@@ -6939,19 +6939,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SABAH\\.nuget\\packages\\": {}
+    "C:\\Users\\Casper\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj",
       "projectName": "BlogApp.Entities",
-      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj",
-      "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\BlogApp\\BlogApp.Entities\\obj\\",
+      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj",
+      "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\BlogApp\\BlogApp.Entities\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6959,14 +6964,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj": {
-              "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj"
+            "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\NBUY\\Hafta10\\06-12-2022\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj"
             }
           }
         }
