@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Solid05_InterfaceSegregation.Before
 {
-    //IOtomobilden miras verince olmaması gereken metotlarlar ve propertyler var bu nedenle bu yöntem yanlış parçalayarak(afterdaki gibi) yapmalıyız.
     public class ElektrikliOtomobil : IOtomobil, IElektrikliOtomobil
     {
         public string BataryaTipi { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
@@ -43,7 +42,7 @@ namespace Solid05_InterfaceSegregation.Before
             throw new NotImplementedException();
         }
 
-        public string YakıtTipiniGetir()
+        public string YakitTipiniGetir()
         {
             throw new NotImplementedException();
         }

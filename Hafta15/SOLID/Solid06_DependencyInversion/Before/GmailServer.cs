@@ -12,6 +12,5 @@ namespace Solid06_DependencyInversion.Before
         {
             //Kodlar
         }
-
     }
 }

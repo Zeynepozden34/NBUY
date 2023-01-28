@@ -8,17 +8,17 @@ namespace Solid05_InterfaceSegregation.After
 {
     public class ElektrikliOtomobil : IOtomobilOrtak, IElektrikliMotor
     {
-        public string BataryaTipiGetir()
+        public string BataryaTipiniGetir()
         {
             throw new NotImplementedException();
         }
 
-        public int KapiSayisiGetir()
+        public int KapiSayisiniGetir()
         {
             throw new NotImplementedException();
         }
 
-        public int UretimYiliGetir()
+        public int UretimYiliniGetir()
         {
             throw new NotImplementedException();
         }

@@ -8,6 +8,6 @@ namespace Solid06_DependencyInversion.After
 {
     public interface IMailServer
     {
-         void Send(string to, string body);
+        void Send(string to, string body);
     }
 }

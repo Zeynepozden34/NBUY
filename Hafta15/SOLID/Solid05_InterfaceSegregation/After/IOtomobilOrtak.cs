@@ -8,8 +8,7 @@ namespace Solid05_InterfaceSegregation.After
 {
     public interface IOtomobilOrtak
     {
-        public int KapiSayisiGetir();
-        public int UretimYiliGetir();
-
+        public int KapiSayisiniGetir();
+        public int UretimYiliniGetir();
     }
 }

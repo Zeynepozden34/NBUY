@@ -5,18 +5,17 @@ namespace Solid06_DependencyInversion
 {
     internal class Program
     {
-        //SNIFLAR ARASI BAĞIMLILIKLAR OLABİLDİĞİNCE AZ OLMALI, ÖZELLİKLE DE ÜST SEVİYE SINIFLAR ALT SEVİYE SINIFLARA BAĞLI OLMAMALIDIR. Bağımlıkları tersine çevirecez yani 
         static void Main(string[] args)
         {
             #region Before
-            //MailService mailService=new MailService();
+            //MailService mailService = new MailService();
             //mailService.SendMail(new GmailServer());
             #endregion
 
             #region After
             MailService mailService = new MailService();
-            mailService.SendMail(new GmailServer(), "zeynep@gmail.com", "Selam");
-            mailService.SendMail(new HotmailServer(), "engin@gmail.com", "Merhaba");
+            mailService.SendMail(new GmailServer(), "engin@gmail.com", "selam");
+            mailService.SendMail(new HotmailServer(), "enginniyazi@hotmail.com", "selammmmmm");
             #endregion
         }
     }

@@ -8,7 +8,7 @@ namespace Solid05_InterfaceSegregation.After
 {
     public interface IElektrikliMotor
     {
-        public string BataryaTipiGetir();
+        public string BataryaTipiniGetir();
         public decimal VoltajDegeriniGetir();
     }
 }

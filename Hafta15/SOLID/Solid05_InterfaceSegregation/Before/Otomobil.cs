@@ -31,7 +31,7 @@ namespace Solid05_InterfaceSegregation.Before
             throw new NotImplementedException();
         }
 
-        public string YakıtTipiniGetir()
+        public string YakitTipiniGetir()
         {
             throw new NotImplementedException();
         }
